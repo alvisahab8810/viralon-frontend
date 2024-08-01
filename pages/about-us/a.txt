@@ -1,0 +1,557 @@
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import SocialShare from "../../components/SocialShare";
+import Subscriber from "../../components/Subscriber";
+
+const WhoWeAre = () => {
+  return (
+   
+    <>
+  <Header/>
+  <SocialShare/>
+  {/*-------------- Menu Section Codes Start From Here -------------*/}
+
+  {/*-------------- Menu Section Codes End From Here -------------*/}
+  {/*-------------- Hero Section Codes Start From Here -------------*/}
+  <section
+    className="section hero-section-2 sm-none"
+    style={{
+      backgroundImage: "url(images/hero-banners/who-we-are-banner.jpg)"
+    }}
+  ></section>
+  <section
+    className="section hero-section-2 desk-none"
+    style={{
+      backgroundImage: "url(images/hero-banners/who-we-are-banner-sm.jpg)"
+    }}
+  />
+  {/*-------------- Hero Section Codes End From Here -------------*/}
+  {/*-------------- Who We Are Section Codes Start From Here--------*/}
+  <section className="pt-5 pb-5 bottom-p ">
+    <div className="container">
+      <div className="row flex-wrap-reverse align-items-center">
+        <div className="col-md-6 para-size">
+          <h1 className="font-size-40 font-weight-900 text-dark heading_style_1  mb-3">
+            Who <span className="text-gold">We Are</span>
+          </h1>
+          <p>
+            At Viralon Digital Services, we are your partners in achieving
+            digital excellence. Our team is composed of young and enthusiastic
+            individuals guided by visionary management, and together, we are
+            dedicated to helping businesses thrive in the digital landscape. We
+            offer a comprehensive range of services, including full-stack
+            digital marketing solutions, digital product development, cloud
+            solutions, and innovative design services. With a deep commitment to
+            delivering results, we work tirelessly to help you navigate the
+            complexities of the digital world, ensuring your brand stands out
+            and succeeds. Join us on this exciting journey to digital success,
+            where your goals become our mission.
+          </p>
+        </div>
+        <div className="col-md-6">
+          <img src="/images/wwr.png" className="w-555 mb-md-0 mb-4 " alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+  {/*-------------- Who We Are Section Codes End From Here -------------*/}
+  {/* Our Industry Section Codes Start From Here */}
+  <section className="pb-5 bottom-p padding-t">
+    <div className="shapbx mt-0">
+      <h3 className="work-heading">WORKS</h3>
+    </div>
+    <h1 className="heading1 ">
+      Our Industry Expertise <span className="text-gold">and Solutions</span>
+    </h1>
+    <div className="container">
+      {/* Swiper */}
+      <div className="wwr-slider swiper mySwiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+        <div
+          className="swiper-wrapper"
+          id="swiper-wrapper-72fcd6373c349164"
+          aria-live="off"
+          style={{
+            transitionDuration: "0ms",
+            transform: "translate3d(-683px, 0px, 0px)",
+            transitionDelay: "0ms"
+          }}
+        >
+          <div
+            className="swiper-slide"
+            role="group"
+            aria-label="1 / 8"
+            style={{ width: "311.5px", marginRight: 30 }}
+          >
+            <div
+              className=" mb-lg-0 mb-md-4 mb-4 animate__ animate__fadeInUp wow animated"
+              data-wow-offset={100}
+              data-wow-delay={0}
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              {" "}
+              {/* Post 1 */}
+              <a
+                href="e-commerce-industry.html"
+                className="grid-post ripple-animation clip-path-2"
+              >
+                <i className="ripple-helper" />
+                <img
+                  src="/images/E-Commerce.png"
+                  className="grid-post-image"
+                  alt="E-Commerce Image"
+                />
+                <h3 className="font-size-20 font-weight-600 mt-2 text-white">
+                  E-Commerce
+                </h3>
+                {/* <div class="font-size-14 font-weight-300 text-white opacity-0-8">lorem ipsum</div> */}
+              </a>
+            </div>
+          </div>
+          <div
+            className="swiper-slide swiper-slide-prev"
+            role="group"
+            aria-label="2 / 8"
+            style={{ width: "311.5px", marginRight: 30 }}
+          >
+            <div
+              className=" mb-lg-0 mb-md-4 mb-4 animate__ animate__fadeInUp wow animated"
+              data-wow-offset={100}
+              data-wow-delay={0}
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              {" "}
+              {/* Post 1 */}
+              <a
+                href="food-industry.html"
+                className="grid-post ripple-animation clip-path-2"
+              >
+                <i className="ripple-helper" />
+                <img
+                  src="/images/Food.png"
+                  className="grid-post-image"
+                  alt="Food Image"
+                />
+                <h3 className="font-size-20 font-weight-600 mt-2 text-white">
+                  Food
+                </h3>
+                {/* <div class="font-size-14 font-weight-300 text-white opacity-0-8">lorem ipsum</div> */}
+              </a>
+            </div>
+          </div>
+          <div
+            className="swiper-slide swiper-slide-active"
+            role="group"
+            aria-label="3 / 8"
+            style={{ width: "311.5px", marginRight: 30 }}
+          >
+            <div
+              className=" mb-lg-0 mb-md-4 mb-4 animate__ animate__fadeInUp wow animated"
+              data-wow-offset={100}
+              data-wow-delay={0}
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              {" "}
+              {/* Post 1 */}
+              <a
+                href="travel-industry.html"
+                className="grid-post ripple-animation clip-path-2"
+              >
+                <i className="ripple-helper" />
+                <img
+                  src="/images/Travel.png"
+                  className="grid-post-image"
+                  alt="Travel Image"
+                />
+                <h3 className="font-size-20 font-weight-600 mt-2 text-white">
+                  Travel
+                </h3>
+                {/* <div class="font-size-14 font-weight-300 text-white opacity-0-8">lorem ipsum</div> */}
+              </a>
+            </div>
+          </div>
+          <div
+            className="swiper-slide swiper-slide-next"
+            role="group"
+            aria-label="4 / 8"
+            style={{ width: "311.5px", marginRight: 30 }}
+          >
+            <div
+              className=" mb-lg-0 mb-md-4 mb-4 animate__ animate__fadeInUp wow animated"
+              data-wow-offset={100}
+              data-wow-delay={0}
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              {" "}
+              {/* Post 1 */}
+              <a
+                href="healthcare-wellness.html"
+                className="grid-post ripple-animation clip-path-2"
+              >
+                <i className="ripple-helper" />
+                <img
+                  src="/images/Healthcare.png"
+                  className="grid-post-image"
+                  alt="healthcare-wellness Image"
+                />
+                <h3 className="font-size-20 font-weight-600 mt-2 text-white">
+                  Health-Care &amp; Wellnes
+                </h3>
+                {/* <div class="font-size-14 font-weight-300 text-white opacity-0-8">lorem ipsum</div> */}
+              </a>
+            </div>
+          </div>
+          <div
+            className="swiper-slide"
+            role="group"
+            aria-label="5 / 8"
+            style={{ width: "311.5px", marginRight: 30 }}
+          >
+            <div
+              className=" mb-lg-0 mb-md-4 mb-4 animate__ animate__fadeInUp wow animated"
+              data-wow-offset={100}
+              data-wow-delay={0}
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              {" "}
+              {/* Post 1 */}
+              <a
+                href="it-industry.html"
+                className="grid-post ripple-animation clip-path-2"
+              >
+                <i className="ripple-helper" />
+                <img
+                  src="/images/IT.png"
+                  className="grid-post-image"
+                  alt="IT Image"
+                />
+                <h3 className="font-size-20 font-weight-600 mt-2 text-white">
+                  IT
+                </h3>
+                {/* <div class="font-size-14 font-weight-300 text-white opacity-0-8">lorem ipsum</div> */}
+              </a>
+            </div>
+          </div>
+          <div
+            className="swiper-slide"
+            role="group"
+            aria-label="7 / 8"
+            style={{ width: "311.5px", marginRight: 30 }}
+          >
+            <div
+              className=" mb-lg-0 mb-md-4 mb-4 animate__ animate__fadeInUp wow animated"
+              data-wow-offset={100}
+              data-wow-delay={0}
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              {" "}
+              {/* Post 1 */}
+              <a
+                href="personal-care.html"
+                className="grid-post ripple-animation clip-path-2"
+              >
+                <i className="ripple-helper" />
+                <img
+                  src="/images/Personal-Care.png"
+                  className="grid-post-image"
+                  alt="Personal Care Image"
+                />
+                <h3 className="font-size-20 font-weight-600 mt-2 text-white">
+                  Personal Care
+                </h3>
+                {/* <div class="font-size-14 font-weight-300 text-white opacity-0-8">lorem ipsum</div> */}
+              </a>
+            </div>
+          </div>
+          <div
+            className="swiper-slide"
+            role="group"
+            aria-label="8 / 8"
+            style={{ width: "311.5px", marginRight: 30 }}
+          >
+            <div
+              className=" mb-lg-0 mb-md-4 mb-4 animate__ animate__fadeInUp wow animated"
+              data-wow-offset={100}
+              data-wow-delay={0}
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              {" "}
+              {/* Post 1 */}
+              <a
+                href="banking-and-finance.html"
+                className="grid-post ripple-animation clip-path-2"
+              >
+                <i className="ripple-helper" />
+                <img
+                  src="/images/banking-finance.png"
+                  className="grid-post-image"
+                  alt="Banking & Finance Image"
+                />
+                <h3 className="font-size-20 font-weight-600 mt-2 text-white">
+                  Banking &amp; Finance
+                </h3>
+                {/* <div class="font-size-14 font-weight-300 text-white opacity-0-8">lorem ipsum</div> */}
+              </a>
+            </div>
+          </div>
+          <div
+            className="swiper-slide"
+            role="group"
+            aria-label="8 / 8"
+            style={{ width: "311.5px", marginRight: 30 }}
+          >
+            <div
+              className=" mb-lg-0 mb-md-4 mb-4 animate__ animate__fadeInUp wow animated"
+              data-wow-offset={100}
+              data-wow-delay={0}
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              {" "}
+              {/* Post 1 */}
+              <a
+                href="real-estate-industry.html"
+                className="grid-post ripple-animation clip-path-2"
+              >
+                <i className="ripple-helper" />
+                <img
+                  src="/images/Real-estate.png"
+                  className="grid-post-image"
+                  alt="Real Estate Image"
+                />
+                <h3 className="font-size-20 font-weight-600 mt-2 text-white">
+                  Real Estate
+                </h3>
+                {/* <div class="font-size-14 font-weight-300 text-white opacity-0-8">lorem ipsum</div> */}
+              </a>
+            </div>
+          </div>
+          <div
+            className="swiper-slide"
+            role="group"
+            aria-label="8 / 8"
+            style={{ width: "311.5px", marginRight: 30 }}
+          >
+            <div
+              className=" mb-lg-0 mb-md-4 mb-4 animate__ animate__fadeInUp wow animated"
+              data-wow-offset={100}
+              data-wow-delay={0}
+              style={{ visibility: "visible", animationName: "fadeInUp" }}
+            >
+              {" "}
+              {/* Post 1 */}
+              <a
+                href="education-industry.html"
+                className="grid-post ripple-animation clip-path-2"
+              >
+                <i className="ripple-helper" />
+                <img
+                  src="/images/education.png"
+                  className="grid-post-image"
+                  alt="Education Image"
+                />
+                <h3 className="font-size-20 font-weight-600 mt-2 text-white">
+                  Education
+                </h3>
+                {/* <div class="font-size-14 font-weight-300 text-white opacity-0-8">lorem ipsum</div> */}
+              </a>
+            </div>
+          </div>
+        </div>
+        {/*    <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-7ea8730b7101fbeea" aria-disabled="false"></div>
+    <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-7ea8730b7101fbeea" aria-disabled="false"></div> */}
+        {/* <div class="swiper-pagination"></div> */}
+        <span
+          className="swiper-notification"
+          aria-live="assertive"
+          aria-atomic="true"
+        />
+      </div>
+    </div>
+  </section>
+  {/* Our Industry Section Codes End From Here */}
+  {/*-------------- Our Specilalization Section Codes Start From Here -------------*/}
+  <div className="our-specialization-container">
+    <div className="specil-bx">
+      <div className="container">
+        <div className="get-freebx">
+          <div>
+            <h2>
+              {" "}
+              <span style={{ color: "black" }}>Get a FREE 2</span> hrs
+              consultation by our experts
+            </h2>
+          </div>
+          <div>
+            {/* <a href="#" class="book-btn">Let's Talk</a> */}
+            <div className="mdtop studies-btn book-btn">
+              <a
+                href="contact-us.html"
+                className="btn btn-primary trans animated pulse abt-butn-bot"
+              >
+                Talk to Expert
+                <img
+                  src="/images/icons/next.png"
+                  className="arrow  next-arow arrow1  animate-right-to-left"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="shapebx">
+      <img src="/images/shape.png" />
+    </div>
+    <div className="container1">
+      <h1 className="heading1 margin-top-0 mt-3">
+        Our <span className="text-gold">Values</span>
+      </h1>
+      <div className="items2">
+        <div className="wg-box-content ">
+          <a href="#">
+            <div className="wg-box-content-overlay">
+              <h2>Innovative</h2>
+              <p>
+                At Viralon Digital Services, we champion innovation as the
+                driving force behind our success. We relentlessly seek inventive
+                solutions, pushing the boundaries of what's possible in the
+                digital world. We are committed to staying at the forefront of
+                technology and pioneering new paths to excellence.
+              </p>
+            </div>
+            <img
+              className="wg-box-content-image"
+              src="/images/value3.jpg"
+              alt="Wellnes Image"
+            />
+            <div className="wg-box-content-details wg-box-fadeIn-bottom">
+              <h3 className="wg-box-content-title">Innovative</h3>
+            </div>
+          </a>
+        </div>
+        <div className="wg-box-content ">
+          <a href="#">
+            <div className="wg-box-content-overlay">
+              <h2>Accountable</h2>
+              <p>
+                {" "}
+                Accountability is our cornerstone. We take ownership of our
+                actions and their outcomes, holding ourselves responsible for
+                delivering on our promises. We believe that accountability
+                breeds trust, and we strive to earn and maintain the trust of
+                our clients and partners.{" "}
+              </p>
+            </div>
+            <img
+              className="wg-box-content-image"
+              src="/images/value1.jpg"
+              alt="It Image"
+            />
+            <div className="wg-box-content-details wg-box-fadeIn-bottom">
+              <h3 className="wg-box-content-title">Accountable</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div className="items2">
+        <div className="wg-box-content ">
+          <a href="#">
+            <div className="wg-box-content-overlay">
+              <h2>Determination</h2>
+              <p>
+                Our tenacious determination fuels our journey to success. We
+                persistently tackle challenges head-on, never backing down from
+                adversity. We believe that determination is the key to
+                overcoming obstacles, achieving goals, and continuously evolving
+                in the digital realm.
+              </p>
+            </div>
+            <img
+              className="wg-box-content-image"
+              src="/images/value4.jpg"
+              alt="Wellnes Image"
+            />
+            <div className="wg-box-content-details wg-box-fadeIn-bottom">
+              <h3 className="wg-box-content-title">Determination</h3>
+            </div>
+          </a>
+        </div>
+        <div className="wg-box-content ">
+          <a href="#">
+            <div className="wg-box-content-overlay">
+              <h2>Tenacious</h2>
+              <p>
+                Tenacity fuels our drive for success. We approach challenges
+                with unwavering determination, persistently pursuing solutions
+                even when obstacles arise. Our resilience in the face of
+                adversity empowers us to overcome hurdles and achieve
+                outstanding results for our clients.
+              </p>
+            </div>
+            <img
+              className="wg-box-content-image"
+              src="/images/value2.jpg"
+              alt="It Image"
+            />
+            <div className="wg-box-content-details wg-box-fadeIn-bottom">
+              <h3 className="wg-box-content-title">Tenacious</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/*-------------- Our Specilalization Section Codes End From Here -------------*/}
+  {/*-------------- Trending Section Codes Start From Here -------------*/}
+  <div className="trending-container mt-5 mb-5" id="trending">
+    <h1 className="heading1 pt-5 who-we-are-h">
+      Tren<span className="text-gold">ding</span>
+    </h1>
+    <div className="container1">
+      <div className="trendbx">
+        <div>
+          <div className="trendimg">
+            <img src="/images/trending1.jpg" />
+          </div>
+          <h4>Digital</h4>
+          <a href="#">Defending Your X...</a>
+        </div>
+        <div>
+          <div className="trendimg">
+            <img src="/images/trending2.jpg" />
+          </div>
+          <h4>Experiential Marketing</h4>
+          <a href="#">Defending Your X...</a>
+        </div>
+        <div>
+          <div className="trendimg">
+            <img src="/images/trending1.jpg" />
+          </div>
+          <h4>Experiential Marketing</h4>
+          <a href="#">Then New App In Town - Hello Instagram Threads</a>
+        </div>
+      </div>
+    </div>
+    <a href="blogs.html" className="explore ">
+      Explore More <i className="ri-arrow-right-line" />
+    </a>
+  </div>
+  {/*-------------- Trending Section Codes End From Here -------------*/}
+  {/*-------------- Subscribe Section Codes Start From Here -------------*/}
+  <Subscriber/>
+  {/*-------------- Subscribe Section Codes End From Here -------------*/}
+  {/*-------------- Footer Section Codes Start From Here -------------*/}
+ <Footer/>
+  {/*-------------- Footer Section Codes End From Here -------------*/}
+  {/* Swiper JS */}
+  {/* Aos Animation */}
+  {/* Initialize Swiper */}
+  {/* Sub-Mega Menus Script */}
+  {/* For Remove Before Icon */}
+</>
+
+      
+   
+  );
+}
+
+export default WhoWeAre;

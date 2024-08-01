@@ -1,0 +1,1013 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">    
+	<title>Viralon || Landing Page</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon-32x32.png"/>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+ 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
+   <script
+    src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+   ></script>
+
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+
+ 
+
+  <div class="modal popup-modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle"  aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content ">
+      
+        <div class="modal-body">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="bx-2">
+            <div class="bx-60 bg-dark">
+              <div class="contact-form">
+                <!-- <span class="circle one"></span>
+                <span class="circle two"></span> -->
+                <form action="/api-lib/form" method="post" autocomplete="off">
+                  <h3 class="title text-center">Let's Talk</h3>
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" fdprocessedid="ltvqos">
+                    <label for="name">Full Name*</label>
+                    <span>Full Name*</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" fdprocessedid="h56ae">
+                    <label for="">Phone*</label>
+                    <span>Phone*</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input" fdprocessedid="19jap">
+                    <label for="">Email*</label>
+                    <span>Email*</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="text" name="businessName" class="input" fdprocessedid="19jap">
+                    <label for="">Business Name*</label>
+                    <span>Business Name*</span>
+                  </div>
+                  <!-- <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Business Name*</label>
+                    <span>Business Name*</span>
+                  </div> -->
+                  <input type="submit" value="Submit" class="popup-btn" fdprocessedid="viada">
+                </form>
+
+                <div id="success-message" style="display: none;">
+                  <p>Your form has been submitted successfully!</p>
+                </div>
+              </div>
+
+             <img src="../assets/images/your-brands.png" class="footer-img" alt="Viralon Image">
+
+            </div>
+            <div class="bx-40 bg-pop-image">
+             
+            </div>
+          </div>
+
+
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+   <!-- ============================= Header area start here ======================= -->
+
+   <section class="header-section">
+     <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto logo">
+            <img src="../assets//images/logo.png" alt="Viralon Logo Image">
+          </a>
+    
+          <!-- <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul> -->
+        </header>
+      </div>
+   </section>
+
+   <!-- ============================= Header area end here ======================= -->
+
+
+   <!-- ============================= Hero area start here ======================= -->
+
+    <section class="hero-section">
+
+       
+        <div class="container">
+
+      
+            <div class="main-section">
+            
+                <!-- 
+                    <h1 class="main-heading text-center content__container__text mb-5">
+                      Get More 
+                      <span class="text-primary animated-text">
+                        <span class="animated-text-inner" id="animated-text-inner"></span>
+                        <span class="animated-text-inner" id="animated-text-inner-back"></span>
+                      </span>
+                      <br> With Us
+                    </h1> -->
+
+
+                    <h1 class="main-heading text-center text-white content__container__text mb-5">
+                      Get More 
+                      <span class="text-white animated-text">
+                        <span class="animated-text-inner " id="animated-text-inner"></span>
+                      </span>
+                      <br> With Us
+                    </h1>
+                  
+              
+
+                <div class="video-embed-area border-10 border border-white shadow-sm">
+                    <div class="ratio ratio-21x9 lazy-iframe">
+                      <noscript>
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2vfMprxe9Yc"  allowfullscreen></iframe>
+                      </noscript>
+                    </div>
+                </div>
+
+                <!-- <div class="ratio ratio-21x9">
+                  <div class="lazy-iframe">
+                    <noscript>
+                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2vfMprxe9Yc" allowfullscreen></iframe>
+                    </noscript>
+                  </div>
+                </div> -->
+
+
+            </div>
+        </div>
+
+        <!-- <div class="hero-creative">
+            <img src="./assets/images//hero.gif" alt="Viralon Hero-Gif">
+        </div> -->
+    </section>
+
+   <!-- ============================= Hero area end here ======================= -->
+
+
+   <!-- ============================ Testimonial area start here =================== -->
+
+   <section class="clients-section bg-light ptb-100 p-relative">
+
+    <div class="blur-shape">
+    </div>
+
+    <div class="blur-shape1">
+    </div>
+
+    <div class="blur-shape2">
+    </div>
+    <div class="container">
+        <h2 class="heading text-dark">Have a look<br>  What our Clients are saying</h2>
+
+
+        <div class="cilents-bx pt-100">
+            <div class="row bg-image p-30">
+
+              
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="star-bx">
+                        <div>
+                            <h2 class="star-heading">5 Star</h2>
+                        </div>
+                        <div class="google-bx">
+                            <img src="../assets/images/icons/google.png" alt="google logo image">
+                            <div class="review-txt">
+                                <p>Reviews</p>
+                                <img src="../assets//images/icons/rating.png" alt="Google Rating Image">
+                            </div>
+                        </div>
+                    </div>
+                    <p class="para text-white">Our 99% of clients report seeing a significance increase in reach after connecting with us
+                        and we are proud to say that we have helped them to achieve their goals.</p>
+                    </p>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+
+                    <div class=" bg-body-tertiary ">
+                        <div id="testimonialCarousel" class="carousel">
+                          <div class="carousel-inner">
+                            <button class=" op carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                              </button>
+                              <button class=" op carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                              </button>
+                            <div class="carousel-item active">
+                              <div class="card shadow-sm rounded-3">
+                                <div class="quotes display-2 text-body-tertiary">
+                                  <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                 <div class="d-flex align-items-center pt-2">
+                                        <img src="../assets/images/testimonials//mahima.webp" alt="Viralon Testimonials">
+                                        <div>
+                                            <h5 class="card-title fw-bold">Mahima Sukhwal</h5>
+                                            <span class="text-secondary">2 months ago</span>
+
+                                            <div class="review-txt">
+                                                <img src="../assets//images/icons/rating.png" alt="Google Rating Image">
+            
+                                            </div>
+                                        </div>
+                                        
+                                </div>
+
+                               
+                                  <p class="card-text mt-2">
+                                      Viralon is the go to digital marketing agency in Lucknow ! Their expertise and attention to detail have helped my business thrive online. Highly recommend them to anyone looking to their digital presence!
+                                  </p>
+
+                                  <a  type="button" class="login-with-google-btn" href="https://www.google.com/maps/contrib/110499248533211612686/place/ChIJmSsWH1njmzkRgZJyklYdDOw/@26.8650958,81.0119909,17z/data=!3m1!4b1?entry=ttu" >
+                                    View on Google
+                                  </a>
+                                  
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="carousel-item">
+                              <div class="card shadow-sm rounded-3">
+                                <div class="quotes display-2 text-body-tertiary">
+                                  <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center pt-2">
+                                           <img src="../assets/images/testimonials/deepak.webp" alt="Viralon Testimonials">
+                                           <div>
+                                               <h5 class="card-title fw-bold">DEEPAK SINGH</h5>
+                                               <span class="text-secondary">3 months ago</span>
+   
+                                               <div class="review-txt">
+                                                   <img src="../assets//images/icons/rating.png" alt="Google Rating Image">
+               
+                                               </div>
+                                           </div>
+                                           
+                                   </div>
+   
+                                  
+                                     <p class="card-text mt-2">
+                                        Viralon has been instrumental in transforming my online presence. Their professionalism and dedication shine through in every project they undertake. Best digital marketing company in Lucknow!
+                                       </p>
+
+                                       <a type="button" class="login-with-google-btn" href="https://www.google.com/maps/contrib/104864815466056183828/place/ChIJmSsWH1njmzkRgZJyklYdDOw">
+                                        View on Google
+                                      </a>
+                                     
+                                   </div>
+                              </div>
+                            </div>
+                           
+                            <div class="carousel-item">
+                                <div class="card shadow-sm rounded-3">
+                                  <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                  </div>
+                                  <div class="card-body">
+                                      <div class="d-flex align-items-center pt-2">
+                                             <img src="../assets/images/testimonials/smridhi.webp" alt="Viralon Testimonials">
+                                             <div>
+                                                 <h5 class="card-title fw-bold">Samridhi Garg</h5>
+                                                 <span class="text-secondary">2 months ago</span>
+     
+                                                 <div class="review-txt">
+                                                     <img src="../assets//images/icons/rating.png" alt="Google Rating Image">
+                 
+                                                 </div>
+                                             </div>
+                                             
+                                     </div>
+     
+                                    
+                                       <p class="card-text mt-2">
+                                        Its being a long time while working with Viralon for my digital marketing needs, and I am glad to say that I am really impressed by their work as if in terms of there dedication as well as professionalism to delivering results.
+     
+                                        </p>
+
+                                         <a type="button" class="login-with-google-btn" href="https://www.google.com/maps/contrib/113796512669099304781/place/ChIJmSsWH1njmzkRgZJyklYdDOw/@26.8650958,81.0119909,17z/data=!3m1!4b1?entry=ttu" >
+                                          View on Google
+                                        </a>
+                                       
+                                     </div>
+                                </div>
+                              </div>
+
+                            <div class="carousel-item">
+                              <div class="card shadow-sm rounded-3">
+                                <div class="quotes display-2 text-body-tertiary">
+                                  <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+                                    <div class="d-flex align-items-center pt-2">
+                                           <img src="../assets/images/testimonials/dr.webp" alt="Viralon Testimonials">
+                                           <div>
+                                               <h5 class="card-title fw-bold">
+                                                Dr NISHITH SHIVAM</h5>
+                                               <span class="text-secondary">6 months ago</span>
+   
+                                               <div class="review-txt">
+                                                   <img src="../assets//images/icons/rating.png" alt="Google Rating Image">
+               
+                                               </div>
+                                           </div>
+                                           
+                                   </div>
+   
+                                  
+                                     <p class="card-text mt-2">If youre looking for a reliable digital marketing agency , look no further than Viralon Digital Services. Their expertise in social media marketing and Google Ads is unparalleled . Im extremely satisfied with the services they provide.</p>
+                                       <button type="button" class="login-with-google-btn" >
+                                        View on Google
+                                      </button>
+                                     
+                                   </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="card shadow-sm rounded-3">
+                                <div class="quotes display-2 text-body-tertiary">
+                                  <i class="bi bi-quote"></i>
+                                </div>
+                                <div class="card-body">
+
+                                    <div class="d-flex align-items-center pt-2">
+                                        <img src="../assets/images/testimonials/company.webp" alt="Viralon Reviews">
+                                        <div>
+                                          <h5 class="card-title fw-bold">All World Tony Stark</h5>
+                                          <span class="text-secondary">7 months ago</span>
+                                        </div>
+                                      </div>
+                                     <p class="card-text">I had a fantastic experience with the Viralon Digital Services in Lucknow. Their team demonstrated exceptional expertise in delivering effective marketing strategies. The communication was seamless, and they consistently exceeded expectations.... </p>
+
+                                    <a type="button" class="login-with-google-btn" href="https://www.google.com/maps/contrib/104721027855665994070/place/ChIJmSsWH1njmzkRgZJyklYdDOw" >
+                                      View on Google
+                                    </a>
+                                  
+                                </div>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card shadow-sm rounded-3">
+                                  <div class="quotes display-2 text-body-tertiary">
+                                    <i class="bi bi-quote"></i>
+                                  </div>
+                                  <div class="card-body">
+                                      <div class="d-flex align-items-center pt-2">
+                                             <img src="../assets/images/testimonials/company2.webp" alt="Viralon Testimonials">
+                                             <div>
+                                                 <h5 class="card-title fw-bold">Astro Amateur</h5>
+                                                 <span class="text-secondary">6 months ago
+                                                </span>
+     
+                                                 <div class="review-txt">
+                                                     <img src="../assets//images/icons/rating.png" alt="Google Rating Image">
+                 
+                                                 </div>
+                                             </div>
+                                             
+                                     </div>
+     
+                                    
+                                       <p class="card-text mt-2">
+                                         In-depth review regarding this Viralon Digital Services!!! 1. Creativity and Innovation: Highlight any innovative or creative approaches they took in your marketing campaigns.if they brought fresh ideas to enhance your digital presence. 2.Customer Support: Evaluate their responsiveness ... 
+                                         </p>
+
+                                         <a type="button" class="login-with-google-btn" href="https://www.google.com/maps/contrib/112245269299355404517/place/ChIJmSsWH1njmzkRgZJyklYdDOw/@26.8650958,81.0119909,17z/data=!3m1!4b1?entry=ttu">
+                                          View on Google
+                                        </a>
+                                       
+                                     </div>
+                                </div>
+                              </div>
+                           
+                          </div>
+                         
+                        </div>
+                      </div>
+                      
+                    
+                </div>
+
+            </div>
+        </div>
+       
+
+   
+
+        <div class="cilents-bx pt-100" id="lets-connect">
+         <div class="row">
+            <div class="col-lg-12 p-0">
+                
+            <div class="bg-image-1 p-30">
+                <h2 class="heading text-white">Let's Talk Your Requirements!</h2>
+  
+               <div class="row">
+                  <div class="col-lg-12">
+                    <form class="req-forms" action="/api/form" method="post" autocomplete="off">
+                      <!-- ... -->
+                      <div class="row pt-50">
+                        <div class="col-lg-6">
+                          <div class="mb-3">
+                            <input type="text" name="fullName" class="form-control" id="FullName" aria-describedby="FirstName" placeholder="Full Name*">
+                          </div>
+                        </div>
+                        <!-- ... -->
+                        <div class="col-lg-6">
+                          <div class="mb-3">
+                            <input type="tel" name="mobileNumber" class="form-control" id="MobileNumber" placeholder="Contact Number*">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- ... -->
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <div class="mb-3">
+                            <input type="email" name="email" class="form-control" id="EmailAdd" placeholder="Email Address">
+                          </div>
+                        </div>
+                        <!-- ... -->
+                        <div class="col-lg-6">
+                          <div class="mb-3">
+                            <input type="text" name="businessName" class="form-control" id="BusinessName" placeholder="Business Name*">
+                          </div>
+                        </div>
+                      </div>
+                      <!-- ... -->
+                      <button type="submit" class="blue-cta-button">Submit</button>
+                      <div id="message"></div> <!-- Div to display the message -->
+
+                    </form>                    
+                  </div>
+               </div>
+                  
+              </div>
+            </div>
+         </div>
+        </div>
+
+
+    </div>
+   </section>
+
+  <!-- =========================== Brand logo section start here============================ -->
+
+   <div class="slider">
+    <div class="slide-track">
+      <div class="slide">
+        <img src="../assets/images//clients/Adorn.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/ap-fitness.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/Cleanit.png" height="100" width="250" alt="" />
+      </div>
+    
+      <div class="slide">
+        <img src="../assets/images/clients/Fintechmount.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/Natuos.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/Organic-nuts.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/Tourwatchout.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/golden-bricks.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/splash-soda.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+
+      <div class="slide">
+        <img src="../assets/images//clients/Adorn.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/ap-fitness.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/Cleanit.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+    
+      <div class="slide">
+        <img src="../assets/images/clients/Fintechmount.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+      <div class="slide">
+        <img src="../assets/images/clients/Natuos.png" height="100" width="250" alt="Clients Logo" />
+      </div>
+  
+    </div>
+    </div>
+
+  <!-- =========================== Brand logo Area end here ===================================== -->
+
+
+   <!-- ============================= Onboard  start here ======================= -->
+
+    <section class="onboard-section bg-dark ptb-100">
+        <div class="container">
+            <h2 class="heading">Get Onboard with us</h2>
+
+            <div class="process-area  ptb-100">
+                <div>
+                    <div class="process-item">
+                        <img src="../assets/images/icons/icon4.png" alt="Viralon Icon">
+                    </div>
+                    <p>Get A Free Consultation</p>
+                </div>
+
+                <div class="arrow-up">
+                    <img src="../assets/images/icons/arrow.png" alt="Viralon Icon">
+                </div>
+
+
+                <div>
+                    <div class="process-item">
+                        <img src="../assets/images/icons/icon3.png" alt="Viralon Icon">
+                    </div>
+                    <p>Discuss Your <br> Requirements</p>
+                </div>
+
+                <div class="arrow-up arrrow-down">
+                    <img src="../assets/images/icons/bottom-arrow.png" alt="Viralon Icon">
+                </div>
+               
+                <div>
+                    <div class="process-item">
+                        <img src="../assets/images/icons/icon1.png" alt="Viralon Icon">
+                    </div>
+                    <p>Choose <br> Plan</p>
+                </div>
+                
+                <div class="arrow-up">
+                    <img src="../assets/images/icons/arrow.png" alt="Viralon Icon">
+                </div>
+                <div>
+                    <div class="process-item">
+                        <img src="../assets/images/icons/icon2.png" alt="Viralon Icon">
+                    </div>
+                    <p>Relax <br>And Grow</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact-cta-section" class="contact-cta-section">
+          <div class="wrapper-full">
+            <div class="cta-wrapper">
+           
+              <a class="blue-cta-button" href="#lets-connect">Let's Talk!</a>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+ 
+   <!-- ============================= Onboard  end here ======================= -->
+
+
+   <!-- ========================== Why us area start here ======================== -->
+
+   <section class="why-us-section bg-light ptb-100">
+    <div class="container">
+        <h2 class="heading text-dark">Know the secret of our results! </h2>
+        <div class="why-us-items-section pt-100">
+            <ol>
+                <li class="why-us-items active">
+                    <div class="why-us-item-bx border-2 border border-white shadow-sm">
+                        <img src="../assets/images/why-us/1.webp" alt="Viralon Image">
+                    </div>
+
+                    <div class="why-us-content-bx">
+                        <div class="first-content">
+                            <span class="why-numbers">1</span>
+                            <h3>Dedicated Client Manager</h3>
+                        </div>
+                        <div class="right-para">
+                            <p class="fris-para">
+                              
+                              Ace your brand game with our dedicated client manager. They bring personalized strategies, killer insights, and quick fixes, just for you. Our managers are here to support you every step of the way, whether it's in business strategy or providing solid support.
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="why-us-items">
+                    <div class="why-us-item-bx border-2 border border-white shadow-sm">
+                        <img src="../assets/images/why-us/2.webp" alt="Viralon Image">
+                    </div>
+
+                    <div class="why-us-content-bx">
+                        <div class="first-content">
+                            <span class="why-numbers">2</span>
+                            <h3>
+                              Monthly Reporting & Analytics</h3>
+                        </div>
+                        <div class="right-para">
+                            <p class="fris-para">
+                              Get the scoop with our monthly reports and analytics. Each month, get clear performance metrics and insights on what’s rocking and what needs a tweak. Our reports are super sleek, with no jargon just straight-up results!
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+
+                <li class="why-us-items">
+                    <div class="why-us-item-bx border-2 border border-white shadow-sm">
+                        <img src="../assets/images/why-us/3.webp" alt="Viralon Image">
+                    </div>
+
+                    <div class="why-us-content-bx">
+                        <div class="first-content">
+                            <span class="why-numbers">3</span>
+                            <h3>Roi-focused Approach</h3>
+                        </div>
+                        <div class="right-para">
+                            <p class="fris-para">
+                              We’re ROI obsessed. From targeting the perfect audience to running impactful campaigns, every step is data-driven to achieve measurable success.
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+
+                <li class="why-us-items width-55">
+                    <div class="why-us-item-bx border-2 border border-white shadow-sm">
+                        <img src="../assets/images/why-us/4.webp" alt="Viralon Image">
+                    </div>
+
+                    <div class="why-us-content-bx">
+                        <div class="first-content">
+                            <span class="why-numbers">4</span>
+                            <h3>Team Of Digital Experts</h3>
+                        </div>
+                        <div class="right-para">
+                            <p class="fris-para">
+                              We're a crew of digital experts, from social media marketing, branding, paid media marketing, web development, and more. We're all about bringing fresh, innovative solutions to level up your brand game.
+                            </p>
+                        </div>
+                    </div>
+
+                </li>
+               
+            </ol>
+        </div>
+    </div>
+   </section>
+
+   <!-- ========================== Why us area end here ======================== -->
+
+
+   <!-- ===================================== What we Do start here ===================================== -->
+
+    <section class="what-we-do-area ptb-100 bg-dark">
+        <div class="mini-container">
+          <h2 class="heading text-white">What We Do?</h2>
+
+          <div class="hover-tabs ptb-100">
+               <div class="row g-3">
+                 <div class="col-3 width-40  nav-tab">
+                   <nav id="myTab" class="nav nav-pills hover-tabs-list  flex-column">
+                       <a href="#category_tab1" data-bs-toggle="pill" class="active nav-link" >What We Do?
+                        <img src="../assets/images/icons/arrowright.png" alt="Arrow Right">
+                       </a>
+                       <a href="#category_tab2" data-bs-toggle="pill" class="nav-link">What We Do?
+                        <img src="../assets/images/icons/arrowright.png" alt="Arrow Right">
+
+                       </a>
+                       <a href="#category_tab3" data-bs-toggle="pill" class="nav-link">What We Do?
+                        <img src="../assets/images/icons/arrowright.png" alt="Arrow Right">
+
+                       </a>
+                        <a href="#category_tab4" data-bs-toggle="pill" class="nav-link">What We Do?
+                        <img src="../assets/images/icons/arrowright.png" alt="Arrow Right">
+
+
+                       </a>
+                       <a href="#category_tab5" data-bs-toggle="pill" class="nav-link">What We Do?
+                        <img src="../assets/images/icons/arrowright.png" alt="Arrow Right">
+
+                       </a>
+                       
+                   </nav>
+                 </div>
+                 <div class="col-9 width-60  tab-results tab-content pt-4">
+                   <article class="tab-pane fade show active" id="category_tab1">
+
+                    <div class="over-image">
+                        <img src="../assets/images/what-we-do/img1.jpg" class="image" alt="about image" />
+                        <div class="middle">
+                            <div class="text">
+                                <ul class="arrow-fill-bx">
+                                    <li>
+                                      <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                       dolor sit amet consectetur adipisicing elit.</li>
+
+                                       <li>
+                                        <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                         dolor sit amet consectetur adipisicing elit.</li><li>
+                                            <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                             dolor sit amet consectetur adipisicing elit.</li><li>
+                                                <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                                 dolor sit amet consectetur adipisicing elit.</li><li>
+                                                    <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                                     dolor sit amet consectetur adipisicing elit.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 
+                    <p class="para pt-3 text-white">
+                        At Viralon, our team is dedicated to increasing your brand's reach, engagement, likes, shares and follower base with a targeted audience leading to higher interaction and improved customer relationships. Partner with us and watch your social media grow!
+                    </p> -->
+                   </article>
+                   <article class="tab-pane fade" id="category_tab2">
+
+                    <div class="over-image animate__animated animate__zoomInRight">
+                        <img src="../assets/images/what-we-do/image.png" class="image "  alt="What we do image"/>
+                        <div class="middle">
+                            <div class="text">
+                                <ul class="arrow-fill-bx">
+                                    <li>
+                                      <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                       dolor sit amet consectetur adipisicing elit.</li>
+
+                                    <li>
+                                        <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                         dolor sit amet consectetur adipisicing elit.</li>
+                                         
+                                         <li>
+                                            <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                             dolor sit amet consectetur adipisicing elit.</li>
+                                             <li>
+                                                <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                                 dolor sit amet consectetur adipisicing elit.</li>
+
+                                                 <li>
+                                                    <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
+                                                     dolor sit amet consectetur adipisicing elit.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img src="../assets/images/what-we-do/image.png" alt="What We Do Image" class="animate__animated animate__zoomInRight"> -->
+                    </article>
+
+                   <article class="tab-pane fade" id="category_tab3">
+                    <img src="../assets/images/what-we-do/image.png" alt="What We Do Image" class="animate__animated animate__rotateInDownRight">">
+                    </article>
+
+                    <article class="tab-pane fade" id="category_tab4"> 
+                    <img src="../assets/images/what-we-do/image.png" alt="What We Do Image" class="animate__animated animate__lightSpeedInRight">
+                    </article>
+                   <article class="tab-pane fade" id="category_tab5">
+                    <img src="../assets/images/what-we-do/image.png" alt="What We Do Image" class="animate__animated animate__backInDown">
+                    </article>
+                   <article class="tab-pane fade" id="category_tab6"> 
+                       <h6>Men clothes</h6>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </article>
+                   <article class="tab-pane fade" id="category_tab7">
+                       <h6>Women clothes</h6>
+                  Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </article>
+                   <article class="tab-pane fade" id="category_tab8">
+                       <h6>Other items</h6>
+                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </article>
+                 </div>
+               </div> <!-- row.// -->
+          </div>
+
+
+        </div>
+
+        <div id="contact-cta-section" class="contact-cta-section">
+          <div class="wrapper-full">
+            <div class="cta-wrapper">
+              
+              <a class="blue-cta-button" href="#lets-connect">Let's Talk!</a>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+   <!-- ===================================== What we Do end here ===================================== -->
+
+
+
+   <!-- ====================================== FAQ Area start Here ====================================== -->
+   
+    <section class="faq-area ptb-100 bg-light">
+      <div class="container">
+        <h2 class="heading text-dark">FAQs</h2>
+    
+        <div class="frequently-asked-bx pt-100">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  What Sets You Apart From Other Marketing Agencies?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  At Viralon, our results speak louder than words. We're all about creating dynamic videos, top-notch designs, epic content, and seamless websites. We are focused on delivering measurable results that nail your brand's targets.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How Can I Get Started With Viralon? 
+                  
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  To get started with us, simply fill out our free consultation form online, We'll schedule a meeting to discuss your brand vibes and goals. Our crew will drop some custom strategies to enhance your online presence and achieve measurable results.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Do You Offer Free Consultations Or Demo?
+                  
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                   
+                   Yes, at Viralon, we offer a free consultation to understand what you need and show how our digital magic can grow your brand’s online presence. It's our way of showing our skills and giving you a sneak peek at the top-tier, client-focused service we bring to the table.
+
+                </div>
+              </div>
+            </div>
+    
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  What Industries Do You Specialize In?
+                  
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  At Viralon, we're experts in a bunch of sectors like personal care, food, e-commerce, travel, healthcare & wellness, IT, real estate, banking & finance. Our digital marketing strategies are customized to each industry’s unique needs, ensuring results that hit hard and last long.
+                </div>
+              </div>
+            </div>
+    
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  How Much Time Does It Take to Achieve Measurable Results?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  With Viralon, the timeline for seeing measurable results varies based on your industry, goals, and strategies. Usually, you’ll notice some initial improvements in 3-4 months, while bigger, more significant outcomes start to shine within 6-8 months.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+
+    <!-- ====================================== FAQ Area End Here ====================================== -->
+
+
+
+   <!-- ================================== Contact us area Start ================================== -->
+
+    <section class="contact-us-section bg-dark ptb-100 p-relative ">
+      
+      <div class="container">
+        <span class="big-circle infinite-circle-animation"></span>
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's Talk </h3>
+            <p class="text">
+              Partner with us  <span class="text-center">& <br>Go viral like never before.
+            </p>
+
+            <div class="info pt-5">
+            
+              <div class="information">
+                <i class="fas fa-envelope"></i> &nbsp &nbsp
+                <p>info@viralon.in</p>
+              </div>
+              <div class="information">
+                <i class="fas fa-phone"></i>&nbsp&nbsp
+                <p>+91 93054 51301</p>
+              </div>
+            </div>
+
+            <div class="social-media">
+              <p>Connect with us :</p>
+              <div class="social-icons">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="name">Full Name*</label>
+                <span>Full Name*</span>
+              </div>
+          
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone*</label>
+                <span>Phone*</span>
+              </div>
+
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email*</label>
+                <span>Email*</span>
+              </div>
+
+              <div class="input-container">
+                <input type="text" name="message" class="input" />
+                <label for="">Business Name*</label>
+                <span>Business Name*</span>
+              </div>
+
+       
+              <input type="submit" value="Submit" class="blue-cta-button" />
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <img src="../assets/images/your-brands.png" class="footer-img" alt="Brands Image">
+    </section> 
+
+    <!-- ================================== Contact us area end ================================== -->
+
+
+
+
+   
+    <!-- ======================= Script area start here ======================= -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+    
+
+</body>
+</html>
