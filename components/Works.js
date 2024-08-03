@@ -142,7 +142,7 @@ const Works = () => {
                 <div className="main-overlay-bx">
                   <img className="wg-box-content-image" src="./themes/viralon/images/industries/img5.webp" alt="Travel Image" />
                   <div className="main-overlay">
-                    <div className="main-text"><p><span><Link href="/indusries/food-industries" className="read-more">Read More</Link></span></p></div>
+                    <div className="main-text"><p><span><Link href="/industries/food-industries" className="read-more">Read More</Link></span></p></div>
                   </div>
                 </div>
               </SwiperSlide>
