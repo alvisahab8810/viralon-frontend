@@ -78,8 +78,9 @@ function animateText() {
 animateText(), setTimeout(function() {
     document.querySelectorAll(".lazy-iframe").forEach(function(e) {
         var t = document.createElement("iframe");
-        t.src = "https://www.youtube.com/embed/vlDzYIIOYmM", t.allowFullscreen = !0, e.innerHTML = "", e.appendChild(t)
+        t.src = "https://www.youtube.com/embed/GIBWr1zXJ_U", t.allowFullscreen = !0, e.innerHTML = "", e.appendChild(t)
     })
 
   
 }, 5e3);
+
