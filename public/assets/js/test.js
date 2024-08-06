@@ -76,30 +76,7 @@ function animateText() {
         }, 50)
 }
 animateText(), setTimeout(function() {
-    // document.querySelectorAll(".lazy-iframe").forEach(function(e) {
-    //     var iframe = document.createElement("iframe");
-    //     iframe.src = "https://www.youtube.com/embed/GIBWr1zXJ_U?autoplay=1&mute=1";
-    //     iframe.allowFullscreen = true;
-    //     e.innerHTML = ""; // Clear existing content
-    //     e.appendChild(iframe);
-    // });
+ 
 
-    function updateVideoVisibility() {
-        var isMobile = window.matchMedia("(max-width: 768px)").matches;
-        var desktopVideo = document.getElementById("desktopVideo");
-        var mobileVideo = document.getElementById("mobileVideo");
-    
-        if (isMobile) {
-            desktopVideo.style.display = "none";
-            mobileVideo.style.display = "block";
-        } else {
-            desktopVideo.style.display = "block";
-            mobileVideo.style.display = "none";
-        }
-    }
-    
-    // Update video visibility when the DOM is fully loaded and on resize
-    document.addEventListener("DOMContentLoaded", updateVideoVisibility);
-    window.addEventListener("resize", updateVideoVisibility);
-   
+  
 }, 5e3);
