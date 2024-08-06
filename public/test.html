@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">    
+	<title>Viralon || Landing Page</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../assets/images/favicon-32x32.png"/>
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+ 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
+   <script
+    src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+   ></script>
+
+   <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+   <!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script> -->
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+</head>
+<body>
+
+ 
+
+  <div class="modal popup-modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalCenterTitle"  aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content ">
+      
+        <div class="modal-body">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+          <div class="bx-2">
+            <div class="bx-60 bg-dark">
+              <div class="contact-form">
+                <!-- <span class="circle one"></span>
+                <span class="circle two"></span> -->
+                <form action="/api-lib/form" method="post" autocomplete="off">
+                  <h3 class="title text-center">Let's Talk</h3>
+                  <div class="input-container">
+                    <input type="text" name="name" class="input" fdprocessedid="ltvqos">
+                    <label for="name">Full Name*</label>
+                    <span>Full Name*</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="tel" name="phone" class="input" fdprocessedid="h56ae">
+                    <label for="">Phone*</label>
+                    <span>Phone*</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="email" name="email" class="input" fdprocessedid="19jap">
+                    <label for="">Email*</label>
+                    <span>Email*</span>
+                  </div>
+                  <div class="input-container">
+                    <input type="text" name="businessName" class="input" fdprocessedid="19jap">
+                    <label for="">Business Name*</label>
+                    <span>Business Name*</span>
+                  </div>
+                  <!-- <div class="input-container textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Business Name*</label>
+                    <span>Business Name*</span>
+                  </div> -->
+                  <input type="submit" value="Submit" class="popup-btn" fdprocessedid="viada">
+                <div id="message"></div>
+
+                </form>
+
+              </div>
+
+             <img src="../assets/images/your-brands.png" class="footer-img" alt="Viralon Image">
+
+            </div>
+            <div class="bx-40 bg-pop-image">
+             
+            </div>
+          </div>
+
+
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+   <!-- ============================= Header area start here ======================= -->
+
+   <section class="header-section">
+     <div class="container">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto logo">
+            <img src="../assets//images/logo.png" alt="Viralon Logo Image">
+          </a>
+    
+          <!-- <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+          </ul> -->
+        </header>
+      </div>
+   </section>
+
+
+
+
+   <form id="form1" action="https://script.google.com/macros/s/AKfycbwya7O8SeYY26x0CQvZlLTPqyP039ty6e8ZHxGA9zH1mNZSTKDSeREa0guVI2sJCO5e_g/exec" method="post" autocomplete="off">
+    <input type="hidden" name="formIdentifier" value="form1">
+    <input type="text" name="fullName" placeholder="Full Name*" required>
+    <input type="tel" name="mobileNumber" placeholder="Contact Number*" required maxlength="10">
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="text" name="businessName" placeholder="Business Name*" required>
+    <button type="submit">Submit</button>
+  </form>
+  
+
+  
+  <form id="form2" action="https://script.google.com/macros/s/AKfycbwya7O8SeYY26x0CQvZlLTPqyP039ty6e8ZHxGA9zH1mNZSTKDSeREa0guVI2sJCO5e_g/exec" method="post" autocomplete="off">
+    <input type="hidden" name="formIdentifier" value="form2">
+    <input type="text" name="full_name" placeholder="Full Name*" required>
+    <input type="tel" name="phone_number" placeholder="Phone*" required maxlength="10">
+    <input type="email" name="email_address" placeholder="Email*" required>
+    <input type="text" name="your_message" placeholder="Business Name*" required>
+    <button type="submit">Submit</button>
+  </form>
+  
+
+
+
+
+
+  <form id="form3" action="https://script.google.com/macros/s/AKfycbwya7O8SeYY26x0CQvZlLTPqyP039ty6e8ZHxGA9zH1mNZSTKDSeREa0guVI2sJCO5e_g/exec" method="post" autocomplete="off">
+    <input type="hidden" name="formIdentifier" value="form3">
+    <input type="text" name="name" placeholder="Name*" required>
+    <input type="email" name="contact_email" placeholder="Email*" required>
+    <input type="text" name="company" placeholder="Company Name" required>
+    <textarea name="comments" placeholder="Comments"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  
+  
+
+
+   
+    <!-- ======================= Script area start here ======================= -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+    
+    
+
+    
+
+</body>
+
+
+<script>
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    Swal.fire({
+      text: "Form submitted successfully!",
+      icon: "success",
+    }).then(() => {
+      const formData = new FormData(event.target);
+      const xhr = new XMLHttpRequest();
+      xhr.open(event.target.method, event.target.action);
+      xhr.send(formData);
+    });
+  });
+</script>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    Swal.fire({
+      text: "Thank you for contacting us! We\'ll get back to you soon.",
+      icon: "success",
+    }).then(() => {
+      const formData = new FormData(event.target);
+      const xhr = new XMLHttpRequest();
+      xhr.open(event.target.method, event.target.action);
+      xhr.send(formData);
+    });
+  });
+</script>
+
+
+</html>

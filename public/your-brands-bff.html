@@ -14,15 +14,18 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
      />
  
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous">
-   <script
-    src="https://kit.fontawesome.com/64d58efce2.js"
-      crossorigin="anonymous"
-   ></script>
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3s4Wz6iJgD/+ub2oU" crossorigin="anonymous"> -->
+  
 
-   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
 </head>
+
+
 <body>
 
  
@@ -39,39 +42,36 @@
               <div class="contact-form">
                 <!-- <span class="circle one"></span>
                 <span class="circle two"></span> -->
-                <form action="/api-lib/form" method="post" autocomplete="off">
+                <form id="popupform" action="https://script.google.com/macros/s/AKfycbw6T12XL3yKjRl4WwTBbsVCn9TYfHwF4s4gLZ8aevmcHsMflnPh52wwD4eUQJ_aLcBKxQ/exec" method="post" autocomplete="off">
                   <h3 class="title text-center">Let's Talk</h3>
+
+                  <input type="hidden" name="formIdentifier" value="form3">
                   <div class="input-container">
-                    <input type="text" name="name" class="input" fdprocessedid="ltvqos">
+                    <input type="text" name="fname" class="input" fdprocessedid="ltvqos">
                     <label for="name">Full Name*</label>
                     <span>Full Name*</span>
                   </div>
                   <div class="input-container">
-                    <input type="tel" name="phone" class="input" fdprocessedid="h56ae">
+                    <input type="tel" name="fphone" class="input" fdprocessedid="h56ae">
                     <label for="">Phone*</label>
                     <span>Phone*</span>
                   </div>
                   <div class="input-container">
-                    <input type="email" name="email" class="input" fdprocessedid="19jap">
+                    <input type="email" name="femail" class="input" fdprocessedid="19jap">
                     <label for="">Email*</label>
                     <span>Email*</span>
                   </div>
                   <div class="input-container">
-                    <input type="text" name="businessName" class="input" fdprocessedid="19jap">
+                    <input type="text" name="fbusinessName" class="input" fdprocessedid="19jap">
                     <label for="">Business Name*</label>
                     <span>Business Name*</span>
                   </div>
-                  <!-- <div class="input-container textarea">
-                    <textarea name="message" class="input"></textarea>
-                    <label for="">Business Name*</label>
-                    <span>Business Name*</span>
-                  </div> -->
+                 
                   <input type="submit" value="Submit" class="popup-btn" fdprocessedid="viada">
+                  <div id="message"></div>
+
                 </form>
 
-                <div id="success-message" style="display: none;">
-                  <p>Your form has been submitted successfully!</p>
-                </div>
               </div>
 
              <img src="../assets/images/your-brands.png" class="footer-img" alt="Viralon Image">
@@ -122,15 +122,7 @@
       
             <div class="main-section">
             
-                <!-- 
-                    <h1 class="main-heading text-center content__container__text mb-5">
-                      Get More 
-                      <span class="text-primary animated-text">
-                        <span class="animated-text-inner" id="animated-text-inner"></span>
-                        <span class="animated-text-inner" id="animated-text-inner-back"></span>
-                      </span>
-                      <br> With Us
-                    </h1> -->
+               
 
 
                     <h1 class="main-heading text-center text-white content__container__text mb-5">
@@ -145,19 +137,20 @@
 
                 <div class="video-embed-area border-10 border border-white shadow-sm">
                     <div class="ratio ratio-21x9 lazy-iframe">
-                      <noscript>
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2vfMprxe9Yc"  allowfullscreen></iframe>
-                      </noscript>
+
+                      <div class="video-container">
+
+                        <div id="player">
+                          <iframe id="desktopVideo" src="https://www.youtube.com/embed/GIBWr1zXJ_U?autoplay=1&mute=1&showinfo=0&modestbranding=1&controls=0&rel=0&iv_load_policy=3" allowfullscreen style="width:100%; height:470px;"></iframe>
+                        </div>
+
+                        <iframe id="mobileVideo" src="https://www.youtube.com/embed/pGtBPQqZmnU?autoplay=1&mute=0&controls=0&modestbranding=1" allowfullscreen style="width:100%; height:450px; display:none;"></iframe>
+
+                      </div>
+                     
                     </div>
                 </div>
 
-                <!-- <div class="ratio ratio-21x9">
-                  <div class="lazy-iframe">
-                    <noscript>
-                      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2vfMprxe9Yc" allowfullscreen></iframe>
-                    </noscript>
-                  </div>
-                </div> -->
 
 
             </div>
@@ -439,18 +432,20 @@
   
                <div class="row">
                   <div class="col-lg-12">
-                    <form class="req-forms" action="/api/form" method="post" autocomplete="off">
+                    <form class="req-forms" id="myForm" action="https://script.google.com/macros/s/AKfycbw6T12XL3yKjRl4WwTBbsVCn9TYfHwF4s4gLZ8aevmcHsMflnPh52wwD4eUQJ_aLcBKxQ/exec" method="post" autocomplete="off">
                       <!-- ... -->
+
+                      <input type="hidden" name="formIdentifier" value="form1">
                       <div class="row pt-50">
                         <div class="col-lg-6">
                           <div class="mb-3">
-                            <input type="text" name="fullName" class="form-control" id="FullName" aria-describedby="FirstName" placeholder="Full Name*">
+                            <input type="text" name="fullName" class="form-control" id="FullName" aria-describedby="FirstName" placeholder="Full Name*" required>
                           </div>
                         </div>
                         <!-- ... -->
                         <div class="col-lg-6">
                           <div class="mb-3">
-                            <input type="tel" name="mobileNumber" class="form-control" id="MobileNumber" placeholder="Contact Number*">
+                            <input type="tel" name="mobileNumber" class="form-control" id="MobileNumber" placeholder="Contact Number*" required maxlength="10" >
                           </div>
                         </div>
                       </div>
@@ -458,19 +453,20 @@
                       <div class="row">
                         <div class="col-lg-6">
                           <div class="mb-3">
-                            <input type="email" name="email" class="form-control" id="EmailAdd" placeholder="Email Address">
+                            <input type="email" name="email" class="form-control" id="EmailAdd" placeholder="Email Address" required>
                           </div>
                         </div>
                         <!-- ... -->
                         <div class="col-lg-6">
                           <div class="mb-3">
-                            <input type="text" name="businessName" class="form-control" id="BusinessName" placeholder="Business Name*">
+                            <input type="text" name="businessName" class="form-control" id="BusinessName" placeholder="Business Name*" required>
                           </div>
                         </div>
                       </div>
                       <!-- ... -->
                       <button type="submit" class="blue-cta-button">Submit</button>
                       <div id="message"></div> <!-- Div to display the message -->
+
 
                     </form>                    
                   </div>
@@ -701,11 +697,11 @@
 
    <!-- ===================================== What we Do start here ===================================== -->
 
-    <section class="what-we-do-area ptb-100 bg-dark">
-        <div class="mini-container">
+    <section class="what-we-do-area ptb-100 bg-dark tabuler-section">
+        <div class="container">
           <h2 class="heading text-white">What We Do?</h2>
 
-          <div class="hover-tabs ptb-100">
+          <!-- <div class="hover-tabs ptb-100">
                <div class="row g-3">
                  <div class="col-4 width-40  nav-tab">
                    <nav id="myTab" class="nav nav-pills hover-tabs-list  flex-column">
@@ -755,13 +751,13 @@
                         <img src="../assets/images/what-we-do/img1.jpg" class="image" alt="about image" />
                         <div class="middle">
                             <div class="text">
-                              <!-- <h3 class="mb-3">
+                              <h3 class="mb-3">
                                 Social Media Marketing
                               </h3>
                               <p>
                                 Need your brand to pop up on social media? That's where we come in. We craft stunning visuals and engaging content just for your audience, making every post drive real results. From strategic timing to targeted growth hacks, we increase your reach and engagement.
 
-                              </p> -->
+                              </p>
                                 <ul class="arrow-fill-bx">
                                     <li>
                                       <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
@@ -801,12 +797,12 @@
                         <img src="../assets/images/what-we-do/image.png" class="image "  alt="What we do image"/>
                         <div class="middle">
                           <div class="text">
-                            <!-- <h3 class="mb-3">
+                            <h3 class="mb-3">
                              Branding
                             </h3>
                             <p>
                               If your brand’s logos and designs feel stuck in the past, chill – you’re in the right spot. Branding is all about creating a vibe that makes your brand stand out and resonate with your audience. We’re the brand wizards crafting your brand's entire identity. From compelling storytelling to eye-catching design, with us your brand will always be the one everyone’s talking about. 
-                            </p> -->
+                            </p>
                               <ul class="arrow-fill-bx">
                                   <li>
                                     <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
@@ -850,12 +846,12 @@
                         <img src="../assets/images/what-we-do/image.png" class="image "  alt="What we do image"/>
                         <div class="middle">
                           <div class="text">
-                            <!-- <h3 class="mb-3">
+                            <h3 class="mb-3">
                               Paid Media Marketing
                             </h3>
                             <p>
                               Paid media isn't just about ads—it's like magic that grabs Gen Z's attention. We craft targeted ad campaigns that hit the right audience at the right time, whether it’s through social media, search engines, or other platforms. Our services not only grab attention but also drive engagement and set the standard in your industry.
-                            </p> -->
+                            </p>
                               <ul class="arrow-fill-bx">
                                   <li>
                                     <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
@@ -899,13 +895,13 @@
                         <img src="../assets/images/what-we-do/image.png" class="image "  alt="What we do image"/>
                         <div class="middle">
                           <div class="text">
-                            <!-- <h3 class="mb-3">
+                            <h3 class="mb-3">
                               Web Development
                             </h3>
                             <p>
                               Building a website aint just about clicks and code. It's like crafting a website that users can't stop interacting with. We turn your digital dreams into reality with epic web development. From sleek, user-friendly designs to powerful features, we create websites that look awesome and work perfectly. Whether you’re launching a new site or giving an old one a glow-up, we use the latest tech to make sure your online game is on point.
 
-                            </p> -->
+                            </p>
                               <ul class="arrow-fill-bx">
                                   <li>
                                     <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
@@ -944,14 +940,14 @@
                       <img src="../assets/images/what-we-do/image.png" class="image "  alt="What we do image"/>
                       <div class="middle">
                         <div class="text">
-                          <!-- <h3 class="mb-3">
+                          <h3 class="mb-3">
                             Influencer Marketing
                           </h3>
                           <p>
                             Forget those cringy celebrity ads! Influencer marketing is the real deal. We craft a customised strategy based on your brand needs. This includes finding the right influencers, creating authentic stories, managing campaigns, and delivering detailed reports and analytics. We help your brand connect with audiences in a way that feels natural and drives real engagement.
 
 
-                          </p> -->
+                          </p>
                             <ul class="arrow-fill-bx">
                                 <li>
                                   <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
@@ -992,12 +988,12 @@
                       <img src="../assets/images/what-we-do/image.png" class="image "  alt="What we do image"/>
                       <div class="middle">
                         <div class="text">
-                          <!-- <h3 class="mb-3">
+                          <h3 class="mb-3">
                             Email Marketing
                           </h3>
                           <p>
                             With around 4.48 billion people using email daily, it's the ultimate platform for engagement. Are you using its power for your business? Don’t miss out—link up with your perfect customers and watch your sales blow up. At Viralon, we’ve got a full range of email marketing services that fit your brand, budget, and target audience. 
-                          </p> -->
+                          </p>
                             <ul class="arrow-fill-bx">
                                 <li>
                                   <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
@@ -1039,12 +1035,12 @@
                       <img src="../assets/images/what-we-do/image.png" class="image "  alt="What we do image"/>
                       <div class="middle">
                         <div class="text">
-                          <!-- <h3 class="mb-3">
+                          <h3 class="mb-3">
                             SEO
                           </h3>
                           <p>
                             Struggling to get a higher website ranking? No worries—With our SEO services, get your website ranking high and receive tons of traffic. To keep you ahead of the curve, we optimize your content and keep an eye on emerging trends to Gain attention, clicks, and outcomes. Make your website the MVP of search engines with us.
-                          </p> -->
+                          </p>
                             <ul class="arrow-fill-bx">
                                 <li>
                                   <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
@@ -1087,12 +1083,12 @@
                       <img src="../assets/images/what-we-do/image.png" class="image "  alt="What we do image"/>
                       <div class="middle">
                         <div class="text">
-                          <!-- <h3 class="mb-3">
+                          <h3 class="mb-3">
                             Production
                           </h3>
                           <p>
                             Filming content can be a real struggle. We are your production crew! We’ve got you covered for all your digital media needs—from brainstorming ideas to final delivery. With smart planning and execution, we make sure your message pops and sticks with your audience. Plus, we’re always ahead of the curve with the latest trends and tech to keep you at the top of your game. Make your digital presence unforgettable with us.
-                          </p> -->
+                          </p>
                             <ul class="arrow-fill-bx">
                                 <li>
                                   <img src="../assets/images/icons/fill-right.png" alt="Arrow Icon">
@@ -1131,10 +1127,465 @@
                      </div>
                   </article>
                  </div>
-               </div> <!-- row.// -->
+               </div> 
+          </div> -->
+
+          <ul class="nav nav-pills ptb-100" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-tab1" data-bs-toggle="pill" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">
+                   <img src="../assets/icons/icon1.png" alt="Services Icons">
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-tab2" data-bs-toggle="pill" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">
+                  <img src="../assets/icons/icon2.png" alt="Services Icons">
+  
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-tab3" data-bs-toggle="pill" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">
+                  <img src="../assets/icons/icon3.png" alt="Services Icons">
+  
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-tab4" data-bs-toggle="pill" data-bs-target="#tab4" type="button" role="tab" aria-controls="tab4" aria-selected="false">
+                  <img src="../assets/icons/icon4.png" alt="Services Icons">
+  
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-tab5" data-bs-toggle="pill" data-bs-target="#tab5" type="button" role="tab" aria-controls="tab5" aria-selected="false">
+                  <img src="../assets/icons/icon5.png" alt="Services Icons">
+  
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-tab6" data-bs-toggle="pill" data-bs-target="#tab6" type="button" role="tab" aria-controls="tab6" aria-selected="false">
+                  <img src="../assets/icons/icon6.png" alt="Services Icons">
+  
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-tab7" data-bs-toggle="pill" data-bs-target="#tab7" type="button" role="tab" aria-controls="tab7" aria-selected="false">
+                  <img src="../assets/icons/icon7.png" alt="Services Icons">
+  
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-tab8" data-bs-toggle="pill" data-bs-target="#tab8" type="button" role="tab" aria-controls="tab8" aria-selected="false">
+                  <img src="../assets/icons/icon8.png" alt="Services Icons">
+  
+                </button>
+            </li>
+          </ul>
+          
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="pills-tab1">
+              <div class="text">
+                <h3 class="mb-3">
+                  Social Media Marketing
+                </h3>
+                <p>
+                  Need your brand to pop up on social media? That's where we come in. We craft stunning visuals and engaging content just for your audience, making every post drive real results. From strategic timing to targeted growth hacks, we increase your reach and engagement.
+  
+                </p>
+                  <ul class="arrow-fill-bx">
+                      <li>
+                        <div class="count-num">
+                          <h2>1</h2>
+                        </div>
+                        Turn your likes into leads with our innovative strategies.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>2</h2>
+                        </div>
+                          Get viral-ready content for Instagram, FB, Twitter, YouTube, and LinkedIn.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>3</h2>
+                        </div>
+                        Receive weekly performance updates and exclusive growth hacks with us!
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>4</h2>
+                        </div>
+                        Maximize your reach with our regular content posting at peak times!
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>5</h2>
+                        </div>
+                        Stand out with our eye-catching visuals that pop your social media.
+  
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="pills-tab2">
+              <div class="text">
+                <h3 class="mb-3">
+                 Branding
+                </h3>
+                <p>
+                  If your brand’s logos and designs feel stuck in the past, chill – you’re in the right spot. Branding is all about creating a vibe that makes your brand stand out and resonate with your audience. We’re the brand wizards crafting your brand's entire identity. From compelling storytelling to eye-catching design, with us your brand will always be the one everyone’s talking about. 
+                </p>
+                  <ul class="arrow-fill-bx">
+                      <li>
+                         <div class="count-num">
+                          <h2>1</h2>
+                        </div>
+                        Get our Versatile logos, strategic branding, and designs that slay everywhere.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>2</h2>
+                        </div>
+                        Achieve the perfect brand identity with us!
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>3</h2>
+                        </div>
+                        Don't blend in, stand out and get noticed with our branding expertise.
+  
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>4</h2>
+                        </div>
+                        Maintain a consistent brand identity with our cutting-edge strategies.
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>5</h2>
+                        </div>
+                        Enjoy a customized brand story that maximizes your ROI.
+  
+  
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="pills-tab3">
+              <div class="text">
+                <h3 class="mb-3">
+                  Email Marketing
+                </h3>
+                <p>
+                  With around 4.48 billion people using email daily, it's the ultimate platform for engagement. Are you using its power for your business? Don’t miss out—link up with your perfect customers and watch your sales blow up. At Viralon, we’ve got a full range of email marketing services that fit your brand, budget, and target audience. 
+                </p>
+                  <ul class="arrow-fill-bx">
+                      <li>
+                         <div class="count-num">
+                          <h2>1</h2>
+                        </div>
+                        Transform your lead generation with our personalized email marketing that drives results.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>2</h2>
+                        </div>
+                        Get engaging emails that leave your customers wanting more.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>3</h2>
+                        </div>
+                        Stay on top with our real-time analytics that tracks revenue, conversion rates, and more.
+  
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>4</h2>
+                        </div>
+                        Enjoy our dedicated support and expertise to ace your campaigns.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>5</h2>
+                        </div>
+                        Go beyond basic email sequences with our AI-powered email automation.
+                        
+  
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="pills-tab4">
+              <div class="text">
+                <h3 class="mb-3">
+                  Influencer Marketing
+                </h3>
+                <p>
+                  Forget those cringy celebrity ads! Influencer marketing is the real deal. We craft a customised strategy based on your brand needs. This includes finding the right influencers, creating authentic stories, managing campaigns, and delivering detailed reports and analytics. We help your brand connect with audiences in a way that feels natural and drives real engagement.
+  
+  
+                </p>
+                  <ul class="arrow-fill-bx">
+                      <li>
+                         <div class="count-num">
+                          <h2>1</h2>
+                        </div>
+                        From goals to ROI, get data-driven results with us.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>2</h2>
+                        </div>
+                        Find the perfect influencer for your brand with our matchmaking services.
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>3</h2>
+                        </div>
+                        Fuel your long-term success with our next-level influencer marketing strategies.
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>4</h2>
+                        </div>
+                        Level up your content creation by combining traditional productions with influencers.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>5</h2>
+                        </div>
+                        Sit back and relax with our dedicated influencer and campaign managers.
+  
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="pills-tab5">
+              <div class="text">
+                <h3 class="mb-3">
+                  Web Development
+                </h3>
+                <p>
+                  Building a website aint just about clicks and code. It's like crafting a website that users can't stop interacting with. We turn your digital dreams into reality with epic web development. From sleek, user-friendly designs to powerful features, we create websites that look awesome and work perfectly. Whether you’re launching a new site or giving an old one a glow-up, we use the latest tech to make sure your online game is on point.
+  
+                </p>
+                  <ul class="arrow-fill-bx">
+                      <li>
+                         <div class="count-num">
+                          <h2>1</h2>
+                        </div>
+                        From pixels to plugins, we’re your WordPress team for stunning results.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>2</h2>
+                        </div>
+                        Reach more customers and close more deals with our responsive web designs.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>3</h2>
+                        </div>
+                        Receive fast results and targeted reach with our SEM and SEO strategies.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>4</h2>
+                        </div>
+                        Get top cloud services like Google Cloud, AWS, and Microsoft Azure for fast application deployment.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>5</h2>
+                        </div>
+                        Stand out with our Customized websites that reflect your unique brand identity.
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab6" role="tabpanel" aria-labelledby="pills-tab6">
+              <div class="text">
+                <h3 class="mb-3">
+                  Paid Media Marketing
+                </h3>
+                <p>
+                  Paid media isn't just about ads—it's like magic that grabs Gen Z's attention. We craft targeted ad campaigns that hit the right audience at the right time, whether it’s through social media, search engines, or other platforms. Our services not only grab attention but also drive engagement and set the standard in your industry.
+                </p>
+                  <ul class="arrow-fill-bx">
+                      <li>
+                         <div class="count-num">
+                          <h2>1</h2>
+                        </div>
+                        Turn your site visitors into sales with our Dynamic Remarketing!
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>2</h2>
+                        </div>
+                        Hit the top of search results with our epic ad campaigns!
+  
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>3</h2>
+                        </div>
+                        Dominate your competitors with our strategic ad creation and deployment.
+  
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>4</h2>
+                        </div>
+                        Get faster conversions and faster results with our CRO process.
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>5</h2>
+                        </div>
+                        Stand out with our innovative Google ads, YouTube Ads, LinkedIn ads and shopping ads.
+  
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab7" role="tabpanel" aria-labelledby="pills-tab7">
+              <div class="text">
+                <h3 class="mb-3">
+                  SEO
+                </h3>
+                <p>
+                  Struggling to get a higher website ranking? No worries—With our SEO services, get your website ranking high and receive tons of traffic. To keep you ahead of the curve, we optimize your content and keep an eye on emerging trends to Gain attention, clicks, and outcomes. Make your website the MVP of search engines with us.
+                </p>
+                  <ul class="arrow-fill-bx">
+                      <li>
+                         <div class="count-num">
+                          <h2>1</h2>
+                        </div>
+                        Stop guessing and start dominating with our SEO keyword strategy.
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>2</h2>
+                        </div>
+                        Enjoy more leads and more sales with our web analytics traffic report.
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>3</h2>
+                        </div>
+                        Decode the algorithm and get found faster with us.
+  
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>4</h2>
+                        </div>
+                        Get our SEO-friendly content that increases traffic across all platforms.
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>5</h2>
+                        </div>
+                        Outsmart your competitors with our Competitive Analysis & Research service.
+  
+                      </li>
+                  </ul>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab8" role="tabpanel" aria-labelledby="pills-tab8">
+              <div class="text">
+                <h3 class="mb-3">
+                  Production
+                </h3>
+                <p>
+                  Filming content can be a real struggle. We are your production crew! We’ve got you covered for all your digital media needs—from brainstorming ideas to final delivery. With smart planning and execution, we make sure your message pops and sticks with your audience. Plus, we’re always ahead of the curve with the latest trends and tech to keep you at the top of your game. Make your digital presence unforgettable with us.
+                </p>
+                  <ul class="arrow-fill-bx">
+                      <li>
+                         <div class="count-num">
+                          <h2>1</h2>
+                        </div>
+                        Don't be dull, be dazzling with our editing, colour correction, and VFX, that pops!
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>2</h2>
+                        </div>
+                        Stand out with our bold logos and dynamic visuals that make your brand unforgettable.
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>3</h2>
+                        </div>
+                        Get engaging content in any format from our experienced video production team.
+  
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>4</h2>
+                        </div>
+                        See your brand in the spotlight with our drone video and photography services.
+  
+                      </li>
+  
+                      <li>
+                         <div class="count-num">
+                          <h2>5</h2>
+                        </div>
+                        Double your impact with our scriptwriting that drives engagement and sales.
+  
+  
+                      </li>
+                  </ul>
+              </div>
+            </div>
           </div>
-
-
         </div>
 
         <div id="contact-cta-section" class="contact-cta-section">
@@ -1147,6 +1598,11 @@
           </div>
         </div>
     </section>
+
+
+
+
+ 
 
    <!-- ===================================== What we Do end here ===================================== -->
 
@@ -1265,16 +1721,16 @@
             <div class="social-media">
               <p>Connect with us :</p>
               <div class="social-icons">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
+                <a href="https://www.facebook.com/people/Viralon-Digital-Services/61551774960535/">
+                  <i class="fab fa-facebook"></i>
                 </a>
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
+                <a href="https://www.youtube.com/@ViralonDigtialServices">
+                  <i class="fab fa-youtube"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/viralon_digital_services/">
                   <i class="fab fa-instagram"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/viralon-digital-services/">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
               </div>
@@ -1285,34 +1741,38 @@
             <span class="circle one"></span>
             <span class="circle two"></span>
 
-            <form action="index.html" autocomplete="off">
+            <form id="contactForm" action="https://script.google.com/macros/s/AKfycbw6T12XL3yKjRl4WwTBbsVCn9TYfHwF4s4gLZ8aevmcHsMflnPh52wwD4eUQJ_aLcBKxQ/exec" method="post" autocomplete="off">
               <h3 class="title">Contact us</h3>
+
+              <input type="hidden" name="formIdentifier" value="form2">
               <div class="input-container">
-                <input type="text" name="name" class="input" />
+                <input type="text" name="full_name" class="input" />
                 <label for="name">Full Name*</label>
                 <span>Full Name*</span>
               </div>
           
               <div class="input-container">
-                <input type="tel" name="phone" class="input" />
+                <input type="tel" name="phone_number" class="input" />
                 <label for="">Phone*</label>
                 <span>Phone*</span>
               </div>
 
               <div class="input-container">
-                <input type="email" name="email" class="input" />
+                <input type="email" name="email_address" class="input" />
                 <label for="">Email*</label>
                 <span>Email*</span>
               </div>
 
               <div class="input-container">
-                <input type="text" name="message" class="input" />
+                <input type="text" name="your_message" class="input" />
                 <label for="">Business Name*</label>
                 <span>Business Name*</span>
               </div>
 
        
               <input type="submit" value="Submit" class="bg-orange blue-cta-button" />
+
+              <div id="message"></div> <!-- Div to display the message -->
             </form>
           </div>
         </div>
@@ -1333,6 +1793,63 @@
     <script src="../assets/js/main.js"></script>
 
     
+    
+
+    
 
 </body>
+
+
+<script>
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    Swal.fire({
+      text: "Form submitted successfully!",
+      icon: "success",
+    }).then(() => {
+      const formData = new FormData(event.target);
+      const xhr = new XMLHttpRequest();
+      xhr.open(event.target.method, event.target.action);
+      xhr.send(formData);
+    });
+  });
+</script>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    Swal.fire({
+      text: "Thank you for contacting us! We\'ll get back to you soon.",
+      icon: "success",
+    }).then(() => {
+      const formData = new FormData(event.target);
+      const xhr = new XMLHttpRequest();
+      xhr.open(event.target.method, event.target.action);
+      xhr.send(formData);
+    });
+  });
+</script>
+
+
+<script>
+  document.getElementById("popupform").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    Swal.fire({
+      text: "Form submitted successfully!",
+      icon: "success",
+    }).then(() => {
+      const formData = new FormData(event.target);
+      const xhr = new XMLHttpRequest();
+      xhr.open(event.target.method, event.target.action);
+      xhr.send(formData);
+    });
+  });
+</script>
+
+
+
+
 </html>
