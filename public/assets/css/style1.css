@@ -2,9 +2,24 @@
     display: flex;
     justify-content: space-between
 }
-.desk-none{
-    display: none;
+.header-section.sticky header {
+    margin-bottom: 0 !important;
 }
+.header-section.sticky {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    position: fixed;
+    top: unset;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 2px 2px #3333330a;
+    z-index: 100000;
+}
+
+.desk-none,.fris-para {
+    display: none
+}
+
 .tabuler-section ul li button img {
     width: 100%;
     filter: brightness(0) invert(1)
@@ -840,10 +855,6 @@ p.fris-para {
 
 .border-2 {
     border-width: 2px!important
-}
-
-.fris-para {
-    display: none
 }
 
 .hover-tabs-list a {
@@ -1993,7 +2004,7 @@ form {
     }
 
     .popup-modal .contact-form {
-        padding-bottom: 30px
+        /* padding-bottom:30px; */
     }
 
     .popup-modal .bx-60 {
@@ -2027,7 +2038,7 @@ form {
     }
 
     .popup-modal .input {
-        padding: 8px 0;
+        padding: 8px 0
     }
 
     .popup-modal .input-container label {
@@ -2464,15 +2475,21 @@ form {
     .footer-img {
         margin-top: 10px!important
     }
-	.popup-modal .footer-img{
-		display: none;
-	}
 
-    .mob-none{
-      display: none;
+    .mob-none,.popup-modal .footer-img {
+        display: none
     }
-    .desk-none{
-        display: block;
+
+    .desk-none {
+        display: block
+    }
+
+    .sticky .logo img {
+        width: 90px;
+    }
+
+    .sticky .logo {
+        margin-bottom: 0 !important;
     }
 }
 

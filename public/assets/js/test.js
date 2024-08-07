@@ -76,9 +76,12 @@ function animateText() {
         }, 50)
 }
 animateText(), setTimeout(function() {
+
+
+    
     document.querySelectorAll(".lazy-iframe").forEach(function(e) {
         var t = document.createElement("iframe");
-        t.src = "https://www.youtube.com/embed/GIBWr1zXJ_U", t.allowFullscreen = !0, e.innerHTML = "", e.appendChild(t)
+        t.src = "https://www.youtube.com/embed/GIBWr1zXJ_U?autoplay=1&mute=1", t.allowFullscreen = !0, e.innerHTML = "", e.appendChild(t)
     })  
 
   
