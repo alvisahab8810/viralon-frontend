@@ -1,21 +1,21 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import SocialShare from "../../components/SocialShare";
 import Subscriber from "../../components/Subscriber";
-import BankingSlide2 from '../../components/BankingSlide2';
-import Link from 'next/link';
-import CustomHead from '../../components/CustomHead';
+import BankingSlide2 from "../../components/BankingSlide2";
+import Link from "next/link";
+import CustomHead from "../../components/CustomHead";
 const BankingAndFinance = () => {
-  const [sliderShow, setSliderShow] = useState("trends")
+  const [sliderShow, setSliderShow] = useState("trends");
 
   return (
-
     <>
-
-<CustomHead title="Viralon | Your Partner in Banking & Finance Solutions"
-   keywords="Viralon, Digital Marketing Agency, Banking & Finance Industry" 
-   description="In the rapidly evolving Banking and Finance sector, Viralon stands as a trailblazer, leveraging innovation to reshape marketing strategies and drive growth" /> 
+      <CustomHead
+        title="Viralon | Your Partner in Banking & Finance Solutions"
+        keywords="Viralon, Digital Marketing Agency, Banking & Finance Industry"
+        description="In the rapidly evolving Banking and Finance sector, Viralon stands as a trailblazer, leveraging innovation to reshape marketing strategies and drive growth"
+      />
 
       <section id="banking-finance">
         <Header />
@@ -42,11 +42,11 @@ const BankingAndFinance = () => {
                 <span className="text-gold"> Digital Solutions</span>
               </h1>
               <p>
-                In the dynamic landscape of the Banking and Finance sector, staying
-                ahead of the curve is crucial. At Viralon Digital Services, we
-                understand the ever-evolving nature of the industry and are
-                committed to delivering cutting-edge solutions that drive growth,
-                efficiency, and customer satisfaction.
+                In the dynamic landscape of the Banking and Finance sector,
+                staying ahead of the curve is crucial. At Viralon Digital
+                Services, we understand the ever-evolving nature of the industry
+                and are committed to delivering cutting-edge solutions that
+                drive growth, efficiency, and customer satisfaction.
               </p>
             </div>
             <div className="stick-img">
@@ -71,41 +71,54 @@ const BankingAndFinance = () => {
               <div>
                 <ul className="nav nav-pills">
                   <li>
-                    <a data-toggle="tab" className="active show" onClick={(e) => {
-                      e?.preventDefault()
-                      setSliderShow("trends")
-                    }}>
+                    <a
+                      data-toggle="tab"
+                      className="active show"
+                      onClick={(e) => {
+                        e?.preventDefault();
+                        setSliderShow("trends");
+                      }}
+                    >
                       Marketing Trends
                     </a>
                   </li>
                   <li>
-                    <a data-toggle="tab" className="" onClick={(e) => {
-                      e?.preventDefault()
-                      setSliderShow("offer")
-                    }}>
+                    <a
+                      data-toggle="tab"
+                      className=""
+                      onClick={(e) => {
+                        e?.preventDefault();
+                        setSliderShow("offer");
+                      }}
+                    >
                       Marketing Offerings
                     </a>
                   </li>
                   <li>
-                    <a data-toggle="tab" onClick={(e) => {
-                      e?.preventDefault()
-                      setSliderShow("tectTrend")
-                    }}>
+                    <a
+                      data-toggle="tab"
+                      onClick={(e) => {
+                        e?.preventDefault();
+                        setSliderShow("tectTrend");
+                      }}
+                    >
                       Tech Trends
                     </a>
                   </li>
                   <li>
-                    <a data-toggle="tab" onClick={(e) => {
-                      e?.preventDefault()
-                      setSliderShow("techOffer")
-                    }}>
+                    <a
+                      data-toggle="tab"
+                      onClick={(e) => {
+                        e?.preventDefault();
+                        setSliderShow("techOffer");
+                      }}
+                    >
                       Tech Offerings
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-
 
             {/* <BankingSlide/> */}
 
@@ -114,15 +127,15 @@ const BankingAndFinance = () => {
               setSliderShow={setSliderShow}
             />
 
-
             <p className="para mt-5 margin-top-15 padding-bottom-15">
               {" "}
-              In the rapidly evolving Banking and Finance sector, Viralon Digital
-              Services stands as a trailblazer, leveraging innovation to reshape
-              marketing strategies and drive growth. From personalized experiences
-              to advanced technological solutions, Viralon is the partner you can
-              rely on to navigate the digital future of finance. Embrace innovation
-              with Viralon today and revolutionize your institution&apos;s success.
+              In the rapidly evolving Banking and Finance sector, Viralon
+              Digital Services stands as a trailblazer, leveraging innovation to
+              reshape marketing strategies and drive growth. From personalized
+              experiences to advanced technological solutions, Viralon is the
+              partner you can rely on to navigate the digital future of finance.
+              Embrace innovation with Viralon today and revolutionize your
+              institution&apos;s success.
             </p>
           </div>
         </section>
@@ -139,9 +152,9 @@ const BankingAndFinance = () => {
               <div>
                 {/* <a href="#" class="book-btn">Let's Talk</a> */}
                 <div className="mdtop studies-btn book-btn">
-                  <Link
-                    href="/contact-us">
-                    <div className="btn btn-primary trans animated pulse abt-butn-bot"
+                  <Link href="/contact-us">
+                    <div
+                      className="btn btn-primary trans animated pulse abt-butn-bot"
                       id="customButton"
                     >
                       Talk to Expert
@@ -208,11 +221,9 @@ const BankingAndFinance = () => {
 
         <Footer />
         {/*-------------- Footer Section Codes End From Here -------------*/}
-
       </section>
     </>
+  );
+};
 
-  )
-}
-
-export default BankingAndFinance
+export default BankingAndFinance;

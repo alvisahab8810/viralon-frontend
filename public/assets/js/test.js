@@ -1,12 +1,12 @@
-const header = document.querySelector(".header-section");
-window.addEventListener("scroll", () => {
-    window.scrollY > 0 ? header.classList.add("sticky") : header.classList.remove("sticky")
-}), document.querySelectorAll("#myTab a").forEach(function(e) {
-    var t = new bootstrap.Tab(e);
-    e.addEventListener("mouseenter", function() {
-        t.show()
-    })
-});
+// const header = document.querySelector(".header-section");
+// window.addEventListener("scroll", () => {
+//     window.scrollY > 0 ? header.classList.add("sticky") : header.classList.remove("sticky")
+// }), document.querySelectorAll("#myTab a").forEach(function(e) {
+//     var t = new bootstrap.Tab(e);
+//     e.addEventListener("mouseenter", function() {
+//         t.show()
+//     })
+// });
 
 
 
@@ -57,7 +57,7 @@ inputs.forEach(e => {
 }), $(window).on("load", function() {
     setTimeout(function() {
         $("#exampleModalCenter").modal("show")
-    }, 5e3)
+    }, 2e3)
 });
 
 
@@ -76,14 +76,61 @@ function animateText() {
         }, 50)
 }
 animateText(), setTimeout(function() {
-
-
+    // function isMobile() {
+    //     return window.innerWidth <= 768; // Adjust this breakpoint as needed
+    // }
     
-    document.querySelectorAll(".lazy-iframe").forEach(function(e) {
-        var t = document.createElement("iframe");
-        t.src = "https://www.youtube.com/embed/GIBWr1zXJ_U?autoplay=1&mute=1", t.allowFullscreen = !0, e.innerHTML = "", e.appendChild(t)
-    })  
-
+    // function setupIframes() {
+    //     document.querySelectorAll(".lazy-iframe").forEach(function(e) {
+    //         var iframe = document.createElement("iframe");
+    //         iframe.allowFullscreen = true;
+    
+    //         if (isMobile()) {
+    //             iframe.src = "https://player.vimeo.com/video/1001508987?h=aab4444ace&controls=0&title=0&byline=0&portrait=0&autoplay=1&loop=1&badge=0&muted=1";
+    //         } else {
+    //             iframe.src = "https://player.vimeo.com/video/1001511306?h=852012b993&controls=0&title=0&byline=0&portrait=0&autoplay=1&loop=1&badge=0&muted=1";
+    //         }
+    
+    //         e.innerHTML = "";
+    //         e.appendChild(iframe);
+    //     });
+    // }
+    
+    // setTimeout(setupIframes, 0);
+    
+    function isMobile() {
+        return window.innerWidth <= 768; // Adjust this breakpoint as needed
+    }
+    
+    function setupIframes() {
+        document.querySelectorAll(".lazy-iframe").forEach(function(e) {
+            var iframe = document.createElement("iframe");
+            iframe.allowFullscreen = true;
+            iframe.playsInline = true;
+            iframe.webkitAllowsFullscreen = true; // Add this attribute
+            iframe.webkitPlaysInline = true; // Add this attribute
+    
+            if (isMobile()) {
+                iframe.src = "https://www.youtube.com/embed/pGtBPQqZmnU?autoplay=1&mute=1&controls=0&modestbranding=1&loop=1&rel=0&playlist=pGtBPQqZmnU";
+            } else {
+                iframe.src = "https://player.vimeo.com/video/1001511306?h=852012b993&controls=0&title=0&byline=0&portrait=0&autoplay=1&loop=1&badge=0&muted=1" ;
+            }
+    
+            e.innerHTML = "";
+            e.appendChild(iframe);
+    
+            // Add a fallback for iOS devices
+            if (navigator.userAgent.match(/iPhone|iPad|iPod/)) {
+                iframe.addEventListener('webkitEnterFullscreen', function() {
+                    iframe.contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+                });
+            }
+        });
+    }
+    
+    setTimeout(setupIframes, 2000);
+    
   
-}, 5e3);
+}, 2000);
 
+// https://player.vimeo.com/video/1001508987?h=aab4444ace&controls=0&title=0&byline=0&portrait=0&autoplay=1&loop=1&badge=0&muted=1

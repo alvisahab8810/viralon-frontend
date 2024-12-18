@@ -1,17 +1,18 @@
-import React from 'react'
+import React from "react";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import SocialShare from "../../components/SocialShare";
 import Subscriber from "../../components/Subscriber";
-import Link from 'next/link';
-import CustomHead from '../../components/CustomHead';
+import Link from "next/link";
+import CustomHead from "../../components/CustomHead";
 const ourVision = () => {
   return (
     <>
-
-    <CustomHead title="Viralon | Our Vision | Be Architects of Change"
-     keywords="Viralon, Digital Marketing Agency, Our Vision" 
-     description="Our vision at Viralon Digital Services is not just a dream; it's a commitment to a brighter digital future" />
+      <CustomHead
+        title="Viralon | Our Vision | Be Architects of Change"
+        keywords="Viralon, Digital Marketing Agency, Our Vision"
+        description="Our vision at Viralon Digital Services is not just a dream; it's a commitment to a brighter digital future"
+      />
       <Header />
       <SocialShare />
       <section id="what-we-do">
@@ -21,12 +22,14 @@ const ourVision = () => {
         {/*-------------- Hero Section Codes Start From Here -------------*/}
         <section
           className="section hero-section-2 sm-none"
-          style={{ backgroundImage: "url(/images/hero-banners/our-vision.jpg)" }}
+          style={{
+            backgroundImage: "url(/images/hero-banners/our-vision.jpg)",
+          }}
         ></section>
         <section
           className="section hero-section-2 desk-none"
           style={{
-            backgroundImage: "url(/images/hero-banners/our-vision-sm.jpg)"
+            backgroundImage: "url(/images/hero-banners/our-vision-sm.jpg)",
           }}
         />
         {/*-------------- Hero Section Codes End From Here -------------*/}
@@ -39,10 +42,11 @@ const ourVision = () => {
             <p className="v-para">
               {" "}
               At Viralon Digital Services, our vision is the cornerstone of our
-              journey. It guides us towards a future where the digital landscape is
-              redefined, and businesses thrive in innovative and transformative
-              ways. Our vision is encapsulated in four key principles, each a
-              testament to our commitment to leading in the digital age.
+              journey. It guides us towards a future where the digital landscape
+              is redefined, and businesses thrive in innovative and
+              transformative ways. Our vision is encapsulated in four key
+              principles, each a testament to our commitment to leading in the
+              digital age.
             </p>
             <div className="row flex-wrap-reverse bottom-p padding-t max-width900 align-items-center pt-5 pb-5">
               <div className="col-md-6 para-size">
@@ -51,13 +55,14 @@ const ourVision = () => {
                   <span className="text-gold">Digital Landscape</span>
                 </h3>
                 <p>
-                  Our first vision is to be architects of change, shaping tomorrow&apos;s
-                  digital landscape. We believe in a world where digital technology
-                  seamlessly integrates into every facet of life and business.
-                  Through visionary thinking and bold initiatives, we aim to be
-                  pioneers who lead this transformation. We envision a future where
-                  businesses are not just ready for change but are driving it,
-                  embracing innovation as the norm.
+                  Our first vision is to be architects of change, shaping
+                  tomorrow&apos;s digital landscape. We believe in a world where
+                  digital technology seamlessly integrates into every facet of
+                  life and business. Through visionary thinking and bold
+                  initiatives, we aim to be pioneers who lead this
+                  transformation. We envision a future where businesses are not
+                  just ready for change but are driving it, embracing innovation
+                  as the norm.
                 </p>
               </div>
               <div className="col-md-6">
@@ -82,13 +87,13 @@ const ourVision = () => {
                   <span className="text-gold"> Digital Excellence </span>
                 </h1>
                 <p>
-                  Inclusivity is at the heart of our vision. We envision a digital
-                  world where excellence is accessible to all, regardless of size or
-                  resources. Our commitment is to empower businesses of every scale
-                  with the tools, knowledge, and strategies they need to excel in
-                  the digital realm. Through visionary leadership, we seek to bridge
-                  the digital divide, making the benefits of the digital age
-                  available to everyone.
+                  Inclusivity is at the heart of our vision. We envision a
+                  digital world where excellence is accessible to all,
+                  regardless of size or resources. Our commitment is to empower
+                  businesses of every scale with the tools, knowledge, and
+                  strategies they need to excel in the digital realm. Through
+                  visionary leadership, we seek to bridge the digital divide,
+                  making the benefits of the digital age available to everyone.
                 </p>
               </div>
             </div>
@@ -100,12 +105,12 @@ const ourVision = () => {
                 </h1>
                 <p>
                   Sustainability is paramount in our vision. We believe that the
-                  digital world should not come at the expense of the environment or
-                  societal well-being. Our vision is to be leaders in sustainable
-                  digital practices, promoting eco-friendly solutions and ethical
-                  conduct. We aspire to build a future where businesses not only
-                  thrive digitally but also contribute positively to the world
-                  around them.
+                  digital world should not come at the expense of the
+                  environment or societal well-being. Our vision is to be
+                  leaders in sustainable digital practices, promoting
+                  eco-friendly solutions and ethical conduct. We aspire to build
+                  a future where businesses not only thrive digitally but also
+                  contribute positively to the world around them.
                 </p>
               </div>
               <div className="col-md-6">
@@ -126,28 +131,30 @@ const ourVision = () => {
               </div>
               <div className="col-md-6 para-size">
                 <h1 className="font-size-40 font-weight-900 text-dark heading_style_1  mb-3">
-                  Global Leadership and <span className="text-gold">Impact </span>
+                  Global Leadership and{" "}
+                  <span className="text-gold">Impact </span>
                 </h1>
                 <p>
                   Viralon Digital Services aims to be a global leader in digital
                   innovation and transformation. Our vision extends beyond
-                  individual projects; it encompasses the broader impact we can make
-                  on industries and societies worldwide. We seek to lead by example,
-                  setting industry standards, and driving positive change in the
-                  digital world. Our vision is to leave a lasting, positive imprint
-                  on the digital landscape, one that benefits businesses and
-                  communities across the globe
+                  individual projects; it encompasses the broader impact we can
+                  make on industries and societies worldwide. We seek to lead by
+                  example, setting industry standards, and driving positive
+                  change in the digital world. Our vision is to leave a lasting,
+                  positive imprint on the digital landscape, one that benefits
+                  businesses and communities across the globe
                 </p>
               </div>
             </div>
             <p className="para mt-5 margin-top">
               {" "}
-              Our vision at Viralon Digital Services is not just a dream; it&apos;s a
-              commitment to a brighter digital future. We invite you to join us on
-              this visionary journey towards a world where digital excellence is the
-              norm, where innovation knows no bounds, and where sustainability and
-              ethics guide every digital endeavor. Together, we&apos;ll shape the future
-              of business and society in the digital age.
+              Our vision at Viralon Digital Services is not just a dream;
+              it&apos;s a commitment to a brighter digital future. We invite you
+              to join us on this visionary journey towards a world where digital
+              excellence is the norm, where innovation knows no bounds, and
+              where sustainability and ethics guide every digital endeavor.
+              Together, we&apos;ll shape the future of business and society in
+              the digital age.
             </p>
           </div>
         </section>
@@ -171,16 +178,16 @@ const ourVision = () => {
                 <div>
                   {/* <a href="#" class="book-btn">Let&apos;s Talk</a> */}
                   <div className="mdtop studies-btn book-btn">
-                    <Link
-                      href="/contact-us">
-                      <div className="btn btn-primary trans animated pulse abt-butn-bot"
-                      id="customButton"
-                    >
-                      Talk to Expert
-                      <img
-                        src="/images/icons/next.png"
-                        className="arrow next-arow arrow1 animate-right-to-left"
-                      />
+                    <Link href="/contact-us">
+                      <div
+                        className="btn btn-primary trans animated pulse abt-butn-bot"
+                        id="customButton"
+                      >
+                        Talk to Expert
+                        <img
+                          src="/images/icons/next.png"
+                          className="arrow next-arow arrow1 animate-right-to-left"
+                        />
                       </div>
                     </Link>
                   </div>
@@ -194,39 +201,97 @@ const ourVision = () => {
         </div>
         {/*-------------- Our Specilalization Section Codes End From Here -------------*/}
         {/*-------------- Trending Section Codes Start From Here -------------*/}
-        <div className="trending-container mb-5">
+        {/* <div className="trending-container mb-5">
           <h1 className="heading1 pt-5 ">
             Tren<span className="text-gold">ding</span>
           </h1>
           <div className="container1">
-            <div className="trendbx">
-              <div>
-                <div className="trendimg">
-                  <img src="/images/trending1.jpg" />
-                </div>
-                <h4>Digital</h4>
-                <Link href="/blogs">Defending Your X...</Link>
-              </div>
-              <div>
-                <div className="trendimg">
-                  <img src="/images/trending2.jpg" />
-                </div>
-                <h4>Experiential Marketing</h4>
-                <Link href="/blogs">Defending Your X...</Link>
-              </div>
-              <div>
-                <div className="trendimg">
-                  <img src="/images/trending1.jpg" />
-                </div>
-                <h4>Experiential Marketing</h4>
-                <Link href="/blogs">Then New App In Town - Hello Instagram Threads</Link>
-              </div>
-            </div>
+          <div className="row mt-4">
+                    <div className="col-xl-4 col-md-6 mb-30 ">
+                      <div className="blog-style-one">
+                        <div className="thumb">
+                          <Link href="/blog-details">
+                            <img src="../images/blog/blog1.jpg" alt="Thumb" />
+                          </Link>
+                        </div>
+                        <div className="info">
+                          <div className="blog-meta">
+                            <ul>
+                              <li>
+                                <Link href="#">30 Aug 2024</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <h4>
+                            <Link href="/blog-details">
+                              Discovery incommode earnestly commanded if.
+                            </Link>
+                          </h4>
+                          <Link href="/blog-details" className="btn-simple">
+                            <i className="ri-arrow-right-s-line"></i> Read more
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-xl-4 col-md-6 mb-30 ">
+                      <div className="blog-style-one">
+                        <div className="thumb">
+                          <Link href="/blog-details">
+                            <img src="../images/blog/blog2.jpg" alt="Thumb" />
+                          </Link>
+                        </div>
+                        <div className="info">
+                          <div className="blog-meta">
+                            <ul>
+                              <li>
+                                <Link href="#">30 Aug 2024</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <h4>
+                            <Link href="/blog-details">
+                              Expression acceptance imprudence particular
+                            </Link>
+                          </h4>
+                          <Link href="/blog-details" className="btn-simple">
+                            <i className="ri-arrow-right-s-line"></i> Read more
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-4 col-md-6 mb-30">
+                      <div className="blog-style-one">
+                        <div className="thumb">
+                          <Link href="/blog-details">
+                            <img src="../images/blog/blog3.jpg" alt="Thumb" />
+                          </Link>
+                        </div>
+                        <div className="info">
+                          <div className="blog-meta">
+                            <ul>
+                              <li>
+                                <Link href="#">30 Aug 2024</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <h4>
+                            <Link href="/blog-details">
+                              Considered imprudence of technical friendship.
+                            </Link>
+                          </h4>
+                          <Link href="/blog-details" className="btn-simple">
+                            <i className="ri-arrow-right-s-line"></i> Read more
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+       </div> 
           </div>
           <Link href="/blogs" className="explore">
             Explore More <i className="ri-arrow-right-line" />
           </Link>
-        </div>
+        </div> */}
         {/*-------------- Trending Section Codes End From Here -------------*/}
         {/*-------------- Subscribe Section Codes Start From Here -------------*/}
         <Subscriber />
@@ -242,8 +307,7 @@ const ourVision = () => {
         {/* For Remove Before Icon */}
       </section>
     </>
+  );
+};
 
-  )
-}
-
-export default ourVision
+export default ourVision;

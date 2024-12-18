@@ -7,8 +7,8 @@ import { apiUrl } from "../next.config";
 import CustomHead from "../components/CustomHead";
 const OurWork = () => {
   const [workData, setWorkData] = useState([]);
-  const [tab, setTab] = useState('TECHNOLOGY')
-  const [tabContent, setTabContent] = useState(null)
+  const [tab, setTab] = useState("TECHNOLOGY");
+  const [tabContent, setTabContent] = useState(null);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -20,10 +20,9 @@ const OurWork = () => {
         const data = await response.json();
         setWorkData(data);
 
-        const tech = data?.filter(ele => ele.type === 'TECHNOLOGY')
-        setTabContent(tech)
-        setTab('TECHNOLOGY')
-
+        const tech = data?.filter((ele) => ele.type === "TECHNOLOGY");
+        setTabContent(tech);
+        setTab("TECHNOLOGY");
       } catch (error) {
         console.error("Error fetching data:", error);
       }
@@ -33,17 +32,17 @@ const OurWork = () => {
   }, []);
 
   useEffect(() => {
-    const newData = workData.filter((data) => data.type === tab)
-    setTabContent(newData)
-  }, [tab])
+    const newData = workData.filter((data) => data.type === tab);
+    setTabContent(newData);
+  }, [tab]);
 
   return (
     <>
-
-      <CustomHead title="Viralon | Witness Viralon's Creative Achievements |  
-Portfolio"
+      <CustomHead
+        title="Viralon | Witness Viralon's Creative Achievements | Portfolio"
         keywords="Viralon,Our Work"
-        description="Viralon excels in digital marketing. Our work, finely tuned to client needs and current trends, sets us apart. Elevate your brand with us!." />
+        description="Viralon excels in digital marketing. Our work, finely tuned to client needs and current trends, sets us apart. Elevate your brand with us!."
+      />
       <Header />
       <SocialShare />
       <section id="our-work">
@@ -73,7 +72,6 @@ Portfolio"
                 />
               </div>
               <div className="col-md-7 para-size">
-
                 <h2 className="font-size-40 font-weight-900 text-dark heading_style_1 mb-3">
                   Our Brand
                   <span className="text-gold"> Raids</span>{" "}
@@ -95,37 +93,65 @@ Portfolio"
             <div className="tab-head our-work-tab padding-top-0">
               <div>
                 <ul className="nav nav-pills our-work-active">
-                  <li onClick={() => { setTab('TECHNOLOGY') }}>
+                  <li
+                    onClick={() => {
+                      setTab("TECHNOLOGY");
+                    }}
+                  >
                     <a href="#1a" data-toggle="tab" className="active show">
                       TECHNOLOGY
                     </a>
                   </li>
-                  <li onClick={() => { setTab('STRATEGY') }}>
+                  <li
+                    onClick={() => {
+                      setTab("STRATEGY");
+                    }}
+                  >
                     <a href="#2a" data-toggle="tab">
                       STRATEGY
                     </a>
                   </li>
-                  <li onClick={() => { setTab('OMNICHANNEL') }}>
+                  <li
+                    onClick={() => {
+                      setTab("OMNICHANNEL");
+                    }}
+                  >
                     <a href="#3a" data-toggle="tab">
                       OMNICHANNEL
                     </a>
                   </li>
-                  <li onClick={() => { setTab('DIGITAL') }}>
+                  <li
+                    onClick={() => {
+                      setTab("DIGITAL");
+                    }}
+                  >
                     <a href="#4a" data-toggle="tab">
                       DIGITAL
                     </a>
                   </li>
-                  <li onClick={() => { setTab('DESIGN') }}>
+                  <li
+                    onClick={() => {
+                      setTab("DESIGN");
+                    }}
+                  >
                     <a href="#5a" data-toggle="tab">
                       DESIGN
                     </a>
                   </li>
-                  <li onClick={() => { setTab('CONTENT') }}>
+                  <li
+                    onClick={() => {
+                      setTab("CONTENT");
+                    }}
+                  >
                     <a href="#6a" data-toggle="tab">
                       CONTENT
                     </a>
                   </li>
-                  <li onClick={() => { setTab('CASE STUDY') }}>
+                  <li
+                    onClick={() => {
+                      setTab("CASE STUDY");
+                    }}
+                  >
                     <a href="#7a" data-toggle="tab">
                       CASE STUDY
                     </a>
@@ -135,26 +161,26 @@ Portfolio"
             </div>
           </div>
           <section className="container1">
-
             <div class="tab-content clearfix">
               <div class="tab-pane active show">
                 <div class="container1 mob-container">
                   <div className="our-work-bx">
-                    {tabContent && tabContent.map((item) => (
-                      <div key={item.id}>
-                        <div class="our-work-img">
-                          <img src={`${apiUrl}/${item?.images}`} alt={item.title} />
+                    {tabContent &&
+                      tabContent.map((item) => (
+                        <div key={item.id}>
+                          <div class="our-work-img">
+                            <img
+                              src={`${apiUrl}/${item?.images}`}
+                              alt={item.title}
+                            />
+                          </div>
                         </div>
-                      </div>
-                    ))}
+                      ))}
                   </div>
                 </div>
               </div>
             </div>
-
-
           </section>
-
         </section>
         {/*-------------- Subscribe Section Codes Start From Here -------------*/}
         <Subscriber />

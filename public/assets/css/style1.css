@@ -1,12 +1,68 @@
+.ytp-chrome-top.ytp-show-cards-title {
+    display: none!important;
+}
+
+.tab-pane .text span a{
+    color:#ff5a05;
+}
+
+
+.position-relative{
+    position:relative;
+}
+.ratio-1x1 {
+    --bs-aspect-ratio: 114%!important;
+}
+
+.c-drop {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    font-weight: 500;
+    color: #505165d4;
+    font-size: 13px;
+    padding-left: 13px;
+    border: none;
+    border-radius: 7px;
+    height: 100%;
+}
+.padding-left-110{
+    padding-left: 110px!important;
+}
+
+
+
+
+
+
+.input-container {
+    margin: 10px 0;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 8px;
+    /* margin-top: 5px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  select.input {
+    width: calc(100% - 18px); /* Adjust width to account for padding and border */
+  }
+ 
+
 .bx-2,.tabuler-section ul {
     display: flex;
     justify-content: space-between
 }
+
 .header-section.sticky header {
-    margin-bottom: 0 !important;
+    margin-bottom: 0!important
 }
+
 .header-section.sticky {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
     position: fixed;
     top: unset;
     left: 0;
@@ -14,10 +70,11 @@
     background: #fff;
     box-shadow: 0 2px 2px #3333330a;
     z-index: 100000;
+    display: none;;
 }
 
 .desk-none,.fris-para {
-    display: none
+    display: none;
 }
 
 .tabuler-section ul li button img {
@@ -282,7 +339,7 @@ p {
     .popup-modal .bx-60 {
         width: 100%;
         padding: 10px;
-        background-image: url(https://viralon-frontend.vercel.app/assets/images/popup-img.webp)!important;
+        /* background-image: url(https://viralon-frontend.vercel.app/assets/images/popup-img.webp)!important; */
         height: 90vh;
         display: flex;
         flex-flow: column;
@@ -303,9 +360,7 @@ p {
         bottom: 0
     }
 
-    .popup-modal .input {
-        padding: 2px 0
-    }
+ 
 
     .popup-modal .input-container label {
         color: #202020c7;
@@ -341,12 +396,17 @@ p {
     }
 
     .heading,.main-heading {
-        font-size: 30px
+        font-size: 30px;
+
+    }
+    .main-heading{
+        margin-bottom: 15px!important;
+        height: 70px;;
     }
 
     .hero-creative img {
         bottom: 12%;
-        transform: scale(2.1)
+        transform: scale(1.8);  
     }
 
     .bg-image-1 {
@@ -550,7 +610,7 @@ p {
     }
 
     .frequently-asked-bx .accordion-button {
-        font-size: 18px
+        font-size: 16px
     }
 
     .blur-shape2 {
@@ -577,7 +637,7 @@ p {
 
     .contact-info .title {
         font-size: 40px;
-        margin-bottom: 20px
+        margin-bottom: 10px
     }
 
     .slider .slide {
@@ -623,9 +683,9 @@ p {
     width: 130px
 }
 
-.popup-modal {
-    z-index: 1000000
-}
+/* .popup-modal {
+    z-index: 1000;
+} */
 
 .main-section {
     display: flex;
@@ -666,12 +726,13 @@ p {
 
 .video-embed-area {
     width: 800px;
-    height: 470px
+    height: 445px;
+    /* pointer-events: none; */
 }
 
 .video-embed-area iframe {
     width: 100%;
-    height: 470px
+    height: 445px
 }
 
 section.header-section {
@@ -1353,10 +1414,12 @@ form {
     outline: 0;
     border: 2px solid #fafafa;
     background: 0 0;
-    padding: .3rem 1.1rem;
+    padding: 0.6rem 1.1rem;
     color: #fff;
     font-weight: 500;
-    font-size: 12px;
+    color: #818181;
+    background: white;
+    font-size: 13px;
     letter-spacing: .5px;
     border-radius: 9px;
     transition: .3s
@@ -1532,6 +1595,12 @@ form {
     top: calc(50% - 180px);
     left: calc(50% - 180px)
 }
+
+.contact-info p{
+    font-size: 18px;;
+}
+
+
 
 @media (max-width: 850px) {
     .form {
@@ -1987,7 +2056,7 @@ form {
     }
 
     .animated-text-inner::after {
-        top: 14px
+        top: 10px
     }
 
     .bx-2,.why-us-content-bx {
@@ -2003,14 +2072,10 @@ form {
         z-index: 1000
     }
 
-    .popup-modal .contact-form {
-        /* padding-bottom:30px; */
-    }
-
     .popup-modal .bx-60 {
         width: 100%;
         padding: 10px;
-        background-image: url(https://viralon-frontend.vercel.app/assets/images/popup-img.webp)!important;
+        /* background-image: url(https://viralon-frontend.vercel.app/assets/images/popup-img.webp)!important; */
         height: auto;
         display: flex;
         border-radius: 20px;
@@ -2038,7 +2103,7 @@ form {
     }
 
     .popup-modal .input {
-        padding: 8px 0
+        padding: 6px 9px;
     }
 
     .popup-modal .input-container label {
@@ -2128,7 +2193,7 @@ form {
         padding: 20px 0 50px
     }
 
-    .blue-cta-button,.tabuler-section .text p {
+    .blue-cta-button,.sticky .logo,.tabuler-section .text p {
         margin-bottom: 0!important
     }
 
@@ -2217,7 +2282,7 @@ form {
 
     .first-content {
         max-width: 100%;
-        top: 0;
+        top: 11px;
         position: absolute;
         height: 31px;
         background: #ffffff94;
@@ -2295,7 +2360,7 @@ form {
     }
 
     .frequently-asked-bx .accordion-button {
-        font-size: 18px
+        font-size: 16px;
     }
 
     .blur-shape2 {
@@ -2413,12 +2478,64 @@ form {
         margin-bottom: 5px!important
     }
 
+
+    .video-embed-area iframe {
+        width: 100%;
+        height: 413px;
+    }
+
     .tabuler-section ul {
         flex-wrap: nowrap;
+        position:relative;
         overflow: auto;
         padding-top: 40px;
         padding-bottom: 25px
     }
+
+    .tabuler-section {
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: auto;
+        padding-top: 40px;
+        width:100%!important;
+        padding-right: 0!important;
+        padding-bottom: 25px;
+    }
+    
+    /* Transparent overlay to force scrollbar visibility */
+    .tabuler-section .inner-wrapper::after {
+        content: "";
+        position: absolute;
+        bottom:0;
+        left: 0;
+        width: 50%; /* Width of scrollbar */
+        height: 4px;
+        background: #fff;
+        pointer-events: none; /* Allow interactions with the content */
+        z-index: 1;
+    }
+    
+    /* Webkit-based browsers (Chrome, Safari) */
+    .tabuler-section::-webkit-scrollbar {
+        width: 12px; /* Adjust width as needed */
+    }
+    
+    .tabuler-section::-webkit-scrollbar-thumb {
+        background-color: white; /* Color of the scrollbar thumb */
+        border-radius: 6px; /* Rounded corners */
+    }
+    
+    .tabuler-section::-webkit-scrollbar-track {
+        background-color: transparent; /* Color of the track (background) */
+    }
+    
+    /* Firefox */
+    .tabuler-section {
+        scrollbar-width: thin; /* Thin scrollbar */
+        scrollbar-color: white transparent; /* Color of the scrollbar thumb and track */
+    }
+    
 
     .tabuler-section .nav-pills .nav-link {
         border: 0;
@@ -2469,7 +2586,7 @@ form {
     }
 
     .video-embed-area {
-        height: 450px
+        height: 413px;
     }
 
     .footer-img {
@@ -2485,12 +2602,40 @@ form {
     }
 
     .sticky .logo img {
-        width: 90px;
+        width: 90px
     }
 
-    .sticky .logo {
-        margin-bottom: 0 !important;
+    .contact-info .text{
+        font-size: 22px!important;;
     }
+
+    .popup-modal {
+        width: 85% !important;
+        position: fixed; /* Ensure the modal is fixed in the viewport */
+        left: 50%; /* Center horizontally */
+        top: 50%; /* Center vertically */
+        transform: translate(-50%, -50%); /* Offset the modal by 50% of its own width and height */
+        /* Additional styles as needed */
+    }
+    
+    .desk-none,.fris-para {
+        display: block!important;
+    }
+
+
+    .border-10 {
+        border-width: 0px !important;
+    }
+
+    .why-us-content-bx  p.fris-para {
+        margin-bottom: 0px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 10px;
+    }
+
+
+
+    
 }
 
 @media (max-width: 380px) {

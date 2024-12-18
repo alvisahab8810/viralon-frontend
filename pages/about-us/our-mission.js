@@ -9,10 +9,11 @@ import CustomHead from "../../components/CustomHead";
 const OurMission = () => {
   return (
     <>
-
-   <CustomHead title="Viralon | Our Mission | Set New Standards "
-    keywords="Viralon, Digital Marketing Agency, Our Mission" 
-    description="Our mission is to set a new standard for digital excellence. We envision a world where every business, regardless of size, can thrive in the digital realm." />
+      <CustomHead
+        title="Viralon | Our Mission | Set New Standards "
+        keywords="Viralon, Digital Marketing Agency, Our Mission"
+        description="Our mission is to set a new standard for digital excellence. We envision a world where every business, regardless of size, can thrive in the digital realm."
+      />
       <Header />
       <SocialShare />
       <section id="what-we-do">
@@ -194,16 +195,16 @@ const OurMission = () => {
                     </a>
                   </div> */}
 
-<div className="mdtop studies-btn book-btn">
-                     <Link href="/contact-us">
-                       <div className="btn btn-primary trans animated pulse abt-butn-bot">
-                         Talk to Expert
-                         <img
-                           src="/images/icons/next.png"
-                           className="arrow next-arow arrow1 animate-right-to-left"
-                         />
-                       </div>
-                     </Link>
+                  <div className="mdtop studies-btn book-btn">
+                    <Link href="/contact-us">
+                      <div className="btn btn-primary trans animated pulse abt-butn-bot">
+                        Talk to Expert
+                        <img
+                          src="/images/icons/next.png"
+                          className="arrow next-arow arrow1 animate-right-to-left"
+                        />
+                      </div>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -215,39 +216,97 @@ const OurMission = () => {
         </div>
         {/*-------------- Our Specilalization Section Codes End From Here -------------*/}
         {/*-------------- Trending Section Codes Start From Here -------------*/}
-        <div className="trending-container mb-5">
-          <h1 className="heading1 pt-5 ">
-            Tren<span className="text-gold">ding</span>
-          </h1>
-          <div className="container1">
-  <div className="trendbx">
-    <div>
-      <div className="trendimg">
-        <img src="/images/trending1.jpg" />
-      </div>
-      <h4>Digital</h4>
-      <Link href="/blogs">Defending Your X...</Link>
-    </div>
-    <div>
-      <div className="trendimg">
-        <img src="/images/trending2.jpg" />
-      </div>
-      <h4>Experiential Marketing</h4>
-      <Link href="/blogs">Defending Your X...</Link>
-    </div>
-    <div>
-      <div className="trendimg">
-        <img src="/images/trending1.jpg" />
-      </div>
-      <h4>Experiential Marketing</h4>
-      <Link href="/blogs">Then New App In Town - Hello Instagram Threads</Link>
-    </div>
-  </div>
-</div>
-          <Link href="/blogs" className="explore">
-            Explore More <i className="ri-arrow-right-line" />
-          </Link>
+        {/* <div className="trending-container mt-5 mb-5" >
+        <h1 className="heading1  who-we-are-h">
+          Tren<span className="text-gold">ding</span>
+        </h1>
+        <div className="container1">
+        <div className="row mt-4">
+                    <div className="col-xl-4 col-md-6 mb-30 ">
+                      <div className="blog-style-one">
+                        <div className="thumb">
+                          <Link href="/blog-details">
+                            <img src="../images/blog/blog1.jpg" alt="Thumb" />
+                          </Link>
+                        </div>
+                        <div className="info">
+                          <div className="blog-meta">
+                            <ul>
+                              <li>
+                                <Link href="#">30 Aug 2024</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <h4>
+                            <Link href="/blog-details">
+                              Discovery incommode earnestly commanded if.
+                            </Link>
+                          </h4>
+                          <Link href="/blog-details" className="btn-simple">
+                            <i className="ri-arrow-right-s-line"></i> Read more
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-xl-4 col-md-6 mb-30 ">
+                      <div className="blog-style-one">
+                        <div className="thumb">
+                          <Link href="/blog-details">
+                            <img src="../images/blog/blog2.jpg" alt="Thumb" />
+                          </Link>
+                        </div>
+                        <div className="info">
+                          <div className="blog-meta">
+                            <ul>
+                              <li>
+                                <Link href="#">30 Aug 2024</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <h4>
+                            <Link href="/blog-details">
+                              Expression acceptance imprudence particular
+                            </Link>
+                          </h4>
+                          <Link href="/blog-details" className="btn-simple">
+                            <i className="ri-arrow-right-s-line"></i> Read more
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-4 col-md-6 mb-30">
+                      <div className="blog-style-one">
+                        <div className="thumb">
+                          <Link href="/blog-details">
+                            <img src="../images/blog/blog3.jpg" alt="Thumb" />
+                          </Link>
+                        </div>
+                        <div className="info">
+                          <div className="blog-meta">
+                            <ul>
+                              <li>
+                                <Link href="#">30 Aug 2024</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <h4>
+                            <Link href="/blog-details">
+                              Considered imprudence of technical friendship.
+                            </Link>
+                          </h4>
+                          <Link href="/blog-details" className="btn-simple">
+                            <i className="ri-arrow-right-s-line"></i> Read more
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+       </div> 
         </div>
+        <Link href="/blogs" className="explore ">
+          Explore More <i className="ri-arrow-right-line" />
+        </Link>
+      </div> */}
         {/*-------------- Trending Section Codes End From Here -------------*/}
 
         <Subscriber />

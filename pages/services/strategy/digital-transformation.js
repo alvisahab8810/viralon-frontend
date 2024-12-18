@@ -9,11 +9,13 @@ import CustomHead from "../../../components/CustomHead";
 const digitalTransformation = () => {
   return (
     <>
-    <CustomHead title="Viralon | Empowering Businesses Through Digital Transformation"
-     keywords="Viralon, Digital Marketing Agency, Digital Transformation" 
-     description="At Viralon, we revolutionize your business with 
-     tailored digital transformation solutions, streamlining processes 
-     and driving growth." />
+      <CustomHead
+        title="Viralon | Empowering Businesses Through Digital Transformation"
+        keywords="Viralon, Digital Marketing Agency, Digital Transformation"
+        description="At Viralon, we revolutionize your business with 
+        tailored digital transformation solutions, streamlining processes 
+        and driving growth."
+      />
       <section id="technology-consulting">
         <Header />
         <SocialShare />
@@ -133,15 +135,13 @@ const digitalTransformation = () => {
                 <div>
                   {/* <a href="#" class="book-btn">Let's Talk</a> */}
                   <div className="mdtop studies-btn book-btn">
-                    <Link
-                      href="/contact-us">
-                      <div className="btn btn-primary trans animated pulse abt-butn-bot"
-                    >
-                      Talk to Expert
-                      <img
-                        src="/images/icons/next.png"
-                        className="arrow  next-arow arrow1  animate-right-to-left"
-                      />
+                    <Link href="/contact-us">
+                      <div className="btn btn-primary trans animated pulse abt-butn-bot">
+                        Talk to Expert
+                        <img
+                          src="/images/icons/next.png"
+                          className="arrow  next-arow arrow1  animate-right-to-left"
+                        />
                       </div>
                     </Link>
                   </div>

@@ -111,13 +111,13 @@ const Blogs = () => {
                         {blogData.map((blog, index) => (
                           <div key={index}>
                             <Link
-                              href={`/blogs/${blog._id}`}
-                            // href={`https://api.viralon.in/blog/${blog._id}`}
+                              // href={`/blogs/${blog._id}`}
+                            href={`https://api.viralon.in/blog/${blog._id}`}
                             >
                               <div className="blogimg">
                                 <img
-                                  // src={`https://api.viralon.in/uploads/${blog.file_name}`}
-                                  src={`http://localhost:3020/upload${blog.file_name}`}
+                                  src={`https://api.viralon.in/uploads/${blog.file_name}`}
+                                  // src={`http://localhost:3020/upload${blog.file_name}`}
 
                                   // src={`${nextConfig.apiUrl}/upload${blog.file_name}`}
                                   alt={`Blog ${index + 1}`}
@@ -128,7 +128,7 @@ const Blogs = () => {
                                   <span className="title">{blog.blog_title}</span>
                                 </h4>
                                 <span className="sub-title">
-                                  {/* {blog.blog_content} */}
+                                  {blog.blog_content}
                                 </span>
                               </div>
                             </Link>

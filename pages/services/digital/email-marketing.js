@@ -1,85 +1,85 @@
-import React from 'react';
+import React from "react";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
 import SocialShare from "../../../components/SocialShare";
 import Subscriber from "../../../components/Subscriber";
-import EmailMarketingSlide from '../../../components/EmailMarketingSlide';
-import EmailMarketingSlide2 from '../../../components/EmailMarketingSlide2';
-import Link from 'next/link';
-import CustomHead from '../../../components/CustomHead';
+import EmailMarketingSlide from "../../../components/EmailMarketingSlide";
+import EmailMarketingSlide2 from "../../../components/EmailMarketingSlide2";
+import Link from "next/link";
+import CustomHead from "../../../components/CustomHead";
 const emailMarketing = () => {
   return (
     <>
-
- <CustomHead title="Viralon | Email Marketing That Connects with Your 
-Audience"
-    keywords="Viralon, Digital Marketing Agency, Email Marketing" 
-    description="Boost your business with our simple email 
+      <CustomHead
+        title="Viralon | Email Marketing That Connects with Your 
+        Audience"
+        keywords="Viralon, Digital Marketing Agency, Email Marketing"
+        description="Boost your business with our simple email 
     marketing solutions. Reach your audience, grow your brand, and 
-    drive sales with personalized campaigns." />
- <Header/>
- <SocialShare/>
-  <section id="marketings" className="content-marketing">
-    {/*-------------- Menu Section Codes Start From Here -------------*/}
-    
-    {/*-------------- Menu Section Codes End From Here -------------*/}
-    {/*-------------- Hero Section Codes Start From Here -------------*/}
-    <section
-      className="section hero-section-2 sm-none"
-      style={{
-        backgroundImage: "url(/images/hero-banners/email-marketing.jpg)",
-        backgroundPosition: "center"
-      }}
-    ></section>
-    <section
-      className="section hero-section-2 desk-none"
-      style={{
-        backgroundImage: "url(/images/hero-banners/email-marketing-sm.jpg)",
-        backgroundPosition: "center"
-      }}
-    />
-    <div className="mdtop mt-5 pt-3 studies-btn book-btn  d-block">
-      <Link
-        href="contact-us.html">
-        <div className="btn paid-btn btn-primary trans animated pulse abt-butn-bot"
-      >
-        Talk to Expert
-        <img
-          src="/images/icons/next.png"
-          className="arrow  next-arow arrow1  animate-right-to-left"
+    drive sales with personalized campaigns."
+      />
+      <Header />
+      <SocialShare />
+      <section id="marketings" className="content-marketing">
+        {/*-------------- Menu Section Codes Start From Here -------------*/}
+
+        {/*-------------- Menu Section Codes End From Here -------------*/}
+        {/*-------------- Hero Section Codes Start From Here -------------*/}
+        <section
+          className="section hero-section-2 sm-none"
+          style={{
+            backgroundImage: "url(/images/hero-banners/email-marketing.jpg)",
+            backgroundPosition: "center",
+          }}
+        ></section>
+        <section
+          className="section hero-section-2 desk-none"
+          style={{
+            backgroundImage: "url(/images/hero-banners/email-marketing-sm.jpg)",
+            backgroundPosition: "center",
+          }}
         />
-      </div>
-      </Link>
-    </div>
-    {/*-------------- Hero Section Codes End From Here -------------*/}
-    {/*-------------- Social Media Marketing Section Codes Start From Here -------------*/}
-    <section className="pt-5">
-      <div className="container unlock-section">
-        <div className="unlock-section-bx">
-          <div className="brand-img">
-            <img
-              src="/images/email-marketing/img1.jpg"
-              alt="Elevate Your Brand Image"
-            />
-          </div>
-          <div>
-            <h2 className="text-dark main-heading  font-size-30">
-              Elevate Your Brand with Viralon's Email Marketing Services
-            </h2>
-            <p className="text-dark max-width100 mt-3">
-              Welcome to Viralon Digital Services, where we transform the way
-              you connect with your audience through Email Marketing. In today's
-              digital landscape, email remains one of the most potent tools for
-              building lasting relationships with your customers. At Viralon,
-              we're experts in harnessing the power of email marketing to drive
-              engagement, conversions, and brand loyalty.
-            </p>
-          </div>
+        <div className="mdtop mt-5 pt-3 studies-btn book-btn  d-block">
+          <Link href="contact-us.html">
+            <div className="btn paid-btn btn-primary trans animated pulse abt-butn-bot">
+              Talk to Expert
+              <img
+                src="/images/icons/next.png"
+                className="arrow  next-arow arrow1  animate-right-to-left"
+              />
+            </div>
+          </Link>
         </div>
-      </div>
-    </section>
-    {/* Core Task Section Start From Here */}
-    {/* <div className="social-media">
+        {/*-------------- Hero Section Codes End From Here -------------*/}
+        {/*-------------- Social Media Marketing Section Codes Start From Here -------------*/}
+        <section className="pt-5">
+          <div className="container unlock-section">
+            <div className="unlock-section-bx">
+              <div className="brand-img">
+                <img
+                  src="/images/email-marketing/img1.jpg"
+                  alt="Elevate Your Brand Image"
+                />
+              </div>
+              <div>
+                <h2 className="text-dark main-heading  font-size-30">
+                  Elevate Your Brand with Viralon's Email Marketing Services
+                </h2>
+                <p className="text-dark max-width100 mt-3">
+                  Welcome to Viralon Digital Services, where we transform the
+                  way you connect with your audience through Email Marketing. In
+                  today's digital landscape, email remains one of the most
+                  potent tools for building lasting relationships with your
+                  customers. At Viralon, we're experts in harnessing the power
+                  of email marketing to drive engagement, conversions, and brand
+                  loyalty.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        {/* Core Task Section Start From Here */}
+        {/* <div className="social-media">
       <h2 className="text-white s-heading text-center  pb-4 font-size-30">
         Core Tasks that Viralon Excels in Email Marketing
       </h2>
@@ -287,102 +287,105 @@ Audience"
         </div>
       </div>
     </div> */}
-    <EmailMarketingSlide/>
-    {/* Core Task Section End From Here */}
-    {/* Significance Section Start From Here */}
-    <section className="make-happen1 mt-5">
-      <div className="container ">
-        <div className="hero-shape9">
-          <img src="/images/pattern.png" style={{ width: 250 }} />
-        </div>
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Significance of Email Marketing for Your Brand
-        </h2>
-        <p className="text-dark text-center max-width100 mt-3">
-          Email Marketing is more than just sending out newsletters; it's a
-          powerful tool for your brand for several reasons
-        </p>
-        <div className="row flex-wrap-reverse align-items-center">
-          <div className="col-md-12 para-size">
-            <div className="container mt-4 mob-container">
-              <div className="significance-section1">
-                <div>
-                  <img
-                    src="/images/email-marketing/icon/icon1.png"
-                    alt="Data Drive Icon"
-                  />
-                  <h3>
-                    Direct Communication <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    Email provides a direct line of communication with your
-                    audience, allowing you to deliver tailored messages right to
-                    their inbox.
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="/images/email-marketing/icon/icon2.png"
-                    alt="ROI Measurement Icon"
-                  />
-                  <h3>
-                    High ROI <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    Email Marketing consistently delivers one of the highest
-                    returns on investment (ROI) in the digital marketing
-                    landscape.
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="/images/email-marketing/icon/icon3.png"
-                    alt="Continuous Improvement Icon"
-                  />
-                  <h3>
-                    Customer Retention <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    It's an effective means to nurture customer relationships,
-                    encouraging repeat purchases and fostering brand loyalty.
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="/images/email-marketing/icon/icon4.png"
-                    alt="Competitive Advantage Icon"
-                  />
-                  <h3>
-                    Segmentation Opportunities{" "}
-                    <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    You can segment your email list to deliver targeted content
-                    to specific customer segments, increasing relevance and
-                    engagement.
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="/images/email-marketing/icon/icon5.png"
-                    alt="Budget Optimization Icon"
-                  />
-                  <h3>
-                    Data-Driven Insights <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    Email marketing offers valuable insights into customer
-                    behavior and preferences, which can inform other marketing
-                    strategies.
-                  </p>
+        <EmailMarketingSlide />
+        {/* Core Task Section End From Here */}
+        {/* Significance Section Start From Here */}
+        <section className="make-happen1 mt-5">
+          <div className="container ">
+            <div className="hero-shape9">
+              <img src="/images/pattern.png" style={{ width: 250 }} />
+            </div>
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Significance of Email Marketing for Your Brand
+            </h2>
+            <p className="text-dark text-center max-width100 mt-3">
+              Email Marketing is more than just sending out newsletters; it's a
+              powerful tool for your brand for several reasons
+            </p>
+            <div className="row flex-wrap-reverse align-items-center">
+              <div className="col-md-12 para-size">
+                <div className="container mt-4 mob-container">
+                  <div className="significance-section1">
+                    <div>
+                      <img
+                        src="/images/email-marketing/icon/icon1.png"
+                        alt="Data Drive Icon"
+                      />
+                      <h3>
+                        Direct Communication{" "}
+                        <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        Email provides a direct line of communication with your
+                        audience, allowing you to deliver tailored messages
+                        right to their inbox.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/images/email-marketing/icon/icon2.png"
+                        alt="ROI Measurement Icon"
+                      />
+                      <h3>
+                        High ROI <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        Email Marketing consistently delivers one of the highest
+                        returns on investment (ROI) in the digital marketing
+                        landscape.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/images/email-marketing/icon/icon3.png"
+                        alt="Continuous Improvement Icon"
+                      />
+                      <h3>
+                        Customer Retention <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        It's an effective means to nurture customer
+                        relationships, encouraging repeat purchases and
+                        fostering brand loyalty.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/images/email-marketing/icon/icon4.png"
+                        alt="Competitive Advantage Icon"
+                      />
+                      <h3>
+                        Segmentation Opportunities{" "}
+                        <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        You can segment your email list to deliver targeted
+                        content to specific customer segments, increasing
+                        relevance and engagement.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/images/email-marketing/icon/icon5.png"
+                        alt="Budget Optimization Icon"
+                      />
+                      <h3>
+                        Data-Driven Insights{" "}
+                        <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        Email marketing offers valuable insights into customer
+                        behavior and preferences, which can inform other
+                        marketing strategies.
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    {/* <section className="seo email-action action-slider  container">
+        </section>
+        {/* <section className="seo email-action action-slider  container">
       <div className="container">
         <h2 className="text-dark main-heading text-center font-size-30">
           Making It Happen – Our Action Plan
@@ -492,134 +495,133 @@ Audience"
         </div>
       </div>
     </section> */}
-    <EmailMarketingSlide2/>
-    <section className="solid-section why-section margin-top-100">
-      <div className="container">
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Why Choose Viralon for Email Marketing - 5 Solid Reasons
-        </h2>
-        <div className="solid-social-bx5 pt-4 pb-5">
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/proven.png" />
+        <EmailMarketingSlide2 />
+        <section className="solid-section why-section margin-top-100">
+          <div className="container">
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Why Choose Viralon for Email Marketing - 5 Solid Reasons
+            </h2>
+            <div className="solid-social-bx5 pt-4 pb-5">
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/proven.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Expertise</h3>
+                    <p>
+                      {" "}
+                      Our team consists of experienced Email Marketing
+                      specialists with a proven track record of success.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="left-items11">
-                <h3>Expertise</h3>
-                <p>
-                  {" "}
-                  Our team consists of experienced Email Marketing specialists
-                  with a proven track record of success.
-                </p>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/customization.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Customization</h3>
+                    <p>
+                      We tailor our Email Marketing strategies to your brand's
+                      unique needs, ensuring optimal results.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/trans.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3> Results-Driven</h3>
+                    <p>
+                      Viralon is committed to delivering tangible results, from
+                      increased engagement to higher conversion rates.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/data-driven.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Cutting-Edge Technology</h3>
+                    <p>
+                      {" "}
+                      We use the latest tools and techniques to keep your Email
+                      Marketing at the forefront of industry best practices.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/results.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Client-Centric Approach</h3>
+                    <p>
+                      Your brand's success is our priority. We collaborate
+                      closely with you, providing transparent communication and
+                      outstanding support throughout our partnership.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/customization.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Customization</h3>
-                <p>
-                  We tailor our Email Marketing strategies to your brand's
-                  unique needs, ensuring optimal results.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/trans.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3> Results-Driven</h3>
-                <p>
-                  Viralon is committed to delivering tangible results, from
-                  increased engagement to higher conversion rates.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/data-driven.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Cutting-Edge Technology</h3>
-                <p>
-                  {" "}
-                  We use the latest tools and techniques to keep your Email
-                  Marketing at the forefront of industry best practices.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/results.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Client-Centric Approach</h3>
-                <p>
-                  Your brand's success is our priority. We collaborate closely
-                  with you, providing transparent communication and outstanding
-                  support throughout our partnership.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div className="specil-bx">
-      <div className="container">
-        <div className="get-freebx">
-          {/* <div> 
+        </section>
+        <div className="specil-bx">
+          <div className="container">
+            <div className="get-freebx">
+              {/* <div> 
     <h2> <span style="color:black;">Get a  FREE 2</span> hrs consultation by our experts</h2>
   </div> */}
-          <div>
-            {/*  <div class="mdtop studies-btn book-btn">
+              <div>
+                {/*  <div class="mdtop studies-btn book-btn">
 <a href="#" class="btn btn-primary trans animated pulse abt-butn-bot">Talk to Expert<img src="./images/icons/next.png" class="arrow  next-arow arrow1  animate-right-to-left"></a>
 
  </div> */}
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div className="shapebx">
-      <img src="/images/shape.png" />
-    </div>
-    {/*-------------- Subscribe Section Codes Start From Here -------------*/}
-    <Subscriber/>
-    {/*-------------- Subscribe Section Codes End From Here -------------*/}
-    {/*-------------- Footer Section Codes Start From Here -------------*/}
-   <Footer/>
-    {/*-------------- Footer Section Codes End From Here -------------*/}
-    {/* Aos Animation */}
-    {/* Swiper JS */}
-    {/* Initialize Swiper */}
-    {/*  */}
-    {/* Initialize Swiper */}
-    {/* Sub-Mega Menus Script */}
-    {/* For Remove Before Icon */}
-  </section>
-</>
+        <div className="shapebx">
+          <img src="/images/shape.png" />
+        </div>
+        {/*-------------- Subscribe Section Codes Start From Here -------------*/}
+        <Subscriber />
+        {/*-------------- Subscribe Section Codes End From Here -------------*/}
+        {/*-------------- Footer Section Codes Start From Here -------------*/}
+        <Footer />
+        {/*-------------- Footer Section Codes End From Here -------------*/}
+        {/* Aos Animation */}
+        {/* Swiper JS */}
+        {/* Initialize Swiper */}
+        {/*  */}
+        {/* Initialize Swiper */}
+        {/* Sub-Mega Menus Script */}
+        {/* For Remove Before Icon */}
+      </section>
+    </>
+  );
+};
 
-  )
-}
-
-export default emailMarketing
+export default emailMarketing;

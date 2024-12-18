@@ -35,58 +35,58 @@ const Clients = () => {
         className="swiper mySwiper mys"
       >
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/logo1.png" alt="Logo 1" />
+          <img src="./themes/viralon/images/icons/logo1.webp" alt="Logo 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/wabais.png" alt="Logo 2" />
+          <img src="./themes/viralon/images/icons/logo2.webp" alt="Logo 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/logo1.png" alt="Logo 1" />
+          <img src="./themes/viralon/images/icons/logo3.webp" alt="Logo 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/wabais.png" alt="Logo 2" />
+          <img src="./themes/viralon/images/icons/logo4.webp" alt="Logo 2" />
         </SwiperSlide> 
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/logo1.png" alt="Logo 1" />
+          <img src="./themes/viralon/images/icons/logo5.webp" alt="Logo 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/wabais.png" alt="Logo 2" />
+          <img src="./themes/viralon/images/icons/logo6.webp" alt="Logo 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/logo1.png" alt="Logo 1" />
+          <img src="./themes/viralon/images/icons/logo7.webp" alt="Logo 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/wabais.png" alt="Logo 2" />
+          <img src="./themes/viralon/images/icons/logo8.webp" alt="Logo 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/logo1.png" alt="Logo 1" />
+          <img src="./themes/viralon/images/icons/logo9.webp" alt="Logo 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/wabais.png" alt="Logo 2" />
+          <img src="./themes/viralon/images/icons/logo1.webp" alt="Logo 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/logo1.png" alt="Logo 1" />
+          <img src="./themes/viralon/images/icons/logo2.webp" alt="Logo 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/wabais.png" alt="Logo 2" />
+          <img src="./themes/viralon/images/icons/logo3.webp" alt="Logo 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/logo1.png" alt="Logo 1" />
+          <img src="./themes/viralon/images/icons/logo4.webp" alt="Logo 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/wabais.png" alt="Logo 2" />
+          <img src="./themes/viralon/images/icons/logo5.webp" alt="Logo 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/logo1.png" alt="Logo 1" />
+          <img src="./themes/viralon/images/icons/logo6.webp" alt="Logo 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/wabais.png" alt="Logo 2" />
+          <img src="./themes/viralon/images/icons/logo7.webp" alt="Logo 2" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/logo1.png" alt="Logo 1" />
+          <img src="./themes/viralon/images/icons/logo8.webp" alt="Logo 1" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="./themes/viralon/images/icons/wabais.png" alt="Logo 2" />
+          <img src="./themes/viralon/images/icons/logo9.webp" alt="Logo 2" />
         </SwiperSlide>
         {/* Add more SwiperSlides for each image */}
       </Swiper>

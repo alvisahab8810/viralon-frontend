@@ -46,10 +46,10 @@ const SwiperSliders = () => {
                 <SwiperSlide>
                 <div className="upk-salf-item swiper-slide">
                 <div className="upk-salf-image-wrap sm-none">
-                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner1.png" alt="Desktop Banner" />
+                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner1.webp" alt="Desktop Banner" />
                 </div>
                 <div className="upk-salf-image-wrap desk-none">
-                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner-sm-1.jpg" alt="Mobile Banner" />
+                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner-sm-1.webp" alt="Mobile Banner" />
                 </div>
                 <div className="upk-salf-content-wrap">
                   <h3 className="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
@@ -78,10 +78,10 @@ const SwiperSliders = () => {
 
                 <div className="upk-salf-item swiper-slide">
               <div className="upk-salf-image-wrap sm-none">
-              <img className="upk-xanc-img zoom" src="./images/hero-banners/banner2.png" alt="Desktop Banner" />
+              <img className="upk-xanc-img zoom" src="./images/hero-banners/banner2.webp" alt="Desktop Banner" />
                 </div>
                 <div className="upk-salf-image-wrap desk-none">
-                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner-sm-2.jpg" alt="Mobile Banner" />
+                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner-sm-2.webp" alt="Mobile Banner" />
                 </div>
                 <div className="upk-salf-content-wrap">
                   <h3 className="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">
@@ -110,10 +110,10 @@ const SwiperSliders = () => {
                 
                 <div className="upk-salf-item swiper-slide">
                 <div className="upk-salf-image-wrap sm-none">
-                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner3.png" alt="Desktop Banner" />
+                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner3.webp" alt="Desktop Banner" />
                 </div>
                 <div className="upk-salf-image-wrap desk-none">
-                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner-sm-3.jpg" alt="Mobile Banner" />
+                  <img className="upk-xanc-img zoom" src="./images/hero-banners/banner-sm-3.webp" alt="Mobile Banner" />
                 </div>
                 <div className="upk-salf-content-wrap">
                   <h3 className="upk-salf-title" data-swiper-parallax-y="-150" data-swiper-parallax-duration="1200">

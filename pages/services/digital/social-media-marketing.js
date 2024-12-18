@@ -8,13 +8,14 @@ import CustomHead from "../../../components/CustomHead";
 const socialMediaMarketing = () => {
   return (
     <>
-
-     <CustomHead title="Viralon | Achieve Business Goals with Social Media 
-      Marketing"
-      keywords="Viralon, Digital Marketing Agency, Social Media Marketing" 
-      description="Welcome to Viralon's Social Media Marketing hub! 
-      Elevate your online presence with our expert strategies and 
-      engaging content. Let's go viral together!" /> 
+      <CustomHead
+        title="Viralon | Achieve Business Goals with Social Media 
+        Marketing"
+        keywords="Viralon, Digital Marketing Agency, Social Media Marketing"
+        description="Welcome to Viralon's Social Media Marketing hub! 
+        Elevate your online presence with our expert strategies and 
+        engaging content. Let's go viral together!"
+      />
       <Header />
       <SocialShare />
       <section id="marketings">

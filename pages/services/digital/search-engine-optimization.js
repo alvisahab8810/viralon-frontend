@@ -1,235 +1,330 @@
-import React from 'react';
+import React from "react";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
 import SocialShare from "../../../components/SocialShare";
 import Subscriber from "../../../components/Subscriber";
-import SeoSlider from '../../../components/SeoSlider';
-import SeoSlider2 from '../../../components/SeoSlider2';
-import SeoSlider3 from '../../../components/SeoSlider3';
-import CustomHead from '../../../components/CustomHead';
+import SeoSlider from "../../../components/SeoSlider";
+import SeoSlider2 from "../../../components/SeoSlider2";
+import SeoSlider3 from "../../../components/SeoSlider3";
+import CustomHead from "../../../components/CustomHead";
 
 const searchEngineOptimization = () => {
   return (
     <>
+      <CustomHead
+        title="Viralon | Improve Rankings with Search Engine Optimisation"
+        keywords="Viralon, Digital Marketing Agency, Search Engine Optimistaion"
+        description="Viralon is the best Search Engine Optimisation agency for your business. For us, SEO is not just about ranking but also about delivering value."
+      />
 
-  <CustomHead title="Viralon | Improve Rankings with Search Engine Optimisation"
-   keywords="Viralon, Digital Marketing Agency, Search Engine Optimistaion" 
-   description="Viralon is the best Search Engine Optimisation agency for your business. For us, SEO is not just about ranking but also about delivering value." /> 
- 
- <Header/>
- <SocialShare itemurl={`contact-us`} />
-  <section id="marketings">
-    {/*-------------- Menu Section Codes Start From Here -------------*/}
-    
-    {/*-------------- Menu Section Codes End From Here -------------*/}
-    {/*-------------- Hero Section Codes Start From Here -------------*/}
-    <section
-      className="section hero-section-2 sm-none"
-      style={{
-        backgroundImage:
-          "url(/images/hero-banners/search-engine-optimization.jpg)",
-        backgroundPosition: "center"
-      }}
-    ></section>
-    <section
-      className="section hero-section-2 desk-none"
-      style={{
-        backgroundImage:
-          "url(/images/hero-banners/search-engine-optimization-sm.jpg)",
-        backgroundPosition: "center"
-      }}
-    />
-    {/*-------------- Hero Section Codes End From Here -------------*/}
-    {/*-------------- Social Media Marketing Section Codes Start From Here -------------*/}
-    <section className="pt-5">
-      <div className="container">
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Unlocking the Power of Search Engine Optimization (SEO)
-        </h2>
-        <p className="text-dark text-center max-width100 mt-3">
-          <strong>Elevate Your Digital Presence with Viralon</strong>
-          <br />
-          In today's digital world, the internet is the go-to destination for
-          almost everything. Whether you're a business, a content creator, or an
-          individual looking to share your passion, being visible online is
-          paramount. That's where Search Engine Optimization (SEO) comes into
-          play—it's the secret sauce that ensures your digital presence doesn't
-          go unnoticed.
-        </p>
-      </div>
-      <section className="seo container">
-        <div className="container">
-          <div className="row flex-wrap-reverse max-width800 align-items-center">
-            <div className="col-md-6 seobx para-size">
-              <h1 className=" pt-0 text-dark font-size-28">
-                What is Search Engine Optimization (SEO)?
-              </h1>
-              <p>
-                SEO is the strategic process of enhancing your website's
-                visibility in search engine results. It's like a treasure map
-                for the digital age, helping search engines like Google, Bing,
-                and Yahoo understand your content and present it to users when
-                they search for relevant information. But SEO isn't just about
-                rankings; it's about delivering value to your audience.
-              </p>
-            </div>
-            <div className="col-md-6 ">
-              <img
-                src="/images/seo/img3.jpg"
-                className=" mb-md-0 mb-4 w-400"
-                alt="Seo Image"
-              />
-            </div>
+      <Header />
+      <SocialShare itemurl={`contact-us`} />
+      <section id="marketings">
+        {/*-------------- Menu Section Codes Start From Here -------------*/}
+
+        {/*-------------- Menu Section Codes End From Here -------------*/}
+        {/*-------------- Hero Section Codes Start From Here -------------*/}
+        <section
+          className="section hero-section-2 sm-none"
+          style={{
+            backgroundImage:
+              "url(/images/hero-banners/search-engine-optimization.jpg)",
+            backgroundPosition: "center",
+          }}
+        ></section>
+        <section
+          className="section hero-section-2 desk-none"
+          style={{
+            backgroundImage:
+              "url(/images/hero-banners/search-engine-optimization-sm.jpg)",
+            backgroundPosition: "center",
+          }}
+        />
+        {/*-------------- Hero Section Codes End From Here -------------*/}
+        {/*-------------- Social Media Marketing Section Codes Start From Here -------------*/}
+        <section className="pt-5">
+          <div className="container">
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Unlocking the Power of Search Engine Optimization (SEO)
+            </h2>
+            <p className="text-dark text-center max-width100 mt-3">
+              <strong>Elevate Your Digital Presence with Viralon</strong>
+              <br />
+              In today's digital world, the internet is the go-to destination
+              for almost everything. Whether you're a business, a content
+              creator, or an individual looking to share your passion, being
+              visible online is paramount. That's where Search Engine
+              Optimization (SEO) comes into play—it's the secret sauce that
+              ensures your digital presence doesn't go unnoticed.
+            </p>
           </div>
-        </div>
-      </section>
-    </section>
-
-    
-    {/* Platform Section Start From Here */}
-    <section className="make-happen">
-      <div className="container">
-        <div className="hero-shape9">
-          <img src="/images/pattern.png" style={{ width: 250 }} />
-        </div>
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Types of SEO: Unlocking the Different Dimensions
-        </h2>
-        <p className="text-dark text-center max-width100 mt-3">
-          SEO isn't a one-size-fits-all concept; it encompasses various
-          techniques and strategies to achieve different goals. Let's explore
-          the main types of SEO:
-        </p>
-        <div className="row flex-wrap-reverse align-items-center mt-4">
-          <div className="col-md-5 shape-img-bx make-img">
-            <img
-              src="/images/seo/img1.jpg"
-              className=" mb-md-0 mb-4 "
-              alt="Types Seo Image"
-              style={{ width: 500 }}
-            />
-          </div>
-          <div className="col-md-7 para-size">
-            <div className="container mob-container">
-             <div id="accordion">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        On-Page SEO: The Foundation of Optimization
-                      </button>
-                    </h5>
-                  </div>
-
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                      <div class="card-body">
-                        On-Page SEO is the bedrock of your website's search engine optimization. It focuses on 
-                        optimizing individual web pages to rank higher and earn more relevant traffic. Key elements 
-                        include<br/>
-
-                        <b>Keyword Research:</b> Identifying the right keywords to target in your content.<br/>
-                        <b>Content Optimization:</b> Crafting high-quality, keyword-rich content.<br/>
-                        <b>Meta Tags:</b> Optimizing title tags, meta descriptions, and header tags.<br/>
-                        <b>URL Structure:</b> Creating clean and keyword-friendly URLs.<br/>
-                        <b>Image Optimization:</b> Enhancing images for search engines.
-                      </div>
-                  </div>
+          <section className="seo container">
+            <div className="container">
+              <div className="row flex-wrap-reverse max-width800 align-items-center">
+                <div className="col-md-6 seobx para-size">
+                  <h1 className=" pt-0 text-dark font-size-28">
+                    What is Search Engine Optimization (SEO)?
+                  </h1>
+                  <p>
+                    SEO is the strategic process of enhancing your website's
+                    visibility in search engine results. It's like a treasure
+                    map for the digital age, helping search engines like Google,
+                    Bing, and Yahoo understand your content and present it to
+                    users when they search for relevant information. But SEO
+                    isn't just about rankings; it's about delivering value to
+                    your audience.
+                  </p>
                 </div>
-                <div class="card">
-                  <div class="card-header" id="headingTwo">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Off-Page SEO: Building Authority Beyond Your Website
-                      </button>
-                    </h5>
-                  </div>
-                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                     <div class="card-body">
-                        Off-Page SEO involves activities conducted outside your website to improve its visibility and 
-                        reputation. It's all about building trust and authority. Key elements include<br/>
-
-                        <b>Link Building:</b> Acquiring high-quality, authoritative backlinks.<br/>
-                        <b>Social Signals:</b> Leveraging social media and online mentions to boost your online presence.<br/>
-                        <b>Brand Mentions:</b> Monitoring and managing online references to your brand.<br/>
-                      </div>
-                  </div>
+                <div className="col-md-6 ">
+                  <img
+                    src="/images/seo/img3.jpg"
+                    className=" mb-md-0 mb-4 w-400"
+                    alt="Seo Image"
+                  />
                 </div>
-                <div class="card">
-                  <div class="card-header" id="headingThree">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Technical SEO: The Mechanics Behind the Scenes
-                      </button>
-                    </h5>
-                  </div>
+              </div>
+            </div>
+          </section>
+        </section>
 
-                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+        {/* Platform Section Start From Here */}
+        <section className="make-happen">
+          <div className="container">
+            <div className="hero-shape9">
+              <img src="/images/pattern.png" style={{ width: 250 }} />
+            </div>
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Types of SEO: Unlocking the Different Dimensions
+            </h2>
+            <p className="text-dark text-center max-width100 mt-3">
+              SEO isn't a one-size-fits-all concept; it encompasses various
+              techniques and strategies to achieve different goals. Let's
+              explore the main types of SEO:
+            </p>
+            <div className="row flex-wrap-reverse align-items-center mt-4">
+              <div className="col-md-5 shape-img-bx make-img">
+                <img
+                  src="/images/seo/img1.jpg"
+                  className=" mb-md-0 mb-4 "
+                  alt="Types Seo Image"
+                  style={{ width: 500 }}
+                />
+              </div>
+              <div className="col-md-7 para-size">
+                <div className="container mob-container">
+                  <div id="accordion">
+                    <div class="card">
+                      <div class="card-header" id="headingOne">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn btn-link"
+                            data-toggle="collapse"
+                            data-target="#collapseOne"
+                            aria-expanded="true"
+                            aria-controls="collapseOne"
+                          >
+                            On-Page SEO: The Foundation of Optimization
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div
+                        id="collapseOne"
+                        class="collapse show"
+                        aria-labelledby="headingOne"
+                        data-parent="#accordion"
+                      >
                         <div class="card-body">
-                        Technical SEO focuses on the backend of your website, optimizing its technical aspects to 
-                          enhance search engine crawling and indexing. Key elements include
-                          <br/>
-                           <b> Site Speed:</b> Improving page loading times for a better user experience.<br/>
-                          <b>Mobile-Friendliness:</b> Ensuring your site is mobile-responsive.<br/>
-                          <b>Sitemap Creation:</b> Creating XML sitemaps to help search engines understand your site's 
-                          structure.<br/>
-                          <b>Robots.txt:</b> Configuring to control how search engines access your site.
+                          On-Page SEO is the bedrock of your website's search
+                          engine optimization. It focuses on optimizing
+                          individual web pages to rank higher and earn more
+                          relevant traffic. Key elements include
+                          <br />
+                          <b>Keyword Research:</b> Identifying the right
+                          keywords to target in your content.
+                          <br />
+                          <b>Content Optimization:</b> Crafting high-quality,
+                          keyword-rich content.
+                          <br />
+                          <b>Meta Tags:</b> Optimizing title tags, meta
+                          descriptions, and header tags.
+                          <br />
+                          <b>URL Structure:</b> Creating clean and
+                          keyword-friendly URLs.
+                          <br />
+                          <b>Image Optimization:</b> Enhancing images for search
+                          engines.
+                        </div>
                       </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingTwo">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="collapseTwo"
+                          >
+                            Off-Page SEO: Building Authority Beyond Your Website
+                          </button>
+                        </h5>
+                      </div>
+                      <div
+                        id="collapseTwo"
+                        class="collapse"
+                        aria-labelledby="headingTwo"
+                        data-parent="#accordion"
+                      >
+                        <div class="card-body">
+                          Off-Page SEO involves activities conducted outside
+                          your website to improve its visibility and reputation.
+                          It's all about building trust and authority. Key
+                          elements include
+                          <br />
+                          <b>Link Building:</b> Acquiring high-quality,
+                          authoritative backlinks.
+                          <br />
+                          <b>Social Signals:</b> Leveraging social media and
+                          online mentions to boost your online presence.
+                          <br />
+                          <b>Brand Mentions:</b> Monitoring and managing online
+                          references to your brand.
+                          <br />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseThree"
+                            aria-expanded="false"
+                            aria-controls="collapseThree"
+                          >
+                            Technical SEO: The Mechanics Behind the Scenes
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div
+                        id="collapseThree"
+                        class="collapse"
+                        aria-labelledby="headingThree"
+                        data-parent="#accordion"
+                      >
+                        <div class="card-body">
+                          Technical SEO focuses on the backend of your website,
+                          optimizing its technical aspects to enhance search
+                          engine crawling and indexing. Key elements include
+                          <br />
+                          <b> Site Speed:</b> Improving page loading times for a
+                          better user experience.
+                          <br />
+                          <b>Mobile-Friendliness:</b> Ensuring your site is
+                          mobile-responsive.
+                          <br />
+                          <b>Sitemap Creation:</b> Creating XML sitemaps to help
+                          search engines understand your site's structure.
+                          <br />
+                          <b>Robots.txt:</b> Configuring to control how search
+                          engines access your site.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseFour"
+                            aria-expanded="false"
+                            aria-controls="collapseFour"
+                          >
+                            Local SEO: Capturing the Local Audience
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div
+                        id="collapseFour"
+                        class="collapse"
+                        aria-labelledby="headingFour"
+                        data-parent="#accordion"
+                      >
+                        <div class="card-body">
+                          Local SEO is vital for businesses with physical
+                          locations. It's about optimizing your online presence
+                          to attract customers in your local area. Key elements
+                          include
+                          <br />
+                          <b>Google My Business:</b> Claiming and optimizing
+                          your Google My Business listing.
+                          <br />
+                          <b>Local Citations:</b> Ensuring consistent NAP (Name,
+                          Address, Phone Number) across online directories.
+                          <br />
+                          <b>Local Reviews:</b> Encouraging and managing
+                          customer reviews.
+                          <br />
+                          <b>Geo-Targeted Content:</b> Creating content tailored
+                          to local audiences.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="card">
+                      <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                          <button
+                            class="btn btn-link collapsed"
+                            data-toggle="collapse"
+                            data-target="#collapseFive"
+                            aria-expanded="false"
+                            aria-controls="collapseFive"
+                          >
+                            Voice Search SEO: Adapting to the Future
+                          </button>
+                        </h5>
+                      </div>
+
+                      <div
+                        id="collapseFive"
+                        class="collapse"
+                        aria-labelledby="headingFive"
+                        data-parent="#accordion"
+                      >
+                        <div class="card-body">
+                          With the rise of voice-activated devices and virtual
+                          assistants, Voice Search SEO is gaining importance. It
+                          involves optimizing your content to cater to voice
+                          search queries, which often differ from typed
+                          searches.
+                          <br />
+                          <br />
+                          Each type of SEO serves a unique purpose and can be
+                          tailored to meet your specific goals and target
+                          audience. By understanding these dimensions, you can
+                          craft a holistic SEO strategy that elevates your
+                          online presence and connects you with your audience
+                          effectively.
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-
-                <div class="card">
-                  <div class="card-header" id="headingFour">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                        Local SEO: Capturing the Local Audience
-                      </button>
-                    </h5>
-                  </div>
-                  
-                   <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-                     <div class="card-body">
-                        Local SEO is vital for businesses with physical locations. It's about optimizing your online 
-                        presence to attract customers in your local area. Key elements include<br/>
-
-                        <b>Google My Business:</b> Claiming and optimizing your Google My Business listing.<br/>
-                        <b>Local Citations:</b> Ensuring consistent NAP (Name, Address, Phone Number) across online 
-                        directories.<br/>
-                        <b>Local Reviews:</b> Encouraging and managing customer reviews.<br/>
-                        <b>Geo-Targeted Content:</b> Creating content tailored to local audiences.
-                      </div>
-                  </div>
-                </div>
-
-                <div class="card">
-                  <div class="card-header" id="headingFive">
-                    <h5 class="mb-0">
-                      <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                       Voice Search SEO: Adapting to the Future
-                      </button>
-                    </h5>
-                  </div>
-                  
-                   <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-                    <div class="card-body">
-                        With the rise of voice-activated devices and virtual assistants, Voice Search SEO is gaining 
-                        importance. It involves optimizing your content to cater to voice search queries, which often 
-                        differ from typed searches.<br/><br/>
-                        Each type of SEO serves a unique purpose and can be tailored to meet your specific goals 
-                        and target audience. By understanding these dimensions, you can craft a holistic SEO 
-                        strategy that elevates your online presence and connects you with your audience effectively.
-
-                      </div>
-                  </div>
-                </div>
-             </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    {/* Platform Section End From Here */}
-    {/* Core Task Section Start From Here */}
-    {/* <div className="social-media">
+        </section>
+        {/* Platform Section End From Here */}
+        {/* Core Task Section Start From Here */}
+        {/* <div className="social-media">
       <h2 className="text-white s-heading text-center  pb-4 font-size-30">
         Core Tasks in Viralon's SEO Services
       </h2>
@@ -424,11 +519,11 @@ const searchEngineOptimization = () => {
         </div>
       </div>
     </div> */}
-    <SeoSlider/>
-    {/* Core Task Section End From Here */}
-    {/* Significance Section Start From Here */}
-    <SeoSlider2/>
-    {/* <section className="make-happen  make action-slider container">
+        <SeoSlider />
+        {/* Core Task Section End From Here */}
+        {/* Significance Section Start From Here */}
+        <SeoSlider2 />
+        {/* <section className="make-happen  make action-slider container">
       <div className="container">
         <h2 className="text-dark main-heading text-center font-size-30">
           Our Methodology to SEO Success
@@ -587,98 +682,99 @@ const searchEngineOptimization = () => {
         </div>
       </div>
     </section> */}
-    <SeoSlider3/>
-    <section className="solid-section">
-      <div className="container">
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Why Choose Viralon for Search Engine Optimization - 5 Solid Reasons
-        </h2>
-        <div className="solid-social-bx5 pt-4 pb-5">
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/proven.png" />
+        <SeoSlider3 />
+        <section className="solid-section">
+          <div className="container">
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Why Choose Viralon for Search Engine Optimization - 5 Solid
+              Reasons
+            </h2>
+            <div className="solid-social-bx5 pt-4 pb-5">
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/proven.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3> Proven Expertise</h3>
+                    <p>
+                      {" "}
+                      Our team comprises seasoned SEO experts with a track
+                      record of delivering results.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="left-items11">
-                <h3> Proven Expertise</h3>
-                <p>
-                  {" "}
-                  Our team comprises seasoned SEO experts with a track record of
-                  delivering results.
-                </p>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/customization.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Customization</h3>
+                    <p>
+                      We tailor our SEO strategies to your unique business needs
+                      and goals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/trans.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3> Transparency</h3>
+                    <p>
+                      We believe in open communication and provide regular
+                      reports to keep you informed
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/data-driven.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Data-Driven</h3>
+                    <p>
+                      Our decisions are rooted in data analysis, ensuring the
+                      best strategies are implemented.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/results.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Long-Term Results</h3>
+                    <p>
+                      We focus on sustainable, long-term SEO success, not
+                      short-lived tactics.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/customization.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Customization</h3>
-                <p>
-                  We tailor our SEO strategies to your unique business needs and
-                  goals.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/trans.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3> Transparency</h3>
-                <p>
-                  We believe in open communication and provide regular reports
-                  to keep you informed
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/data-driven.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Data-Driven</h3>
-                <p>
-                  Our decisions are rooted in data analysis, ensuring the best
-                  strategies are implemented.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/results.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Long-Term Results</h3>
-                <p>
-                  We focus on sustainable, long-term SEO success, not
-                  short-lived tactics.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    {/* <section class="container1 "> 
+        </section>
+        {/* <section class="container1 "> 
  
    <div id="exTab1"> 
     <div class="tab-head">
@@ -1014,43 +1110,42 @@ const searchEngineOptimization = () => {
    Your brand's journey to digital stardom starts here!</p>
      </div>
 </section> */}
-    <div className="specil-bx">
-      <div className="container">
-        <div className="get-freebx">
-          {/* <div> 
+        <div className="specil-bx">
+          <div className="container">
+            <div className="get-freebx">
+              {/* <div> 
     <h2> <span style="color:black;">Get a  FREE 2</span> hrs consultation by our experts</h2>
   </div> */}
-          <div>
-            {/*  <div class="mdtop studies-btn book-btn">
+              <div>
+                {/*  <div class="mdtop studies-btn book-btn">
 <a href="#" class="btn btn-primary trans animated pulse abt-butn-bot">Talk to Expert<img src="./images/icons/next.png" class="arrow  next-arow arrow1  animate-right-to-left"></a>
 
  </div> */}
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div className="shapebx">
-      <img src="/images/shape.png" />
-    </div>
-    {/*-------------- Subscribe Section Codes Start From Here -------------*/}
-    <Subscriber/>
-    {/*-------------- Subscribe Section Codes End From Here -------------*/}
-    {/*-------------- Footer Section Codes Start From Here -------------*/}
-    <Footer/>
-    {/*-------------- Footer Section Codes End From Here -------------*/}
-    {/* Aos Animation */}
-    {/* Swiper JS */}
-    {/* Initialize Swiper */}
-    {/*  */}
-    {/* Initialize Swiper */}
-    {/* Initialize Swiper 1 */}
-    {/* Our Methodollgy Initialize Swiper */}
-    {/* Sub-Mega Menus Script */}
-    {/* For Remove Before Icon */}
-  </section>
-</>
+        <div className="shapebx">
+          <img src="/images/shape.png" />
+        </div>
+        {/*-------------- Subscribe Section Codes Start From Here -------------*/}
+        <Subscriber />
+        {/*-------------- Subscribe Section Codes End From Here -------------*/}
+        {/*-------------- Footer Section Codes Start From Here -------------*/}
+        <Footer />
+        {/*-------------- Footer Section Codes End From Here -------------*/}
+        {/* Aos Animation */}
+        {/* Swiper JS */}
+        {/* Initialize Swiper */}
+        {/*  */}
+        {/* Initialize Swiper */}
+        {/* Initialize Swiper 1 */}
+        {/* Our Methodollgy Initialize Swiper */}
+        {/* Sub-Mega Menus Script */}
+        {/* For Remove Before Icon */}
+      </section>
+    </>
+  );
+};
 
-  )
-}
-
-export default searchEngineOptimization
+export default searchEngineOptimization;

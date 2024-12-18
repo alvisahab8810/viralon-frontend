@@ -71,10 +71,10 @@ const Blogs = () => {
               <span className="material-icons-round icon">groups</span>Blogs
             </h1>
             {/* <nav className="d-flex justify-content-end">
-    <ol className="breadcrumb breadcrumb-style-1">
-      <li className="breadcrumb-item"><a href="index.html">Home</a></li>
-      <li className="breadcrumb-item active" aria-current="page">About</li>
-    </ol>
+            <ol className="breadcrumb breadcrumb-style-1">
+              <li className="breadcrumb-item"><Link href="index.html">Home</Link></li>
+              <li className="breadcrumb-item active" aria-current="page">About</li>
+            </ol>
               </nav> */}
           </div>
         </section>
@@ -82,12 +82,12 @@ const Blogs = () => {
         <section className="container1">
           <div id="exTab1" className="container mob-container">
             <div className="tab-head"></div>
-            <hr />
+            {/* <hr /> */}
             <div className="tab-content clearfix">
               <div className="tab-pane active" id="1a">
                 <div className="container1 mob-container">
                   <div id="search-container">
-                    <div>
+                    {/* <div>
                       <div className="b-search">
                         <button className="search-btn">
                           <i className="ri-search-line" />
@@ -99,11 +99,11 @@ const Blogs = () => {
                           className="form-control"
                         />
                       </div>
-                    </div>
+                    </div> */}
                     {/* <div className="blog-fe">
-                      <a href="#" className="get-feature">
+                      <Link href="#" className="get-feature">
                     Get Your Blogs Featured
-                  </a>
+                  </Link>
                     </div> */}
                   </div>
 
@@ -115,19 +115,110 @@ const Blogs = () => {
                         </div>
                         <div className="blog-title">
                           <h4>
-                            <a href={blog.link} className="title">
+                            <Link href={blog.link} className="title">
                               {blog.category}
-                            </a>{" "}
+                            </Link>{" "}
                           </h4>
-                          <a href={blog.link} className="sub-title">
+                          <Link href={blog.link} className="sub-title">
                             {blog.title}
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     ))}
                   </div> */}
 
-                  <div className="blogbx">
+                  <div className="row">
+                    <div className="col-lg-8 offset-lg-2 viral-blog">
+                      <div className="site-heading text-center">
+                        <h4 className="title">Latest Blogs</h4>
+                        <h2 className="sub-heading">News &amp; Update</h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="row mt-4">
+                    <div className="col-xl-4 col-md-6 mb-30 ">
+                      <div className="blog-style-one">
+                        <div className="thumb">
+                          <Link href="/blog-details">
+                            <img src="../images/blog/blog1.jpg" alt="Thumb" />
+                          </Link>
+                        </div>
+                        <div className="info">
+                          <div className="blog-meta">
+                            <ul>
+                              <li>
+                                <Link href="#">30 Aug 2024</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <h4>
+                            <Link href="/blog-details">
+                              Discovery incommode earnestly commanded if.
+                            </Link>
+                          </h4>
+                          <Link href="/blog-details" className="btn-simple">
+                            <i className="ri-arrow-right-s-line"></i> Read more
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="col-xl-4 col-md-6 mb-30 ">
+                      <div className="blog-style-one">
+                        <div className="thumb">
+                          <Link href="/blog-details">
+                            <img src="../images/blog/blog2.jpg" alt="Thumb" />
+                          </Link>
+                        </div>
+                        <div className="info">
+                          <div className="blog-meta">
+                            <ul>
+                              <li>
+                                <Link href="#">30 Aug 2024</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <h4>
+                            <Link href="/blog-details">
+                              Expression acceptance imprudence particular
+                            </Link>
+                          </h4>
+                          <Link href="/blog-details" className="btn-simple">
+                            <i className="ri-arrow-right-s-line"></i> Read more
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-4 col-md-6 mb-30">
+                      <div className="blog-style-one">
+                        <div className="thumb">
+                          <Link href="/blog-details">
+                            <img src="../images/blog/blog3.jpg" alt="Thumb" />
+                          </Link>
+                        </div>
+                        <div className="info">
+                          <div className="blog-meta">
+                            <ul>
+                              <li>
+                                <Link href="#">30 Aug 2024</Link>
+                              </li>
+                            </ul>
+                          </div>
+                          <h4>
+                            <Link href="/blog-details">
+                              Considered imprudence of technical friendship.
+                            </Link>
+                          </h4>
+                          <Link href="/blog-details" className="btn-simple">
+                            <i className="ri-arrow-right-s-line"></i> Read more
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* <div className="blogbx">
                     {blogData?.length > 0 ? (
                       <>
                         {blogData.map((blog, index) => (
@@ -138,7 +229,7 @@ const Blogs = () => {
                               <div className="blogimg">
                                 <img
                                   src={`https://api.viralon.in/uploads/${blog.file_name}`}
-                                  // src={`http://localhost:3020/upload/${blog.file_name}`}
+                                  src={`http://localhost:3020/upload/${blog.file_name}`}
                                   alt={`Blog ${index + 1}`}
                                 />
                               </div>
@@ -157,11 +248,11 @@ const Blogs = () => {
                     ) : (
                       <p>No Blogs</p>
                     )}
-                  </div>
+                  </div> */}
                   {isBlogComponentVisible && (
                     <BlogComponent
-                    selectedBlog={selectedBlog}
-                    onClose={() => setIsBlogComponentVisible(false)}
+                      selectedBlog={selectedBlog}
+                      onClose={() => setIsBlogComponentVisible(false)}
                     />
                   )}
                 </div>
@@ -169,6 +260,7 @@ const Blogs = () => {
             </div>
           </div>
         </section>
+
         {/*-------------- Subscribe Section Codes Start From Here -------------*/}
         <Subscriber />
         {/*-------------- Subscribe Section Codes End From Here -------------*/}

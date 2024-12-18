@@ -1,240 +1,274 @@
-import React from 'react'
+import React from "react";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
 import SocialShare from "../../../components/SocialShare";
 import Subscriber from "../../../components/Subscriber";
-import InfluencerMarketingSlide from '../../../components/InfluencerMarketSlide';
-import InfluencerMarketingActionSlide2 from '../../../components/InfluencerMarketingSlide2';
-import CustomHead from '../../../components/CustomHead';
+import InfluencerMarketingSlide from "../../../components/InfluencerMarketSlide";
+import InfluencerMarketingActionSlide2 from "../../../components/InfluencerMarketingSlide2";
+import CustomHead from "../../../components/CustomHead";
 const influencerMarketing = () => {
   return (
     <>
-
-<CustomHead title=" Viralon | Engage Audiences Through Influencer Marketing "
-   keywords="Viralon, Digital Marketing Agency, Influencer Marketing " 
-   description="Boost your brand with influencer marketing! 
-   Connect with creators to reach more people and grow your 
-   business. Let’s make your story go viral" />
-  <Header/>
-  <SocialShare/>
-  <section id="marketings" className="content-marketing">
-    {/*-------------- Menu Section Codes Start From Here -------------*/}
-      {/*-------------- Menu Section Codes End From Here -------------*/}
-    {/*-------------- Hero Section Codes Start From Here -------------*/}
-    <section className="section-s">
-      <video
-        autoPlay={true}
-        loop
-        muted=""
-        playsInline=""
-        defaultmuted=""
-        preload="auto"
-      >
-        <source
-          src="/images/hero-banners/influencer-marketing.mp4"
-          type="video/mp4"
-        />
-      </video>
-    </section>
-    {/*-------------- Hero Section Codes End From Here -------------*/}
-    {/*-------------- Social Media Marketing Section Codes Start From Here -------------*/}
-    <section className="pt-5 padding-top-m">
-      <div className="container">
-        <div className="unlock-section-bx2">
-          <div>
-            <img src="/images/influencer-marketing/img1.jpg" />
+      <CustomHead
+        title=" Viralon | Engage Audiences Through Influencer Marketing "
+        keywords="Viralon, Digital Marketing Agency, Influencer Marketing "
+        description="Boost your brand with influencer marketing! 
+        Connect with creators to reach more people and grow your 
+        business. Let’s make your story go viral"
+      />
+      <Header />
+      <SocialShare />
+      <section id="marketings" className="content-marketing">
+        {/*-------------- Menu Section Codes Start From Here -------------*/}
+        {/*-------------- Menu Section Codes End From Here -------------*/}
+        {/*-------------- Hero Section Codes Start From Here -------------*/}
+        <section className="section-s">
+          <video
+            autoPlay={true}
+            loop
+            muted=""
+            playsInline=""
+            defaultmuted=""
+            preload="auto"
+          >
+            <source
+              src="/images/hero-banners/influencer-marketing.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </section>
+        {/*-------------- Hero Section Codes End From Here -------------*/}
+        {/*-------------- Social Media Marketing Section Codes Start From Here -------------*/}
+        <section className="pt-5 padding-top-m">
+          <div className="container">
+            <div className="unlock-section-bx2">
+              <div>
+                <img src="/images/influencer-marketing/img1.jpg" />
+              </div>
+              <div className="unlock2">
+                <h2 className="text-dark main-heading font-size-30">
+                  Unlocking the Power of Influencer Marketing
+                </h2>
+                <p className="text-dark max-width100 mt-3">
+                  In the dynamic digital landscape, where trends evolve at the
+                  speed of light, influencer marketing has emerged as a
+                  game-changer for brands looking to establish a stronger online
+                  presence and connect with their target audience on a deeper
+                  level. At Viralon Digital Services, we recognize the
+                  transformative potential of influencer marketing and are
+                  committed to helping your brand leverage this phenomenon for
+                  unparalleled growth and engagement.
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="unlock2">
-            <h2 className="text-dark main-heading font-size-30">
-              Unlocking the Power of Influencer Marketing
+        </section>
+        <section className="explore-section">
+          <div className="container">
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Exploring the Diverse World of Influencers
             </h2>
-            <p className="text-dark max-width100 mt-3">
-              In the dynamic digital landscape, where trends evolve at the speed
-              of light, influencer marketing has emerged as a game-changer for
-              brands looking to establish a stronger online presence and connect
-              with their target audience on a deeper level. At Viralon Digital
-              Services, we recognize the transformative potential of influencer
-              marketing and are committed to helping your brand leverage this
-              phenomenon for unparalleled growth and engagement.
+            <p className="text-dark text-center max-width100 mt-3">
+              In today's digital age, influencer marketing has evolved into a
+              powerful strategy for brands to connect with their target
+              audiences. Influencers, with their authenticity and reach, have
+              the ability to sway consumer opinions and drive engagement.
+              However, influencers come in various shapes and sizes, each with
+              their own unique qualities and characteristics. Let's dive into
+              the exciting world of influencers and explore the different types
             </p>
+            <div className="appFrame mt-5">
+              <article className="accordion">
+                <section id="acc0">
+                  <h2>
+                    <a href="#acc0">Mega-Influencers</a>
+                  </h2>
+                  <p
+                    id="diary"
+                    contentEditable="true"
+                    style={{ outline: "none" }}
+                  >
+                    <b> Reach:</b> Millions of followers.
+                    <br />
+                    <b>Platform:</b> Usually on multiple platforms, including
+                    social media, blogs, and YouTube.
+                    <br />
+                    <b>Focus:</b> Cover a wide range of topics, including
+                    fashion, lifestyle, travel, and more.
+                    <br />
+                    <b>Examples:</b> Celebrities, well-known personalities, and
+                    industry leaders.
+                    <br />
+                    <br />
+                    Mega-influencers are the giants of the influencer world.
+                    They have a massive following and a significant impact on
+                    popular culture. Collaborating with mega-influencers can
+                    provide immense exposure for brands
+                  </p>
+                </section>
+                <section id="acc1">
+                  <h2>
+                    <a href="#acc1">Macro-Influencers</a>
+                  </h2>
+                  <p
+                    id="diary"
+                    contentEditable="true"
+                    style={{ outline: "none" }}
+                  >
+                    <b> Reach:</b> Hundreds of thousands to millions of
+                    followers.
+                    <br />
+                    <b> Platform: </b> Active on major social media platforms
+                    like Instagram, Facebook, and YouTube.
+                    <br />
+                    <b>Focus:</b> Niche-specific content, such as fitness,
+                    beauty, or food.
+                    <br />
+                    <b>Examples:</b> Fitness trainers, beauty gurus, travel
+                    bloggers.
+                    <br />
+                    <br />
+                    Macro-influencers have a substantial following within
+                    specific niches. Their content often resonates deeply with
+                    their audience, making them ideal partners for brands
+                    targeting niche markets.
+                  </p>
+                </section>
+                <section id="acc2">
+                  <h2>
+                    <a href="#acc2">Micro-Influencers</a>
+                  </h2>
+                  <p
+                    id="diary"
+                    contentEditable="true"
+                    style={{ outline: "none" }}
+                  >
+                    <b>Reach:</b> Thousands to tens of thousands of followers.
+                    <br />
+                    <b>Platform:</b> Primarily active on one or two social media
+                    platforms.
+                    <br />
+                    <b>Focus:</b> Hyper-specialized content in niche areas.
+                    <br />
+                    <b>Examples:</b> Local bloggers, niche enthusiasts.
+                    <br />
+                    <br />
+                    Micro-influencers may have a smaller following, but they
+                    often have highly engaged and loyal audiences. They're known
+                    for their authenticity and are ideal for grassroots
+                    marketing efforts.
+                  </p>
+                </section>
+                <section id="acc3">
+                  <h2>
+                    <a href="#acc3">Nano-Influencers</a>
+                  </h2>
+                  <p
+                    id="diary"
+                    contentEditable="true"
+                    style={{ outline: "none" }}
+                  >
+                    <b>Reach:</b> Typically under 10,000 followers.
+                    <br />
+                    <b>Platform:</b> Active on niche platforms or emerging
+                    social media platforms.
+                    <br />
+                    <b>Focus:</b> Hyper-local or hyper-niche content.
+                    <br />
+                    <b>Examples:</b> Local community advocates, passionate
+                    hobbyists.
+                    <br />
+                    <br />
+                    Nano-influencers are the most grassroots level of
+                    influencers. They have a limited reach but can offer
+                    incredibly targeted and authentic endorsements for local or
+                    specialized brands.
+                  </p>
+                </section>
+                <section id="acc4">
+                  <h2>
+                    <a href="#acc4">Celebrity Influencers</a>
+                  </h2>
+                  <p
+                    id="diary"
+                    contentEditable="true"
+                    style={{ outline: "none" }}
+                  >
+                    <b>Reach:</b> Varies greatly, often in the millions.
+                    <br />
+                    <b>Platform:</b> Active on various platforms, often with a
+                    primary focus on one.
+                    <br />
+                    <b>Focus:</b> Their area of expertise, which can be diverse.
+                    <br />
+                    <b>Examples:</b> Renowned actors, musicians, athletes.
+                    <br />
+                    <br />
+                    Celebrity influencers bring their star power to the
+                    influencer game. They can reach a broad audience and add a
+                    touch of glamour to brand collaborations.
+                  </p>
+                </section>
+                <section id="acc5">
+                  <h2>
+                    <a href="#acc5">Employee Advocates</a>
+                  </h2>
+                  <p
+                    id="diary"
+                    contentEditable="true"
+                    style={{ outline: "none" }}
+                  >
+                    <b>Reach:</b> Limited to their professional network.
+                    <br />
+                    <b>Platform:</b> LinkedIn, primarily.
+                    <br />
+                    <b>Focus:</b> Industry-specific knowledge and insights.
+                    <br />
+                    <b>Examples:</b> Company employees, executives, and industry
+                    experts.
+                    <br />
+                    <br />
+                    Employee advocates are insiders who promote their
+                    organization or industry. They can be powerful assets for
+                    companies looking to build trust and credibility
+                  </p>
+                </section>
+                <section id="acc6">
+                  <h2>
+                    <a href="#acc6">Customer Influencers</a>
+                  </h2>
+                  <p
+                    id="diary"
+                    contentEditable="true"
+                    style={{ outline: "none" }}
+                  >
+                    <b>Reach:</b> Limited to their social circles.
+                    <br />
+                    <b>Platform:</b> Various social media platforms.
+                    <br />
+                    <b>Focus:</b> Personal experiences with a brand's product or
+                    service.
+                    <br />
+                    <b>Examples:</b> Satisfied customers, brand advocates.
+                    <br />
+                    Customer influencers are everyday people who share their
+                    positive experiences with a brand. Their authenticity can
+                    boost brand credibility and drive word-of-mouth marketing.
+                    In conclusion, the world of influencers is vast and diverse,
+                    offering numerous avenues for brands to connect with their
+                    audiences. Choosing the right type of influencer depends on
+                    your brand's goals, target audience, and niche. By
+                    understanding the unique qualities of each influencer type,
+                    you can tailor your influencer marketing strategy for
+                    maximum impact
+                  </p>
+                </section>
+              </article>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <section className="explore-section">
-      <div className="container">
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Exploring the Diverse World of Influencers
-        </h2>
-        <p className="text-dark text-center max-width100 mt-3">
-          In today's digital age, influencer marketing has evolved into a
-          powerful strategy for brands to connect with their target audiences.
-          Influencers, with their authenticity and reach, have the ability to
-          sway consumer opinions and drive engagement. However, influencers come
-          in various shapes and sizes, each with their own unique qualities and
-          characteristics. Let's dive into the exciting world of influencers and
-          explore the different types
-        </p>
-        <div className="appFrame mt-5">
-          <article className="accordion">
-            <section id="acc0">
-              <h2>
-                <a href="#acc0">Mega-Influencers</a>
-              </h2>
-              <p id="diary" contentEditable="true" style={{ outline: "none" }}>
-                <b> Reach:</b> Millions of followers.
-                <br />
-                <b>Platform:</b> Usually on multiple platforms, including social
-                media, blogs, and YouTube.
-                <br />
-                <b>Focus:</b> Cover a wide range of topics, including fashion,
-                lifestyle, travel, and more.
-                <br />
-                <b>Examples:</b> Celebrities, well-known personalities, and
-                industry leaders.
-                <br />
-                <br />
-                Mega-influencers are the giants of the influencer world. They
-                have a massive following and a significant impact on popular
-                culture. Collaborating with mega-influencers can provide immense
-                exposure for brands
-              </p>
-            </section>
-            <section id="acc1">
-              <h2>
-                <a href="#acc1">Macro-Influencers</a>
-              </h2>
-              <p id="diary" contentEditable="true" style={{ outline: "none" }}>
-                <b> Reach:</b> Hundreds of thousands to millions of followers.
-                <br />
-                <b> Platform: </b> Active on major social media platforms like
-                Instagram, Facebook, and YouTube.
-                <br />
-                <b>Focus:</b> Niche-specific content, such as fitness, beauty,
-                or food.
-                <br />
-                <b>Examples:</b> Fitness trainers, beauty gurus, travel
-                bloggers.
-                <br />
-                <br />
-                Macro-influencers have a substantial following within specific
-                niches. Their content often resonates deeply with their
-                audience, making them ideal partners for brands targeting niche
-                markets.
-              </p>
-            </section>
-            <section id="acc2">
-              <h2>
-                <a href="#acc2">Micro-Influencers</a>
-              </h2>
-              <p id="diary" contentEditable="true" style={{ outline: "none" }}>
-                <b>Reach:</b> Thousands to tens of thousands of followers.
-                <br />
-                <b>Platform:</b> Primarily active on one or two social media
-                platforms.
-                <br />
-                <b>Focus:</b> Hyper-specialized content in niche areas.
-                <br />
-                <b>Examples:</b> Local bloggers, niche enthusiasts.
-                <br />
-                <br />
-                Micro-influencers may have a smaller following, but they often
-                have highly engaged and loyal audiences. They're known for their
-                authenticity and are ideal for grassroots marketing efforts.
-              </p>
-            </section>
-            <section id="acc3">
-              <h2>
-                <a href="#acc3">Nano-Influencers</a>
-              </h2>
-              <p id="diary" contentEditable="true" style={{ outline: "none" }}>
-                <b>Reach:</b> Typically under 10,000 followers.
-                <br />
-                <b>Platform:</b> Active on niche platforms or emerging social
-                media platforms.
-                <br />
-                <b>Focus:</b> Hyper-local or hyper-niche content.
-                <br />
-                <b>Examples:</b> Local community advocates, passionate
-                hobbyists.
-                <br />
-                <br />
-                Nano-influencers are the most grassroots level of influencers.
-                They have a limited reach but can offer incredibly targeted and
-                authentic endorsements for local or specialized brands.
-              </p>
-            </section>
-            <section id="acc4">
-              <h2>
-                <a href="#acc4">Celebrity Influencers</a>
-              </h2>
-              <p id="diary" contentEditable="true" style={{ outline: "none" }}>
-                <b>Reach:</b> Varies greatly, often in the millions.
-                <br />
-                <b>Platform:</b> Active on various platforms, often with a
-                primary focus on one.
-                <br />
-                <b>Focus:</b> Their area of expertise, which can be diverse.
-                <br />
-                <b>Examples:</b> Renowned actors, musicians, athletes.
-                <br />
-                <br />
-                Celebrity influencers bring their star power to the influencer
-                game. They can reach a broad audience and add a touch of glamour
-                to brand collaborations.
-              </p>
-            </section>
-            <section id="acc5">
-              <h2>
-                <a href="#acc5">Employee Advocates</a>
-              </h2>
-              <p id="diary" contentEditable="true" style={{ outline: "none" }}>
-                <b>Reach:</b> Limited to their professional network.
-                <br />
-                <b>Platform:</b> LinkedIn, primarily.
-                <br />
-                <b>Focus:</b> Industry-specific knowledge and insights.
-                <br />
-                <b>Examples:</b> Company employees, executives, and industry
-                experts.
-                <br />
-                <br />
-                Employee advocates are insiders who promote their organization
-                or industry. They can be powerful assets for companies looking
-                to build trust and credibility
-              </p>
-            </section>
-            <section id="acc6">
-              <h2>
-                <a href="#acc6">Customer Influencers</a>
-              </h2>
-              <p id="diary" contentEditable="true" style={{ outline: "none" }}>
-                <b>Reach:</b> Limited to their social circles.
-                <br />
-                <b>Platform:</b> Various social media platforms.
-                <br />
-                <b>Focus:</b> Personal experiences with a brand's product or
-                service.
-                <br />
-                <b>Examples:</b> Satisfied customers, brand advocates.
-                <br />
-                Customer influencers are everyday people who share their
-                positive experiences with a brand. Their authenticity can boost
-                brand credibility and drive word-of-mouth marketing. In
-                conclusion, the world of influencers is vast and diverse,
-                offering numerous avenues for brands to connect with their
-                audiences. Choosing the right type of influencer depends on your
-                brand's goals, target audience, and niche. By understanding the
-                unique qualities of each influencer type, you can tailor your
-                influencer marketing strategy for maximum impact
-              </p>
-            </section>
-          </article>
-        </div>
-      </div>
-    </section>
-    {/* Core Task Section Start From Here */}
-    {/* <div className="social-media">
+        </section>
+        {/* Core Task Section Start From Here */}
+        {/* <div className="social-media">
       <h2 className="text-white s-heading text-center  pb-4 font-size-30">
         Core Tasks That Viralon Reform in Influencer Marketing
       </h2>
@@ -442,193 +476,196 @@ const influencerMarketing = () => {
         </div>
       </div>
     </div> */}
-    <InfluencerMarketingSlide/>
-    {/* Core Task Section End From Here */}
-    {/* Significance Section Start From Here */}
-    <section className="make-happen1 mt-5">
-      <div className="container ">
-        <div className="hero-shape9">
-          <img src="/images/pattern.png" style={{ width: 250 }} />
-        </div>
-        <h3 className="text-dark main-heading text-center font-size-28">
-          Significance of Influencer Marketing for Your Brand
-        </h3>
-        <p className="text-dark text-center max-width100 mt-3">
-          Influencer marketing is no longer just a buzzword; it's a crucial tool
-          for brand growth.
-        </p>
-        <div className="row flex-wrap-reverse align-items-center">
-          <div className="col-md-12 para-size">
-            <div className="container mt-4 mob-container">
-              <div className="significance-section1">
-                <div>
-                  <img
-                    src="/images/influencer-marketing/icon/icon1.png"
-                    alt="Data Drive Icon"
-                  />
-                  <h3>
-                    Trust and Credibility <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    Influencers have built trust and credibility with their
-                    followers. When they endorse your product or service, it
-                    carries the weight of a personal recommendation.
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="/images/influencer-marketing/icon/icon2.png"
-                    alt="ROI Measurement Icon"
-                  />
-                  <h3>
-                    Extended Reach <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    Influencers have diverse and engaged follower bases, giving
-                    your brand access to a wider and more relevant audience.
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="/images/influencer-marketing/icon/icon3.png"
-                    alt="Continuous Improvement Icon"
-                  />
-                  <h3>
-                    Authenticity <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    Influencers create content that resonates authentically with
-                    their audience, making your brand feel more relatable and
-                    genuine.
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="/images/influencer-marketing/icon/icon4.png"
-                    alt="Competitive Advantage Icon"
-                  />
-                  <h3>
-                    Improved SEO <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    Collaborations with influencers can boost your online
-                    presence, improve search engine rankings, and drive organic
-                    traffic.
-                  </p>
-                </div>
-                <div>
-                  <img
-                    src="/images/influencer-marketing/icon/icon5.png"
-                    alt="Budget Optimization Icon"
-                  />
-                  <h3>
-                    Measurable ROI <i className="ri-arrow-right-line" />
-                  </h3>
-                  <p>
-                    Influencer marketing provides clear metrics to measure the
-                    impact of your campaigns and refine your strategies for
-                    better results..
-                  </p>
+        <InfluencerMarketingSlide />
+        {/* Core Task Section End From Here */}
+        {/* Significance Section Start From Here */}
+        <section className="make-happen1 mt-5">
+          <div className="container ">
+            <div className="hero-shape9">
+              <img src="/images/pattern.png" style={{ width: 250 }} />
+            </div>
+            <h3 className="text-dark main-heading text-center font-size-28">
+              Significance of Influencer Marketing for Your Brand
+            </h3>
+            <p className="text-dark text-center max-width100 mt-3">
+              Influencer marketing is no longer just a buzzword; it's a crucial
+              tool for brand growth.
+            </p>
+            <div className="row flex-wrap-reverse align-items-center">
+              <div className="col-md-12 para-size">
+                <div className="container mt-4 mob-container">
+                  <div className="significance-section1">
+                    <div>
+                      <img
+                        src="/images/influencer-marketing/icon/icon1.png"
+                        alt="Data Drive Icon"
+                      />
+                      <h3>
+                        Trust and Credibility{" "}
+                        <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        Influencers have built trust and credibility with their
+                        followers. When they endorse your product or service, it
+                        carries the weight of a personal recommendation.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/images/influencer-marketing/icon/icon2.png"
+                        alt="ROI Measurement Icon"
+                      />
+                      <h3>
+                        Extended Reach <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        Influencers have diverse and engaged follower bases,
+                        giving your brand access to a wider and more relevant
+                        audience.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/images/influencer-marketing/icon/icon3.png"
+                        alt="Continuous Improvement Icon"
+                      />
+                      <h3>
+                        Authenticity <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        Influencers create content that resonates authentically
+                        with their audience, making your brand feel more
+                        relatable and genuine.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/images/influencer-marketing/icon/icon4.png"
+                        alt="Competitive Advantage Icon"
+                      />
+                      <h3>
+                        Improved SEO <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        Collaborations with influencers can boost your online
+                        presence, improve search engine rankings, and drive
+                        organic traffic.
+                      </p>
+                    </div>
+                    <div>
+                      <img
+                        src="/images/influencer-marketing/icon/icon5.png"
+                        alt="Budget Optimization Icon"
+                      />
+                      <h3>
+                        Measurable ROI <i className="ri-arrow-right-line" />
+                      </h3>
+                      <p>
+                        Influencer marketing provides clear metrics to measure
+                        the impact of your campaigns and refine your strategies
+                        for better results..
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    <InfluencerMarketingActionSlide2/>
-    <section className="solid-section why-section margin-top-100">
-      <div className="container">
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Why Choose Viralon for Influencer Marketing - 5 Solid Reasons
-        </h2>
-        <div className="solid-social-bx5 pt-4 pb-5">
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/proven.png" />
+        </section>
+        <InfluencerMarketingActionSlide2 />
+        <section className="solid-section why-section margin-top-100">
+          <div className="container">
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Why Choose Viralon for Influencer Marketing - 5 Solid Reasons
+            </h2>
+            <div className="solid-social-bx5 pt-4 pb-5">
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/proven.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Expertise</h3>
+                    <p>
+                      {" "}
+                      Our team comprises experts with a deep understanding of
+                      influencer marketing trends and strategies.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="left-items11">
-                <h3>Expertise</h3>
-                <p>
-                  {" "}
-                  Our team comprises experts with a deep understanding of
-                  influencer marketing trends and strategies.
-                </p>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/customization.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Tailored Approach</h3>
+                    <p>
+                      We customize every campaign to suit your unique brand
+                      identity and goals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/trans.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3> Quality Relationships</h3>
+                    <p>
+                      We have nurtured strong relationships with influencers
+                      across various niches.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/data-driven.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Transparency</h3>
+                    <p>
+                      {" "}
+                      You'll have complete transparency into campaign
+                      performance and ROI
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/results.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Proven Results</h3>
+                    <p>
+                      Our track record speaks for itself, with numerous
+                      successful influencer marketing campaigns for a variety of
+                      brands.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/customization.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Tailored Approach</h3>
-                <p>
-                  We customize every campaign to suit your unique brand identity
-                  and goals.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/trans.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3> Quality Relationships</h3>
-                <p>
-                  We have nurtured strong relationships with influencers across
-                  various niches.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/data-driven.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Transparency</h3>
-                <p>
-                  {" "}
-                  You'll have complete transparency into campaign performance
-                  and ROI
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/results.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Proven Results</h3>
-                <p>
-                  Our track record speaks for itself, with numerous successful
-                  influencer marketing campaigns for a variety of brands.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    {/* <section class="container1 "> 
+        </section>
+        {/* <section class="container1 "> 
  
    <div id="exTab1"> 
     <div class="tab-head">
@@ -964,42 +1001,41 @@ const influencerMarketing = () => {
    Your brand's journey to digital stardom starts here!</p>
      </div>
 </section> */}
-    <div className="specil-bx">
-      <div className="container">
-        <div className="get-freebx">
-          {/* <div> 
+        <div className="specil-bx">
+          <div className="container">
+            <div className="get-freebx">
+              {/* <div> 
     <h2> <span style="color:black;">Get a  FREE 2</span> hrs consultation by our experts</h2>
   </div> */}
-          <div>
-            {/*  <div class="mdtop studies-btn book-btn">
+              <div>
+                {/*  <div class="mdtop studies-btn book-btn">
 <a href="#" class="btn btn-primary trans animated pulse abt-butn-bot">Talk to Expert<img src="./images/icons/next.png" class="arrow  next-arow arrow1  animate-right-to-left"></a>
 
  </div> */}
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div className="shapebx">
-      <img src="/images/shape.png" />
-    </div>
-    {/*-------------- Subscribe Section Codes Start From Here -------------*/}
-   <Subscriber/>
-    {/*-------------- Subscribe Section Codes End From Here -------------*/}
-    {/*-------------- Footer Section Codes Start From Here -------------*/}
-    <Footer/>
-    {/*-------------- Footer Section Codes End From Here -------------*/}
-    {/* Aos Animation */}
-    {/* Swiper JS */}
-    {/* Initialize Swiper */}
-    {/*  */}
-    {/* Initialize Swiper */}
-    {/* Sub-Mega Menus Script */}
-    {/* Initialize Swiper */}
-    {/* For Remove Before Icon */}
-  </section>
-</>
+        <div className="shapebx">
+          <img src="/images/shape.png" />
+        </div>
+        {/*-------------- Subscribe Section Codes Start From Here -------------*/}
+        <Subscriber />
+        {/*-------------- Subscribe Section Codes End From Here -------------*/}
+        {/*-------------- Footer Section Codes Start From Here -------------*/}
+        <Footer />
+        {/*-------------- Footer Section Codes End From Here -------------*/}
+        {/* Aos Animation */}
+        {/* Swiper JS */}
+        {/* Initialize Swiper */}
+        {/*  */}
+        {/* Initialize Swiper */}
+        {/* Sub-Mega Menus Script */}
+        {/* Initialize Swiper */}
+        {/* For Remove Before Icon */}
+      </section>
+    </>
+  );
+};
 
-  )
-}
-
-export default influencerMarketing
+export default influencerMarketing;

@@ -10,7 +10,7 @@ const SpecialBox = () => {
             <div>
               {/* <!-- <a href="#" className="book-btn">Let's Talk</a> --> */}
               <div className="mdtop ui-btn studies-btn book-btn">
-                <a href="contact-us" className="btn  btn-primary trans animated pulse abt-butn-bot">Know More<img src="/themes/viralon/images/icons/next.png" className="arrow  next-arow arrow1  animate-right-to-left" /></a>
+                <a href="contact-us" className="btn  btn-primary trans animated pulse abt-butn-bot">Know More<img src="/themes/viralon/images/icons/next.png" className="arrow  next-arow arrow1  animate-right-to-left" alt="Arrow Image" /></a>
 
               </div>
             </div>
@@ -19,7 +19,7 @@ const SpecialBox = () => {
         </div>
       </div>
       <div className="shapebx">
-        <img src="/themes/viralon/images/shape.png" />
+        <img src="/themes/viralon/images/shape.webp" alt="Shap Image"/>
       </div>
     </>
   );

@@ -1,105 +1,108 @@
-import React from 'react';
+import React from "react";
 import Footer from "../../../components/Footer";
 import Header from "../../../components/Header";
 import SocialShare from "../../../components/SocialShare";
-import PaidMediaSlider from '../../../components/PaidMediaSlider';
-import PaidMediaMakeItHappen from '../../../components/PaidMediaMakeItHappen';
-import Link from 'next/link';
-import CustomHead from '../../../components/CustomHead';
+import PaidMediaSlider from "../../../components/PaidMediaSlider";
+import PaidMediaMakeItHappen from "../../../components/PaidMediaMakeItHappen";
+import Link from "next/link";
+import CustomHead from "../../../components/CustomHead";
 const paidMediaMarketing = () => {
   return (
     <>
-
-     <CustomHead title="Viralon | Reach More Customers with Paid Media Marketing"
-      keywords="Viralon, Digital Marketing Agency, Paid Media Marketing" 
-      description="Viralon is the best paid media marketing agency for your business growth." /> 
-  <Header/>
-  <SocialShare/>
-  <section id="marketings">
-    {/*-------------- Menu Section Codes Start From Here -------------*/}
-    {/*-------------- Menu Section Codes End From Here -------------*/}
-    {/*-------------- Hero Section Codes Start From Here -------------*/}
-    <section className="section-sm">
-    <video
-           autoPlay={true}
-           loop
-           muted=""
-           playsInline=""
-           defaultmuted=""
-           preload="auto"
-     > 
-        <source src="/images/hero-banners/paid-media.mp4" type="video/mp4" />
-      </video>
-    </section>
-    <div className="mdtop pt-3 mt-5 studies-btn book-btn  d-block">
-      <Link
-        href="/contact-us">
-        <div className="btn paid-btn btn-primary trans animated pulse abt-butn-bot"
-      >
-        Talk to Expert
-        <img
-          src="/images/icons/next.png"
-          className="arrow  next-arow arrow1  animate-right-to-left"
-        />
-      </div>
-      </Link>
-    </div>
-    {/*-------------- Hero Section Codes End From Here -------------*/}
-    {/*-------------- Social Media Marketing Section Codes Start From Here -------------*/}
-    <section className="pt-5">
-      <div className="container">
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Paid Media Marketing
-        </h2>
-        <p className="text-dark text-justi text-center max-width100 mt-3">
-          In today's digital age, the competition for consumers' attention is
-          fiercer than ever. That's where Paid Media Marketing comes into play,
-          a strategic approach that enables businesses to stand out, connect
-          with their target audience, and achieve tangible results.
-        </p>
-      </div>
-      <section className="paid-media container mob-container">
-        <div className="container">
-          <div className="row flex-wrap-reverse max-width800 align-items-center">
-            <div className="col-md-6 para-size">
-              <h1 className=" pt-0 text-dark font-size-28">
-                What is Paid Media Marketing?
-              </h1>
-              <p>
-                Paid Media Marketing, often referred to as paid advertising, is
-                a digital marketing strategy in which businesses pay to promote
-                their content, products, or services on various online
-                platforms. Unlike organic methods, such as SEO or social media
-                posting, paid media marketing involves a budget allocation to
-                ensure your message reaches a specific audience effectively.
-              </p>
-            </div>
-            <div className="col-md-6 ">
+      <CustomHead
+        title="Viralon | Reach More Customers with Paid Media Marketing"
+        keywords="Viralon, Digital Marketing Agency, Paid Media Marketing"
+        description="Viralon is the best paid media marketing agency for your business growth."
+      />
+      <Header />
+      <SocialShare />
+      <section id="marketings">
+        {/*-------------- Menu Section Codes Start From Here -------------*/}
+        {/*-------------- Menu Section Codes End From Here -------------*/}
+        {/*-------------- Hero Section Codes Start From Here -------------*/}
+        <section className="section-sm">
+          <video
+            autoPlay={true}
+            loop
+            muted=""
+            playsInline=""
+            defaultmuted=""
+            preload="auto"
+          >
+            <source
+              src="/images/hero-banners/paid-media.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </section>
+        <div className="mdtop pt-3 mt-5 studies-btn book-btn  d-block">
+          <Link href="/contact-us">
+            <div className="btn paid-btn btn-primary trans animated pulse abt-butn-bot">
+              Talk to Expert
               <img
-                src="/images/paid-media-marketing/img1.jpg"
-                className="m-auto d-block mb-md-0 mb-4 w-4s50 "
-                alt=""
+                src="/images/icons/next.png"
+                className="arrow  next-arow arrow1  animate-right-to-left"
               />
             </div>
-          </div>
+          </Link>
         </div>
-      </section>
-    </section>
-    {/* Platform Section Start From Here */}
-    <section className="platforms-section">
-      <div className="container">
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Platforms Used in Paid Media Marketing
-        </h2>
-        <p className="text-dark text-center max-width100 mt-3">
-          Paid Media Marketing leverages a variety of online platforms to
-          showcase your brand and engage potential customers. Let's dive into
-          the major categories and platforms within each
-        </p>
-      </div>
-      <div className="row  margin-top-15 margin-bottom-15 flex-wrap-reverse align-items-center mt-5 mb-5">
-        <div className="container">
-          {/*  <div class="pmmbx-container">
+        {/*-------------- Hero Section Codes End From Here -------------*/}
+        {/*-------------- Social Media Marketing Section Codes Start From Here -------------*/}
+        <section className="pt-5">
+          <div className="container">
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Paid Media Marketing
+            </h2>
+            <p className="text-dark text-justi text-center max-width100 mt-3">
+              In today's digital age, the competition for consumers' attention
+              is fiercer than ever. That's where Paid Media Marketing comes into
+              play, a strategic approach that enables businesses to stand out,
+              connect with their target audience, and achieve tangible results.
+            </p>
+          </div>
+          <section className="paid-media container mob-container">
+            <div className="container">
+              <div className="row flex-wrap-reverse max-width800 align-items-center">
+                <div className="col-md-6 para-size">
+                  <h1 className=" pt-0 text-dark font-size-28">
+                    What is Paid Media Marketing?
+                  </h1>
+                  <p>
+                    Paid Media Marketing, often referred to as paid advertising,
+                    is a digital marketing strategy in which businesses pay to
+                    promote their content, products, or services on various
+                    online platforms. Unlike organic methods, such as SEO or
+                    social media posting, paid media marketing involves a budget
+                    allocation to ensure your message reaches a specific
+                    audience effectively.
+                  </p>
+                </div>
+                <div className="col-md-6 ">
+                  <img
+                    src="/images/paid-media-marketing/img1.jpg"
+                    className="m-auto d-block mb-md-0 mb-4 w-4s50 "
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+        {/* Platform Section Start From Here */}
+        <section className="platforms-section">
+          <div className="container">
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Platforms Used in Paid Media Marketing
+            </h2>
+            <p className="text-dark text-center max-width100 mt-3">
+              Paid Media Marketing leverages a variety of online platforms to
+              showcase your brand and engage potential customers. Let's dive
+              into the major categories and platforms within each
+            </p>
+          </div>
+          <div className="row  margin-top-15 margin-bottom-15 flex-wrap-reverse align-items-center mt-5 mb-5">
+            <div className="container">
+              {/*  <div class="pmmbx-container">
         <div class="style1">
           <h1> Search Engine Advertising</h1>
           <p>
@@ -201,185 +204,187 @@ const paidMediaMarketing = () => {
           </p>
         </div>
       </div> */}
-          <div className="appFrame">
-            <article className="accordion">
-              <section id="acc0">
-                <h2>
-                  <a href="#acc0">Search Engine Advertising</a>
-                </h2>
-                <p
-                  id="diary"
-                  contentEditable="true"
-                  style={{ outline: "none" }}
-                >
-                  <strong>Google Ads:</strong> The undisputed leader in search
-                  engine advertising, Google Ads allows you to display your ads
-                  at the top of Google's search results pages. It's highly
-                  effective for reaching users actively searching for products
-                  or services.
-                  <br />
-                  <br />
-                  <strong> Bing Ads:</strong> Similar to Google Ads, Bing Ads
-                  lets you advertise on Microsoft's search engine, Bing. It's
-                  particularly valuable for reaching a slightly different
-                  audience.
-                </p>
-              </section>
-              <section id="acc1">
-                <h2>
-                  <a href="#acc1">Social Media Advertising</a>
-                </h2>
-                <p
-                  id="diary"
-                  contentEditable="true"
-                  style={{ outline: "none" }}
-                >
-                  Facebook Ads: With its vast user base and in-depth targeting
-                  options, Facebook Ads can put your brand in front of a highly
-                  segmented audience. This platform is excellent for both B2B
-                  and B2C marketing.
-                  <br />
-                  <br />
-                  <strong> Instagram Ads:</strong> Owned by Facebook, Instagram
-                  offers visually appealing ad formats and is ideal for brands
-                  looking to engage younger, image-focused audiences.
-                  <br />
-                  <br />
-                  <strong>Twitter Ads:</strong> Twitter Ads can help you promote
-                  your tweets or profiles to reach users interested in trending
-                  topics or niche markets.
-                  <br />
-                  <br />
-                  <strong> LinkedIn Ads:</strong> For B2B marketing, LinkedIn
-                  Ads provide access to a highly professional user base. You can
-                  target by job title, industry, and more.
-                </p>
-              </section>
-              <section id="acc2">
-                <h2>
-                  <a href="#acc2">Display Advertising</a>
-                </h2>
-                <p
-                  id="diary"
-                  contentEditable="true"
-                  style={{ outline: "none" }}
-                >
-                  <strong> Google Display Network:</strong> This expansive
-                  network allows you to display banner ads on millions of
-                  websites. It's excellent for brand awareness and remarketing.
-                  <br />
-                  <br />
-                  <strong> Programmatic Advertising:</strong> An automated,
-                  data-driven approach that buys ad inventory in real-time
-                  across multiple websites. It maximizes ad placement
-                  efficiency.
-                </p>
-              </section>
-              <section id="acc3">
-                <h2>
-                  <a href="#acc3">Video Advertising</a>
-                </h2>
-                <p
-                  id="diary"
-                  contentEditable="true"
-                  style={{ outline: "none" }}
-                >
-                  {" "}
-                  <strong> YouTube Ads:</strong> YouTube is the second-largest
-                  search engine globally, and video ads here can reach a massive
-                  audience.
-                </p>
-              </section>
-              <section id="acc4">
-                <h2>
-                  <a href="#acc4">Native Advertising</a>
-                </h2>
-                <p
-                  id="diary"
-                  contentEditable="true"
-                  style={{ outline: "none" }}
-                >
-                  <strong> Outbrain:</strong> Outbrain specializes in content
-                  discovery and native advertising, helping your content blend
-                  seamlessly with popular media websites.
-                  <br />
-                  <br />
-                  <strong> Taboola:</strong> Similar to Outbrain, Taboola is a
-                  native advertising platform that places your content on
-                  high-traffic websites.
-                </p>
-              </section>
-              <section id="acc5">
-                <h2>
-                  <a href="#acc5">Shopping Advertising</a>
-                </h2>
-                <p
-                  id="diary"
-                  contentEditable="true"
-                  style={{ outline: "none" }}
-                >
-                  <strong> Google Shopping:</strong> Ideal for e-commerce
-                  businesses, Google Shopping ads display product images and
-                  information directly in search results.
-                  <br />
-                  <br />
-                  <strong> Amazon Advertising:</strong> If you're selling
-                  products on Amazon, their advertising platform can
-                  significantly boost your visibility on the platform.
-                </p>
-              </section>
-              <section id="acc6">
-                <h2>
-                  <a href="#acc6">App Advertising</a>
-                </h2>
-                <p
-                  id="diary"
-                  contentEditable="true"
-                  style={{ outline: "none" }}
-                >
-                  <strong> Apple Search Ads:</strong>Promote your app within
-                  Apple's App Store, reaching users actively searching for new
-                  apps.
-                  <br />
-                  <br />
-                  <strong> Google App Campaigns:</strong>Drive app installs and
-                  in-app actions across Google's various platforms.
-                </p>
-              </section>
-              <section id="acc7">
-                <h2>
-                  <a href="#acc7">Remarketing</a>
-                </h2>
-                <p
-                  id="diary"
-                  contentEditable="true"
-                  style={{ outline: "none" }}
-                >
-                  AdRoll: AdRoll specializes in remarketing campaigns,
-                  displaying your ads to users who have previously visited your
-                  website. <br />
-                  <br />
-                  Each platform offers unique advantages and caters to different
-                  marketing objectives. Choosing the right mix of platforms
-                  depends on your business goals, target audience, and budget.{" "}
-                  <br />
-                  <br />
-                  In the ever-evolving landscape of digital marketing, Paid
-                  Media Marketing remains a potent tool to reach, engage, and
-                  convert your audience. By understanding the platforms
-                  available and tailoring your strategy, you can harness the
-                  full potential of paid media marketing to propel your business
-                  forward.
-                </p>
-              </section>
-            </article>
+              <div className="appFrame">
+                <article className="accordion">
+                  <section id="acc0">
+                    <h2>
+                      <a href="#acc0">Search Engine Advertising</a>
+                    </h2>
+                    <p
+                      id="diary"
+                      contentEditable="true"
+                      style={{ outline: "none" }}
+                    >
+                      <strong>Google Ads:</strong> The undisputed leader in
+                      search engine advertising, Google Ads allows you to
+                      display your ads at the top of Google's search results
+                      pages. It's highly effective for reaching users actively
+                      searching for products or services.
+                      <br />
+                      <br />
+                      <strong> Bing Ads:</strong> Similar to Google Ads, Bing
+                      Ads lets you advertise on Microsoft's search engine, Bing.
+                      It's particularly valuable for reaching a slightly
+                      different audience.
+                    </p>
+                  </section>
+                  <section id="acc1">
+                    <h2>
+                      <a href="#acc1">Social Media Advertising</a>
+                    </h2>
+                    <p
+                      id="diary"
+                      contentEditable="true"
+                      style={{ outline: "none" }}
+                    >
+                      Facebook Ads: With its vast user base and in-depth
+                      targeting options, Facebook Ads can put your brand in
+                      front of a highly segmented audience. This platform is
+                      excellent for both B2B and B2C marketing.
+                      <br />
+                      <br />
+                      <strong> Instagram Ads:</strong> Owned by Facebook,
+                      Instagram offers visually appealing ad formats and is
+                      ideal for brands looking to engage younger, image-focused
+                      audiences.
+                      <br />
+                      <br />
+                      <strong>Twitter Ads:</strong> Twitter Ads can help you
+                      promote your tweets or profiles to reach users interested
+                      in trending topics or niche markets.
+                      <br />
+                      <br />
+                      <strong> LinkedIn Ads:</strong> For B2B marketing,
+                      LinkedIn Ads provide access to a highly professional user
+                      base. You can target by job title, industry, and more.
+                    </p>
+                  </section>
+                  <section id="acc2">
+                    <h2>
+                      <a href="#acc2">Display Advertising</a>
+                    </h2>
+                    <p
+                      id="diary"
+                      contentEditable="true"
+                      style={{ outline: "none" }}
+                    >
+                      <strong> Google Display Network:</strong> This expansive
+                      network allows you to display banner ads on millions of
+                      websites. It's excellent for brand awareness and
+                      remarketing.
+                      <br />
+                      <br />
+                      <strong> Programmatic Advertising:</strong> An automated,
+                      data-driven approach that buys ad inventory in real-time
+                      across multiple websites. It maximizes ad placement
+                      efficiency.
+                    </p>
+                  </section>
+                  <section id="acc3">
+                    <h2>
+                      <a href="#acc3">Video Advertising</a>
+                    </h2>
+                    <p
+                      id="diary"
+                      contentEditable="true"
+                      style={{ outline: "none" }}
+                    >
+                      {" "}
+                      <strong> YouTube Ads:</strong> YouTube is the
+                      second-largest search engine globally, and video ads here
+                      can reach a massive audience.
+                    </p>
+                  </section>
+                  <section id="acc4">
+                    <h2>
+                      <a href="#acc4">Native Advertising</a>
+                    </h2>
+                    <p
+                      id="diary"
+                      contentEditable="true"
+                      style={{ outline: "none" }}
+                    >
+                      <strong> Outbrain:</strong> Outbrain specializes in
+                      content discovery and native advertising, helping your
+                      content blend seamlessly with popular media websites.
+                      <br />
+                      <br />
+                      <strong> Taboola:</strong> Similar to Outbrain, Taboola is
+                      a native advertising platform that places your content on
+                      high-traffic websites.
+                    </p>
+                  </section>
+                  <section id="acc5">
+                    <h2>
+                      <a href="#acc5">Shopping Advertising</a>
+                    </h2>
+                    <p
+                      id="diary"
+                      contentEditable="true"
+                      style={{ outline: "none" }}
+                    >
+                      <strong> Google Shopping:</strong> Ideal for e-commerce
+                      businesses, Google Shopping ads display product images and
+                      information directly in search results.
+                      <br />
+                      <br />
+                      <strong> Amazon Advertising:</strong> If you're selling
+                      products on Amazon, their advertising platform can
+                      significantly boost your visibility on the platform.
+                    </p>
+                  </section>
+                  <section id="acc6">
+                    <h2>
+                      <a href="#acc6">App Advertising</a>
+                    </h2>
+                    <p
+                      id="diary"
+                      contentEditable="true"
+                      style={{ outline: "none" }}
+                    >
+                      <strong> Apple Search Ads:</strong>Promote your app within
+                      Apple's App Store, reaching users actively searching for
+                      new apps.
+                      <br />
+                      <br />
+                      <strong> Google App Campaigns:</strong>Drive app installs
+                      and in-app actions across Google's various platforms.
+                    </p>
+                  </section>
+                  <section id="acc7">
+                    <h2>
+                      <a href="#acc7">Remarketing</a>
+                    </h2>
+                    <p
+                      id="diary"
+                      contentEditable="true"
+                      style={{ outline: "none" }}
+                    >
+                      AdRoll: AdRoll specializes in remarketing campaigns,
+                      displaying your ads to users who have previously visited
+                      your website. <br />
+                      <br />
+                      Each platform offers unique advantages and caters to
+                      different marketing objectives. Choosing the right mix of
+                      platforms depends on your business goals, target audience,
+                      and budget. <br />
+                      <br />
+                      In the ever-evolving landscape of digital marketing, Paid
+                      Media Marketing remains a potent tool to reach, engage,
+                      and convert your audience. By understanding the platforms
+                      available and tailoring your strategy, you can harness the
+                      full potential of paid media marketing to propel your
+                      business forward.
+                    </p>
+                  </section>
+                </article>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </section>
-    {/* Platform Section End From Here */}
-    {/* Core Task Section Start From Here */}
-    {/* <div className="social-media">
+        </section>
+        {/* Platform Section End From Here */}
+        {/* Core Task Section Start From Here */}
+        {/* <div className="social-media">
       <h2 className="text-white s-heading text-center  pb-4 font-size-30">
         Core Tasks in Viralon's Paid Media Marketing Services
       </h2>
@@ -582,95 +587,98 @@ const paidMediaMarketing = () => {
         </div>
       </div>
     </div> */}
-    <PaidMediaSlider/>
-    {/* Core Task Section End From Here */}
-    {/* Significance Section Start From Here */}
-    <section className="significance-section">
-      <div className="container">
-        <h2 className="text-dark main-heading text-center font-size-30">
-          The Significance of Paid Media Marketing For Your Brand
-        </h2>
-        <p className="text-dark text-center max-width100 mt-3">
-          Paid Media Marketing is more than just ads; it's your direct pathway
-          to reaching potential customers. In a crowded digital landscape, it
-          allows you to cut through the noise and deliver your message where it
-          matters most. With the right strategy, it can
-        </p>
-        <div className="signi-container">
-          <div className="signibx22">
-            <div className="left-itemss">
-              <div className="signi-left-itemsbxx">
-                <div className="signi-items22">
-                  <div className="left-items-icon">
-                    <img src="/images/icons/brand1.png" />
+        <PaidMediaSlider />
+        {/* Core Task Section End From Here */}
+        {/* Significance Section Start From Here */}
+        <section className="significance-section">
+          <div className="container">
+            <h2 className="text-dark main-heading text-center font-size-30">
+              The Significance of Paid Media Marketing For Your Brand
+            </h2>
+            <p className="text-dark text-center max-width100 mt-3">
+              Paid Media Marketing is more than just ads; it's your direct
+              pathway to reaching potential customers. In a crowded digital
+              landscape, it allows you to cut through the noise and deliver your
+              message where it matters most. With the right strategy, it can
+            </p>
+            <div className="signi-container">
+              <div className="signibx22">
+                <div className="left-itemss">
+                  <div className="signi-left-itemsbxx">
+                    <div className="signi-items22">
+                      <div className="left-items-icon">
+                        <img src="/images/icons/brand1.png" />
+                      </div>
+                    </div>
+                    <div className="left-items11">
+                      <h3>Boost Brand Visibility</h3>
+                      <p>
+                        Gain instant visibility on search engines and social
+                        media platforms
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div className="left-items11">
-                  <h3>Boost Brand Visibility</h3>
-                  <p>
-                    Gain instant visibility on search engines and social media
-                    platforms
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="left-itemss ">
-              <div className="signi-left-itemsbxx">
-                <div className="signi-items22">
-                  <div className="left-items-icon">
-                    <img src="/images/icons/brand2.png" />
+                <div className="left-itemss ">
+                  <div className="signi-left-itemsbxx">
+                    <div className="signi-items22">
+                      <div className="left-items-icon">
+                        <img src="/images/icons/brand2.png" />
+                      </div>
+                    </div>
+                    <div className="left-items11">
+                      <h3>Drive Targeted Traffic</h3>
+                      <p>Reach the right audience at the right time</p>
+                    </div>
                   </div>
                 </div>
-                <div className="left-items11">
-                  <h3>Drive Targeted Traffic</h3>
-                  <p>Reach the right audience at the right time</p>
-                </div>
-              </div>
-            </div>
-            <div className="left-itemss ">
-              <div className="signi-left-itemsbxx">
-                <div className="signi-items22">
-                  <div className="left-items-icon">
-                    <img src="/images/icons/brand3.png" />
+                <div className="left-itemss ">
+                  <div className="signi-left-itemsbxx">
+                    <div className="signi-items22">
+                      <div className="left-items-icon">
+                        <img src="/images/icons/brand3.png" />
+                      </div>
+                    </div>
+                    <div className="left-items11">
+                      <h3>Enhance Conversion Rates</h3>
+                      <p>Convert leads into customers more effectively.</p>
+                    </div>
                   </div>
                 </div>
-                <div className="left-items11">
-                  <h3>Enhance Conversion Rates</h3>
-                  <p>Convert leads into customers more effectively.</p>
-                </div>
-              </div>
-            </div>
-            <div className="left-itemss ">
-              <div className="signi-left-itemsbxx">
-                <div className="signi-items22">
-                  <div className="left-items-icon">
-                    <img src="/images/icons/brand4.png" />
+                <div className="left-itemss ">
+                  <div className="signi-left-itemsbxx">
+                    <div className="signi-items22">
+                      <div className="left-items-icon">
+                        <img src="/images/icons/brand4.png" />
+                      </div>
+                    </div>
+                    <div className="left-items11">
+                      <h3> Maximize ROI</h3>
+                      <p>
+                        {" "}
+                        Optimize your marketing spend for the best returns.
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div className="left-items11">
-                  <h3> Maximize ROI</h3>
-                  <p> Optimize your marketing spend for the best returns.</p>
-                </div>
-              </div>
-            </div>
-            <div className="left-itemss ">
-              <div className="signi-left-itemsbxx">
-                <div className="signi-items22">
-                  <div className="left-items-icon">
-                    <img src="/images/icons/brand5.png" />
+                <div className="left-itemss ">
+                  <div className="signi-left-itemsbxx">
+                    <div className="signi-items22">
+                      <div className="left-items-icon">
+                        <img src="/images/icons/brand5.png" />
+                      </div>
+                    </div>
+                    <div className="left-items11">
+                      <h3>Outpace Competition</h3>
+                      <p>Stay ahead in a competitive market.</p>
+                    </div>
                   </div>
-                </div>
-                <div className="left-items11">
-                  <h3>Outpace Competition</h3>
-                  <p>Stay ahead in a competitive market.</p>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-    {/* <section className=" make action-slider container">
+        </section>
+        {/* <section className=" make action-slider container">
       <div className="container">
         <h2 className="text-dark margin-bottom-22 main-heading text-center font-size-30">
           Making It Happen – Our Action Plan
@@ -832,99 +840,100 @@ const paidMediaMarketing = () => {
         </div>
       </div>
     </section> */}
-    <PaidMediaMakeItHappen/>
-    <section className="solid-section">
-      <div className="container">
-        <h2 className="text-dark main-heading text-center font-size-30">
-          Why Choose Viralon for Paid Media Marketing - 5 Solid Reasons
-        </h2>
-        <div className="solid-social-bx5 pt-4 pb-5">
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/proven.png" />
+        <PaidMediaMakeItHappen />
+        <section className="solid-section">
+          <div className="container">
+            <h2 className="text-dark main-heading text-center font-size-30">
+              Why Choose Viralon for Paid Media Marketing - 5 Solid Reasons
+            </h2>
+            <div className="solid-social-bx5 pt-4 pb-5">
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/proven.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3> Expertise</h3>
+                    <p>
+                      {" "}
+                      Our team of seasoned digital marketers brings a wealth of
+                      experience to the table, ensuring your campaigns are in
+                      capable hands.
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="left-items11">
-                <h3> Expertise</h3>
-                <p>
-                  {" "}
-                  Our team of seasoned digital marketers brings a wealth of
-                  experience to the table, ensuring your campaigns are in
-                  capable hands.
-                </p>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/customization.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Customization</h3>
+                    <p>
+                      We don't believe in one-size-fits-all solutions. Your
+                      campaigns are tailored to your unique needs
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/trans.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3> Transparency</h3>
+                    <p>
+                      We provide regular reports and updates, keeping you
+                      informed every step of the way.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/data-driven.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Data-Driven</h3>
+                    <p>
+                      Our strategies are built on data analysis, ensuring every
+                      decision is backed by insights.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="left-itemss">
+                <div className="solid-left-itemsbxx">
+                  <div className="left-items22">
+                    <div className="left-items-icon">
+                      <img src="/images/icons/results.png" />
+                    </div>
+                  </div>
+                  <div className="left-items11">
+                    <h3>Results-Oriented</h3>
+                    <p>
+                      We're not just about running campaigns; we're about
+                      delivering measurable results that impact your bottom
+                      line.
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/customization.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Customization</h3>
-                <p>
-                  We don't believe in one-size-fits-all solutions. Your
-                  campaigns are tailored to your unique needs
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/trans.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3> Transparency</h3>
-                <p>
-                  We provide regular reports and updates, keeping you informed
-                  every step of the way.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/data-driven.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Data-Driven</h3>
-                <p>
-                  Our strategies are built on data analysis, ensuring every
-                  decision is backed by insights.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="left-itemss">
-            <div className="solid-left-itemsbxx">
-              <div className="left-items22">
-                <div className="left-items-icon">
-                  <img src="/images/icons/results.png" />
-                </div>
-              </div>
-              <div className="left-items11">
-                <h3>Results-Oriented</h3>
-                <p>
-                  We're not just about running campaigns; we're about delivering
-                  measurable results that impact your bottom line.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    {/* <section class="container1 "> 
+        </section>
+        {/* <section class="container1 "> 
  
    <div id="exTab1"> 
     <div class="tab-head">
@@ -1260,21 +1269,21 @@ const paidMediaMarketing = () => {
    Your brand's journey to digital stardom starts here!</p>
      </div>
 </section> */}
-    <div className="specil-bx">
-      <div className="container">
-        <div className="get-freebx">
-          <div>
-            <h2>
-              {" "}
-              <span style={{ color: "black" }}>Get a FREE 2</span> hrs
-              consultation by our experts
-            </h2>
-          </div>
-          <div>
-          <div className="mdtop studies-btn book-btn">
-                    <Link
-                      href="/contact-us">
-                      <div className="btn btn-primary trans animated pulse abt-butn-bot"
+        <div className="specil-bx">
+          <div className="container">
+            <div className="get-freebx">
+              <div>
+                <h2>
+                  {" "}
+                  <span style={{ color: "black" }}>Get a FREE 2</span> hrs
+                  consultation by our experts
+                </h2>
+              </div>
+              <div>
+                <div className="mdtop studies-btn book-btn">
+                  <Link href="/contact-us">
+                    <div
+                      className="btn btn-primary trans animated pulse abt-butn-bot"
                       id="customButton"
                     >
                       Talk to Expert
@@ -1283,74 +1292,73 @@ const paidMediaMarketing = () => {
                         className="arrow next-arow arrow1 animate-right-to-left"
                       />
                     </div>
-                    </Link>
-                  </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className="shapebx">
-      <img src="/images/shape.png" />
-    </div>
-    {/*-------------- Subscribe Section Codes Start From Here -------------*/}
-    <div className="subscribe-container" id="subscribe">
-      <div className="container1">
-        <div className="sub-bx2">
-          <div>
-            <h1 className="sub-heading">Subscribe Now</h1>
-            <p className="sub-para">
-              We won't overburden you with annoying emails.
-            </p>
-            <div className="subbx">
-              <div className="emailbox">
-                <i className="ri-mail-line" />
-                <input
-                  type="email"
-                  className="form-control"
-                  placeholder="Enter your email"
-                />
-              </div>
-              <div>
-                <div className="mdtop studies-btn book-btn">
-                  <a
-                    href="#"
-                    className="btn btn-primary trans animated pulse abt-butn-bot"
-                  >
-                    Subscribe
-                    <img
-                      src="/images/icons/next.png"
-                      className="arrow  next-arow arrow1  animate-right-to-left"
-                    />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="subs-img ">
-            <img
-              src="/images/subscribe1.png"
-              alt="Subscribe Image"
-              className="gif"
-            />
+        </div>
+        <div className="shapebx">
+          <img src="/images/shape.png" />
+        </div>
+        {/*-------------- Subscribe Section Codes Start From Here -------------*/}
+        <div className="subscribe-container" id="subscribe">
+          <div className="container1">
+            <div className="sub-bx2">
+              <div>
+                <h1 className="sub-heading">Subscribe Now</h1>
+                <p className="sub-para">
+                  We won't overburden you with annoying emails.
+                </p>
+                <div className="subbx">
+                  <div className="emailbox">
+                    <i className="ri-mail-line" />
+                    <input
+                      type="email"
+                      className="form-control"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div>
+                    <div className="mdtop studies-btn book-btn">
+                      <a
+                        href="#"
+                        className="btn btn-primary trans animated pulse abt-butn-bot"
+                      >
+                        Subscribe
+                        <img
+                          src="/images/icons/next.png"
+                          className="arrow  next-arow arrow1  animate-right-to-left"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="subs-img ">
+                <img
+                  src="/images/subscribe1.png"
+                  alt="Subscribe Image"
+                  className="gif"
+                />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    {/*-------------- Subscribe Section Codes End From Here -------------*/}
-    {/*-------------- Footer Section Codes Start From Here -------------*/}
-   <Footer/>
-    {/*-------------- Footer Section Codes End From Here -------------*/}
-    {/* Aos Animation */}
-    {/* Swiper JS */}
-    {/* Initialize Swiper */}
-    {/*  */}
-    {/* Initialize Swiper */}
-  </section>
-  {/* Sub-Mega Menus Script */}
-  {/* For Remove Before Icon */}
-</>
+        {/*-------------- Subscribe Section Codes End From Here -------------*/}
+        {/*-------------- Footer Section Codes Start From Here -------------*/}
+        <Footer />
+        {/*-------------- Footer Section Codes End From Here -------------*/}
+        {/* Aos Animation */}
+        {/* Swiper JS */}
+        {/* Initialize Swiper */}
+        {/*  */}
+        {/* Initialize Swiper */}
+      </section>
+      {/* Sub-Mega Menus Script */}
+      {/* For Remove Before Icon */}
+    </>
+  );
+};
 
-  )
-}
-
-export default paidMediaMarketing
+export default paidMediaMarketing;

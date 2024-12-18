@@ -1,21 +1,22 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import SocialShare from "../../components/SocialShare";
-import EcomSlider from '../../components/EcomSlider';
-import Link from 'next/link';
-import CustomHead from '../../components/CustomHead';
+import EcomSlider from "../../components/EcomSlider";
+import Link from "next/link";
+import CustomHead from "../../components/CustomHead";
 const ECommerceIndustries = () => {
-  const [sliderShow, setSliderShow] = useState ("trends")
+  const [sliderShow, setSliderShow] = useState("trends");
 
   return (
     <>
-
-<CustomHead title="Viralon | Propel Your E-commerce Business to New 
-Heights"
-   keywords="Viralon, Digital Marketing Agency, E-Commerce Industry" 
-   description="In E-Commerce Industry, staying ahead of the curve is the key to success. At Viralon, we are dedicated to solutions that drive growth." /> 
+      <CustomHead
+        title="Viralon | Propel Your E-commerce Business to New 
+             Heights"
+        keywords="Viralon, Digital Marketing Agency, E-Commerce Industry"
+        description="In E-Commerce Industry, staying ahead of the curve is the key to success. At Viralon, we are dedicated to solutions that drive growth."
+      />
 
       <section id="banking-finance">
         <Header />
@@ -26,7 +27,10 @@ Heights"
           className="section hero-section-2 e-commerce-img"
           style={{ background: "#ff5e28" }}
         >
-          <img src="/images/industries/e-commerce/banner1.png" className="f-label" />
+          <img
+            src="/images/industries/e-commerce/banner1.png"
+            className="f-label"
+          />
           <div className="hero-img1">
             <div className="hero-content1">
               <h1 className=" pt-0 text-dark font-size-28">
@@ -34,11 +38,11 @@ Heights"
                 <span className="text-gold"> Digital Solutions</span>
               </h1>
               <p>
-                In the dynamic world of E-Commerce, staying ahead of the curve is
-                the key to success. At Viralon Digital Services, we understand the
-                ever-evolving nature of the industry and are dedicated to delivering
-                transformative solutions that drive growth, efficiency, and customer
-                engagement.
+                In the dynamic world of E-Commerce, staying ahead of the curve
+                is the key to success. At Viralon Digital Services, we
+                understand the ever-evolving nature of the industry and are
+                dedicated to delivering transformative solutions that drive
+                growth, efficiency, and customer engagement.
               </p>
             </div>
             <div className="stick-img1">
@@ -53,64 +57,82 @@ Heights"
             <div className="tab-head">
               <div>
                 <ul className="nav nav-pills">
-                        <li>
-                          <a data-toggle="tab" className="active show" onClick={(e) => {
-                            e?.preventDefault()
-                            setSliderShow("trends")
-                          }}>
-                            Marketing Trends
-                          </a>
-                        </li>
-                        <li>
-                          <a data-toggle="tab" className="" onClick={(e) => {
-                            e?.preventDefault()
-                            setSliderShow("offer")
-                          }}>
-                            Marketing Offerings
-                          </a>
-                        </li>
-                        <li>
-                          <a data-toggle="tab" onClick={(e) => {
-                            e?.preventDefault()
-                            setSliderShow("tectTrend")
-                          }}>
-                            Tech Trends
-                          </a>
-                        </li>
-                        <li>
-                          <a data-toggle="tab" onClick={(e) => {
-                            e?.preventDefault()
-                            setSliderShow("techOffer")
-                          }}>
-                            Tech Offerings
-                          </a>
-                        </li>
+                  <li>
+                    <a
+                      data-toggle="tab"
+                      className="active show"
+                      onClick={(e) => {
+                        e?.preventDefault();
+                        setSliderShow("trends");
+                      }}
+                    >
+                      Marketing Trends
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      data-toggle="tab"
+                      className=""
+                      onClick={(e) => {
+                        e?.preventDefault();
+                        setSliderShow("offer");
+                      }}
+                    >
+                      Marketing Offerings
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      data-toggle="tab"
+                      onClick={(e) => {
+                        e?.preventDefault();
+                        setSliderShow("tectTrend");
+                      }}
+                    >
+                      Tech Trends
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      data-toggle="tab"
+                      onClick={(e) => {
+                        e?.preventDefault();
+                        setSliderShow("techOffer");
+                      }}
+                    >
+                      Tech Offerings
+                    </a>
+                  </li>
 
-                        <li>
-                          <a data-toggle="tab" onClick={(e) => {
-                            e?.preventDefault()
-                            setSliderShow("csupport")
-                          }}>
-                            Customer Support
-                          </a>
-                        </li>
+                  <li>
+                    <a
+                      data-toggle="tab"
+                      onClick={(e) => {
+                        e?.preventDefault();
+                        setSliderShow("csupport");
+                      }}
+                    >
+                      Customer Support
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
             <div className="tab-content clearfix">
-             
-              <EcomSlider sliderShow={sliderShow}
-              setSliderShow={setSliderShow}/>
+              <EcomSlider
+                sliderShow={sliderShow}
+                setSliderShow={setSliderShow}
+              />
             </div>
             <p className="para mt-5 margin-top-15 padding-bottom-15">
               {" "}
-              In the swiftly changing world of E-Commerce, Viralon Digital Services
-              shines as a tech-savvy trail guide, using fresh ideas to reshape how
-              we sell and succeed. From making shopping personal to creating amazing
-              tech solutions, Viralon is here to be your companion in shaping the
-              way we shop online. Come join us in this journey of innovation,
-              starting today, and open the door to endless possibilities in the
-              world of E-Commerce
+              In the swiftly changing world of E-Commerce, Viralon Digital
+              Services shines as a tech-savvy trail guide, using fresh ideas to
+              reshape how we sell and succeed. From making shopping personal to
+              creating amazing tech solutions, Viralon is here to be your
+              companion in shaping the way we shop online. Come join us in this
+              journey of innovation, starting today, and open the door to
+              endless possibilities in the world of E-Commerce
             </p>
           </div>
         </section>
@@ -127,9 +149,9 @@ Heights"
               <div>
                 {/* <a href="#" class="book-btn">Let's Talk</a> */}
                 <div className="mdtop studies-btn book-btn">
-                    <Link
-                      href="/contact-us">
-                      <div className="btn btn-primary trans animated pulse abt-butn-bot"
+                  <Link href="/contact-us">
+                    <div
+                      className="btn btn-primary trans animated pulse abt-butn-bot"
                       id="customButton"
                     >
                       Talk to Expert
@@ -138,8 +160,8 @@ Heights"
                         className="arrow next-arow arrow1 animate-right-to-left"
                       />
                     </div>
-                    </Link>
-                  </div>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -203,8 +225,7 @@ Heights"
         {/* For Remove Before Icon */}
       </section>
     </>
+  );
+};
 
-  )
-}
-
-export default ECommerceIndustries
+export default ECommerceIndustries;

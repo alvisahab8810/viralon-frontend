@@ -1,28 +1,53 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Subscriber = () => {
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
+  const [loading, setLoading] = useState(false); // State to handle loading
 
-  const handleSubscribe = async () => {
+  const handleSubmit = async (event) => {
+    event.preventDefault(); // Prevent the default form submission
+
+    setLoading(true); // Show loader
+
     try {
-      const response = await fetch('http://localhost:3020/subscriber/create', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({ email }),
-      });
+      const formData = new URLSearchParams();
+      formData.append("email-address", email);
 
-      if (response.ok) {
-        console.log('Subscription successful!');
-        // Clear the email field after successful subscription
-        setEmail('');
-        // Optionally, you can perform additional actions after successful subscription
-      } else {
-        console.error('Failed to subscribe. Please try again.');
-      }
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbwUXVeFlbfBxKTYTjoSS_hRZ8qmNi75NlMsSw1KeyKrZniy66FlsH3bv_KmXdkSgV3g/exec",
+        {
+          method: "POST",
+          body: formData,
+        }
+      );
+
+      const result = await response.json();
+
+      // Delay showing the final toast notification
+      setTimeout(() => {
+        if (result.result === "success") {
+          toast.success("Thank you for subscribing!", {
+            position: "top-right",
+            autoClose: 1000, // Auto close in 1 second
+          });
+        } else {
+          toast.error("Something went wrong, please try again.", {
+            position: "top-right",
+            autoClose: 1000, // Auto close in 1 second
+          });
+        }
+        setLoading(false); // Hide loader after response
+      }, 1000); // 1 second delay
+
+      setEmail(""); // Clear the form input
     } catch (error) {
-      console.error('Error:', error.message);
+      toast.error("Something went wrong, please try again.", {
+        position: "top-right",
+        autoClose: 1000, // Auto close in 1 second
+      });
+      setLoading(false); // Hide loader on error
     }
   };
 
@@ -33,39 +58,50 @@ const Subscriber = () => {
           <div className="sub-bx2">
             <div>
               <h1 className="sub-heading">Subscribe Now</h1>
-              <p className="sub-para">We won't overburden you with annoying emails.</p>
-              <div className="subbx">
-                <div className="emailbox">
-                  <i className="ri-mail-line"></i>
-                  <input
-                    type="email"
-                    className="form-control"
-                    placeholder="Enter your email"
-                    value={email}
-                    onChange={(e) => setEmail(e.target.value)}
-                  />
-                </div>
-                <div>
-                  <div className="mdtop studies-btn book-btn">
-                    <button
-                      onClick={handleSubscribe}
-                      className="btn btn-primary trans animated pulse abt-butn-bot"
-                    >
-                      Subscribe
-                      <img
-                        src="/themes/viralon/images/icons/next.png"
-                        className="arrow  next-arow arrow1  animate-right-to-left"
-                        alt="Next Arrow"
-                      />
-                    </button>
+              <p className="sub-para">
+                We won't overburden you with annoying emails.
+              </p>
+              <form onSubmit={handleSubmit}>
+                <div className="subbx">
+                  <div className="emailbox">
+                    <i className="ri-mail-line"></i>
+                    <input
+                      type="email"
+                      className="form-control"
+                      placeholder="Enter your email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                  </div>
+                  <div>
+                    <div className="mdtop studies-btn book-btn">
+                      <button
+                        type="submit"
+                        className={`btn btn-primary trans animated pulse abt-butn-bot ${
+                          loading ? "button-loader" : ""
+                        }`}
+                        disabled={loading} // Disable button while loading
+                      >
+                        {loading && <div className="loader"></div>}{" "}
+                        {/* Show loader */}
+                        Subscribe
+                        <img
+                          src="/themes/viralon/images/icons/next.png"
+                          className="arrow next-arow arrow1 animate-right-to-left"
+                          alt="Next Arrow"
+                        />
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
+              </form>
+              <ToastContainer /> {/* Add this to render toast notifications */}
             </div>
 
             <div className="subs-img ">
               <img
-                src="/themes/viralon/images/subscribe1.png"
+                src="./images/subscribe1.webp"
                 alt="Subscribe Image"
                 className="gif"
               />
